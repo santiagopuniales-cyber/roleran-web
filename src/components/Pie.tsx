@@ -53,7 +53,7 @@ export function Pie() {
             ))}
             {SITIO.emails.slice(0, 2).map((e) => (
               <li key={e}>
-                <a href={`mailto:${e}`} className="inline-flex min-h-10 items-center break-all underline underline-offset-4 hover:text-white md:min-h-0">
+                <a href={`mailto:${e}`} className="inline-flex min-h-10 items-center whitespace-nowrap underline underline-offset-4 hover:text-white md:min-h-0">
                   {e}
                 </a>
               </li>

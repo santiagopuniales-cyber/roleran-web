@@ -2,7 +2,7 @@
 // Botón de la tarjeta: «Agregar» suma el mínimo; si ya está en el pedido, muestra el selector de cantidad.
 import { useState } from "react";
 import { claseBoton } from "@/components/ui";
-import { IconoMas } from "@/components/iconos";
+import { IconoCheck, IconoMas } from "@/components/iconos";
 import { cantidadDe, pedido, usePedido } from "@/lib/pedido/almacen";
 import { anunciar } from "@/lib/pedido/anuncios";
 import { evento } from "@/lib/analytics";
@@ -17,8 +17,9 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
 
   if (renglon) {
     return (
-      // En el celular la tarjeta mide ~134 px: el aviso va abajo para que el selector entre entero (con el «+»).
-      <div className="flex flex-col items-start gap-1 sm:flex-row sm:items-center sm:gap-2">
+      // El aviso va siempre abajo del selector y en un renglón: al costado no entraba en las tarjetas
+      // angostas y se partía en dos («En tu / cotización»).
+      <div className="flex flex-col items-start gap-1">
         <SelectorCantidad
           compacto
           valor={renglon.cantidad}
@@ -33,8 +34,8 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
             } else pedido.cambiarCantidad(producto.id, n);
           }}
         />
-        <span className={`text-xs font-semibold text-verde ${recien ? "" : "sr-only"}`} aria-hidden={!recien}>
-          En tu cotización
+        <span className={`items-center gap-1 whitespace-nowrap text-xs font-semibold text-verde ${recien ? "inline-flex" : "sr-only"}`} aria-hidden={!recien}>
+          <IconoCheck tamano={14} /> En tu cotización
         </span>
       </div>
     );

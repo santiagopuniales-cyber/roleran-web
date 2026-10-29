@@ -309,8 +309,9 @@ export function PaginaPedido() {
             Se abre WhatsApp con la lista escrita. Te pasamos el precio según la cantidad y la disponibilidad; si te sirve, lo preparamos.
           </p>
           {url ? (
-            <a href={url} target="_blank" rel="noopener noreferrer" onClick={alEnviar} className={claseBoton("primario", "grande", "mt-5 h-auto! min-h-13 w-full whitespace-normal! px-4! py-2.5 text-center leading-tight sm:px-6!")} data-testid="enviar-whatsapp">
-              <IconoChat tamano={22} /> Pedir cotización por WhatsApp
+            <a href={url} target="_blank" rel="noopener noreferrer" onClick={alEnviar} className={claseBoton("primario", "grande", "mt-5 min-h-13 w-full whitespace-nowrap px-4! sm:px-6!")} data-testid="enviar-whatsapp">
+              {/* En los celulares más angostos el texto largo no entra en un renglón: va el corto. */}
+              <IconoChat tamano={22} /> <span className="min-[360px]:hidden">Pedir por WhatsApp</span><span className="hidden min-[360px]:inline">Pedir cotización por WhatsApp</span>
             </a>
           ) : (
             <div className="mt-5 rounded-control bg-kraft-claro p-3 text-sm text-kraft-tinta" role="status">
