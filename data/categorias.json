@@ -1,0 +1,791 @@
+[
+  {
+    "slug": "bandejas",
+    "nombre": "Bandejas",
+    "padre": null,
+    "orden": 1,
+    "placeholder": "bandeja",
+    "descripcion": "Bandejas de espumaplast, cartón y aluminio, y bases para tortas. Para exhibir, envasar y llevar comida.",
+    "hijos": [
+      "bandejas-de-espumaplast",
+      "bandejas-de-carton",
+      "bandejas-de-aluminio",
+      "blondas-rodales-y-bases"
+    ],
+    "cantidad": 136,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "bandejas-de-espumaplast",
+    "nombre": "Bandejas de espumaplast",
+    "padre": "bandejas",
+    "orden": 1,
+    "placeholder": "bandeja",
+    "descripcion": "Bandejas blancas, negras y amarillas, platos, discos, estuches y marmitas de espumaplast (poliestireno expandido), en varias medidas.",
+    "hijos": [],
+    "cantidad": 41,
+    "cantidadDirecta": 41
+  },
+  {
+    "slug": "bandejas-de-carton",
+    "nombre": "Bandejas y fuentes de cartón",
+    "padre": "bandejas",
+    "orden": 2,
+    "placeholder": "bandeja",
+    "descripcion": "Bandejas rectangulares y redondas numeradas, fuentes ovales y bandejas chicas de cartón para masas, sándwiches, pizzas y postres.",
+    "hijos": [],
+    "cantidad": 36,
+    "cantidadDirecta": 36
+  },
+  {
+    "slug": "bandejas-de-aluminio",
+    "nombre": "Bandejas y platos de aluminio",
+    "padre": "bandejas",
+    "orden": 3,
+    "placeholder": "bandeja",
+    "descripcion": "Bandejas de aluminio con tapa (D4 a D8), budineras y platos de aluminio para cocinar, congelar y entregar.",
+    "hijos": [],
+    "cantidad": 10,
+    "cantidadDirecta": 10
+  },
+  {
+    "slug": "blondas-rodales-y-bases",
+    "nombre": "Blondas, rodales y bases para tortas",
+    "padre": "bandejas",
+    "orden": 4,
+    "placeholder": "rodal",
+    "descripcion": "Blondas plásticas, rodales de papel redondos y rectangulares, bandejas plateadas y discos dorados para presentar tortas y masas.",
+    "hijos": [],
+    "cantidad": 49,
+    "cantidadDirecta": 49
+  },
+  {
+    "slug": "envases-pp-y-pet",
+    "nombre": "Envases de PP y PET",
+    "padre": null,
+    "orden": 2,
+    "placeholder": "envase",
+    "descripcion": "Bandejas, estuches, potes con tapa bisagra y torteras transparentes. Según las fichas de los fabricantes, los de PP (polipropileno) son aptos para microondas y los de PET, para freezer.",
+    "hijos": [],
+    "cantidad": 40,
+    "cantidadDirecta": 40
+  },
+  {
+    "slug": "potes-y-frascos",
+    "nombre": "Potes y frascos",
+    "padre": null,
+    "orden": 3,
+    "placeholder": "pote",
+    "descripcion": "Potes con tapa para comidas, salsas, miel y helado; frascos, rociadores y botellas plásticas.",
+    "hijos": [
+      "potes-con-tapa",
+      "potes-termicos-para-helado",
+      "frascos-y-botellas"
+    ],
+    "cantidad": 45,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "potes-con-tapa",
+    "nombre": "Potes con tapa",
+    "padre": "potes-y-frascos",
+    "orden": 1,
+    "placeholder": "pote",
+    "descripcion": "Potes plásticos con tapa, lisos y acanalados, potes para salsas (dips), potes de miel y carameleras.",
+    "hijos": [],
+    "cantidad": 23,
+    "cantidadDirecta": 23
+  },
+  {
+    "slug": "potes-termicos-para-helado",
+    "nombre": "Potes térmicos para helado",
+    "padre": "potes-y-frascos",
+    "orden": 2,
+    "placeholder": "pote",
+    "descripcion": "Potes térmicos de espumaplast para helado de 1/2 kg, 3/4 kg y 1 kg.",
+    "hijos": [],
+    "cantidad": 3,
+    "cantidadDirecta": 3
+  },
+  {
+    "slug": "frascos-y-botellas",
+    "nombre": "Frascos y botellas",
+    "padre": "potes-y-frascos",
+    "orden": 3,
+    "placeholder": "botella",
+    "descripcion": "Frascos de PVC y PP, rociadores con gatillo, atomizadores y botellas transparentes y opacas.",
+    "hijos": [],
+    "cantidad": 19,
+    "cantidadDirecta": 19
+  },
+  {
+    "slug": "vasos-y-copas",
+    "nombre": "Vasos y copas",
+    "padre": null,
+    "orden": 4,
+    "placeholder": "vaso",
+    "descripcion": "Vasos plásticos, térmicos y de polipapel, shots, copas y tapas.",
+    "hijos": [
+      "vasos-plasticos",
+      "vasos-termicos",
+      "vasos-de-polipapel",
+      "copas-y-vasos-para-tragos"
+    ],
+    "cantidad": 40,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "vasos-plasticos",
+    "nombre": "Vasos plásticos",
+    "padre": "vasos-y-copas",
+    "orden": 1,
+    "placeholder": "vaso",
+    "descripcion": "Vasos plásticos de 50 cc a 1000 cc, vasos con tapa domo, shots y tapas.",
+    "hijos": [],
+    "cantidad": 24,
+    "cantidadDirecta": 24
+  },
+  {
+    "slug": "vasos-termicos",
+    "nombre": "Vasos térmicos",
+    "padre": "vasos-y-copas",
+    "orden": 2,
+    "placeholder": "vaso",
+    "descripcion": "Vasos térmicos de espumaplast de 120 ml a 300 ml.",
+    "hijos": [],
+    "cantidad": 5,
+    "cantidadDirecta": 5
+  },
+  {
+    "slug": "vasos-de-polipapel",
+    "nombre": "Vasos de polipapel",
+    "padre": "vasos-y-copas",
+    "orden": 3,
+    "placeholder": "vaso",
+    "descripcion": "Vasos de polipapel (cartón) y sus tapas, de 190 cc a 360 cc.",
+    "hijos": [],
+    "cantidad": 6,
+    "cantidadDirecta": 6
+  },
+  {
+    "slug": "copas-y-vasos-para-tragos",
+    "nombre": "Copas y vasos para tragos",
+    "padre": "vasos-y-copas",
+    "orden": 4,
+    "placeholder": "copa",
+    "descripcion": "Copas de vino y champagne, copones y vasos de acrílico para tragos.",
+    "hijos": [],
+    "cantidad": 5,
+    "cantidadDirecta": 5
+  },
+  {
+    "slug": "cajas-de-carton",
+    "nombre": "Cajas de cartón",
+    "padre": null,
+    "orden": 5,
+    "placeholder": "caja",
+    "descripcion": "Cajas para pizza, masas, postres, hamburguesas y chivitos, conos y portapanchos.",
+    "hijos": [
+      "cajas-para-pizza",
+      "cajas-para-masas-y-postres",
+      "cajas-para-comidas",
+      "conos-y-portapanchos"
+    ],
+    "cantidad": 45,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "cajas-para-pizza",
+    "nombre": "Cajas para pizza",
+    "padre": "cajas-de-carton",
+    "orden": 1,
+    "placeholder": "caja",
+    "descripcion": "Cajas de cartón para pizza marrones, blancas e impresas, de 23 × 23 a 42 × 42 cm, y cajas para pizza al metro.",
+    "hijos": [],
+    "cantidad": 9,
+    "cantidadDirecta": 9
+  },
+  {
+    "slug": "cajas-para-masas-y-postres",
+    "nombre": "Cajas para masas y postres",
+    "padre": "cajas-de-carton",
+    "orden": 2,
+    "placeholder": "caja",
+    "descripcion": "Cajas para masas de 1/4 kg a 1 ½ kg, cajas para postre, cajas para muffins y cajas con visor.",
+    "hijos": [],
+    "cantidad": 18,
+    "cantidadDirecta": 18
+  },
+  {
+    "slug": "cajas-para-comidas",
+    "nombre": "Cajas para comidas",
+    "padre": "cajas-de-carton",
+    "orden": 3,
+    "placeholder": "caja",
+    "descripcion": "Cajas para hamburguesa, chivito, sándwiches, ravioles, crepas y take away.",
+    "hijos": [],
+    "cantidad": 9,
+    "cantidadDirecta": 9
+  },
+  {
+    "slug": "conos-y-portapanchos",
+    "nombre": "Conos y portapanchos",
+    "padre": "cajas-de-carton",
+    "orden": 4,
+    "placeholder": "caja",
+    "descripcion": "Conos para papas fritas y pop, cilindros, bandejas y cartones para panchos.",
+    "hijos": [],
+    "cantidad": 9,
+    "cantidadDirecta": 9
+  },
+  {
+    "slug": "bolsas",
+    "nombre": "Bolsas",
+    "padre": null,
+    "orden": 6,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas camiseta, de residuos, de papel, en rollo, para vacío, de nylon por kilo e impresas.",
+    "hijos": [
+      "bolsas-camiseta",
+      "bolsas-de-residuos",
+      "bolsas-de-papel",
+      "bolsas-en-rollo",
+      "bolsas-para-vacio",
+      "bolsas-de-nylon-por-kilo",
+      "bolsas-impresas",
+      "bobinas-de-nylon"
+    ],
+    "cantidad": 110,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "bolsas-camiseta",
+    "nombre": "Bolsas camiseta",
+    "padre": "bolsas",
+    "orden": 1,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas camiseta autorizadas y compostables en varias medidas.",
+    "hijos": [],
+    "cantidad": 8,
+    "cantidadDirecta": 8
+  },
+  {
+    "slug": "bolsas-de-residuos",
+    "nombre": "Bolsas de residuos",
+    "padre": "bolsas",
+    "orden": 2,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas de residuos sueltas y en rollo, desde la medida de papelera hasta 120 × 140 cm.",
+    "hijos": [],
+    "cantidad": 22,
+    "cantidadDirecta": 22
+  },
+  {
+    "slug": "bolsas-de-papel",
+    "nombre": "Bolsas de papel",
+    "padre": "bolsas",
+    "orden": 3,
+    "placeholder": "bolsa-papel",
+    "descripcion": "Bolsas de papel kraft con asa, bolsas para bizcochos, empanadas, baguettes, farmacia y botellas.",
+    "hijos": [],
+    "cantidad": 20,
+    "cantidadDirecta": 20
+  },
+  {
+    "slug": "bolsas-en-rollo",
+    "nombre": "Bolsas en rollo",
+    "padre": "bolsas",
+    "orden": 4,
+    "placeholder": "bolsa",
+    "descripcion": "Rollos de bolsas transparentes, rollos unisold multipliegue para supermercados y bolsas en rollo por kilo.",
+    "hijos": [],
+    "cantidad": 28,
+    "cantidadDirecta": 28
+  },
+  {
+    "slug": "bolsas-para-vacio",
+    "nombre": "Bolsas para vacío",
+    "padre": "bolsas",
+    "orden": 5,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas para envasar al vacío de 16 × 25 a 35 × 50 cm.",
+    "hijos": [],
+    "cantidad": 8,
+    "cantidadDirecta": 8
+  },
+  {
+    "slug": "bolsas-de-nylon-por-kilo",
+    "nombre": "Bolsas de nylon por kilo",
+    "padre": "bolsas",
+    "orden": 6,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas de baja y alta densidad, blanco leche, recuperadas y de polipropileno, que se venden por kilo.",
+    "hijos": [],
+    "cantidad": 12,
+    "cantidadDirecta": 12
+  },
+  {
+    "slug": "bolsas-impresas",
+    "nombre": "Bolsas impresas",
+    "padre": "bolsas",
+    "orden": 7,
+    "placeholder": "bolsa",
+    "descripcion": "Bolsas impresas para pan dulce, budín y hamburguesas, y bolsas para helado.",
+    "hijos": [],
+    "cantidad": 10,
+    "cantidadDirecta": 10
+  },
+  {
+    "slug": "bobinas-de-nylon",
+    "nombre": "Bobinas de nylon",
+    "padre": "bolsas",
+    "orden": 8,
+    "placeholder": "bolsa",
+    "descripcion": "Bobinas tubulares de nylon negras y transparentes.",
+    "hijos": [],
+    "cantidad": 3,
+    "cantidadDirecta": 3
+  },
+  {
+    "slug": "cubiertos-platos-y-sorbitos",
+    "nombre": "Cubiertos, platos y sorbitos",
+    "padre": null,
+    "orden": 7,
+    "placeholder": "cubierto",
+    "descripcion": "Cubiertos descartables, platos, sorbitos, mezcladores, mondadientes y palitos.",
+    "hijos": [
+      "cubiertos-y-platos",
+      "sorbitos-y-mezcladores",
+      "mondadientes-y-palitos"
+    ],
+    "cantidad": 27,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "cubiertos-y-platos",
+    "nombre": "Cubiertos y platos",
+    "padre": "cubiertos-platos-y-sorbitos",
+    "orden": 1,
+    "placeholder": "cubierto",
+    "descripcion": "Tenedores, cuchillos y cucharas descartables, cucharitas para helado y platos plásticos.",
+    "hijos": [],
+    "cantidad": 8,
+    "cantidadDirecta": 8
+  },
+  {
+    "slug": "sorbitos-y-mezcladores",
+    "nombre": "Sorbitos y mezcladores",
+    "padre": "cubiertos-platos-y-sorbitos",
+    "orden": 2,
+    "placeholder": "palito",
+    "descripcion": "Sorbitos biodegradables y mezcladores de plástico y madera para café y tragos.",
+    "hijos": [],
+    "cantidad": 6,
+    "cantidadDirecta": 6
+  },
+  {
+    "slug": "mondadientes-y-palitos",
+    "nombre": "Mondadientes y palitos",
+    "padre": "cubiertos-platos-y-sorbitos",
+    "orden": 3,
+    "placeholder": "palito",
+    "descripcion": "Mondadientes, palitos de brochette, para sushi, para helado, picks y espaditas de copetín.",
+    "hijos": [],
+    "cantidad": 13,
+    "cantidadDirecta": 13
+  },
+  {
+    "slug": "servilletas-y-papel-higienico",
+    "nombre": "Servilletas y papel higiénico",
+    "padre": null,
+    "orden": 8,
+    "placeholder": "servilleta",
+    "descripcion": "Servilletas, toallas intercaladas, rollos de cocina y papel higiénico.",
+    "hijos": [
+      "servilletas",
+      "toallas-y-rollos-de-cocina",
+      "papel-higienico"
+    ],
+    "cantidad": 29,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "servilletas",
+    "nombre": "Servilletas",
+    "padre": "servilletas-y-papel-higienico",
+    "orden": 1,
+    "placeholder": "servilleta",
+    "descripcion": "Servilletas de repuesto para servilletero, servilletas de mesa, de colores y con diseños, e individuales de papel.",
+    "hijos": [],
+    "cantidad": 15,
+    "cantidadDirecta": 15
+  },
+  {
+    "slug": "toallas-y-rollos-de-cocina",
+    "nombre": "Toallas y rollos de cocina",
+    "padre": "servilletas-y-papel-higienico",
+    "orden": 2,
+    "placeholder": "rollo",
+    "descripcion": "Toallas intercaladas, rollos de toalla y rollos de cocina.",
+    "hijos": [],
+    "cantidad": 10,
+    "cantidadDirecta": 10
+  },
+  {
+    "slug": "papel-higienico",
+    "nombre": "Papel higiénico",
+    "padre": "servilletas-y-papel-higienico",
+    "orden": 3,
+    "placeholder": "rollo",
+    "descripcion": "Papel higiénico en paquetes y rollos jumbo.",
+    "hijos": [],
+    "cantidad": 4,
+    "cantidadDirecta": 4
+  },
+  {
+    "slug": "film-aluminio-y-papel-de-cocina",
+    "nombre": "Film, aluminio y papel de cocina",
+    "padre": null,
+    "orden": 9,
+    "placeholder": "rollo",
+    "descripcion": "Film para alimentos, papel aluminio en rollo y en hojas, papel manteca, papel antigrasa y láminas de teflón.",
+    "hijos": [],
+    "cantidad": 31,
+    "cantidadDirecta": 31
+  },
+  {
+    "slug": "papel-para-envolver",
+    "nombre": "Papel para envolver",
+    "padre": null,
+    "orden": 10,
+    "placeholder": "rollo",
+    "descripcion": "Papel pino, sulfito, kraft y celeste en rollo y cortado, y portarrollos para mostrador.",
+    "hijos": [],
+    "cantidad": 27,
+    "cantidadDirecta": 27
+  },
+  {
+    "slug": "reposteria-y-cumpleanos",
+    "nombre": "Repostería, velas y globos",
+    "padre": null,
+    "orden": 11,
+    "placeholder": "torta",
+    "descripcion": "Pirotines, moldes de papel, mangas, colorantes, cúpulas para tortas, velas y globos.",
+    "hijos": [
+      "pirotines-y-moldes-de-papel",
+      "mangas-y-reposteria",
+      "velas-y-globos"
+    ],
+    "cantidad": 42,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "pirotines-y-moldes-de-papel",
+    "nombre": "Pirotines y moldes de papel",
+    "padre": "reposteria-y-cumpleanos",
+    "orden": 1,
+    "placeholder": "torta",
+    "descripcion": "Casquetes (pirotines) numerados y de colores, y moldes de papel para pan dulce, budín, rosca y massini.",
+    "hijos": [],
+    "cantidad": 19,
+    "cantidadDirecta": 19
+  },
+  {
+    "slug": "mangas-y-reposteria",
+    "nombre": "Mangas y repostería",
+    "padre": "reposteria-y-cumpleanos",
+    "orden": 2,
+    "placeholder": "torta",
+    "descripcion": "Mangas descartables y flex, colorantes, acetato y cúpulas para tortas.",
+    "hijos": [],
+    "cantidad": 14,
+    "cantidadDirecta": 14
+  },
+  {
+    "slug": "velas-y-globos",
+    "nombre": "Velas y globos",
+    "padre": "reposteria-y-cumpleanos",
+    "orden": 3,
+    "placeholder": "fiesta",
+    "descripcion": "Velas de cumpleaños y de números, globos y soportes para globos.",
+    "hijos": [],
+    "cantidad": 9,
+    "cantidadDirecta": 9
+  },
+  {
+    "slug": "cocina-y-gastronomia",
+    "nombre": "Cocina y gastronomía",
+    "padre": null,
+    "orden": 12,
+    "placeholder": "cocina",
+    "descripcion": "Utensilios de cocina, contenedores, bandejas plásticas y cajones para comercios gastronómicos y para la casa.",
+    "hijos": [
+      "utensilios-de-cocina",
+      "contenedores-y-cajones"
+    ],
+    "cantidad": 45,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "utensilios-de-cocina",
+    "nombre": "Utensilios de cocina",
+    "padre": "cocina-y-gastronomia",
+    "orden": 1,
+    "placeholder": "cocina",
+    "descripcion": "Sopletes, ralladores, coladores, moldes, jarras medidoras, mostaceros, servilleteros y otros utensilios.",
+    "hijos": [],
+    "cantidad": 32,
+    "cantidadDirecta": 32
+  },
+  {
+    "slug": "contenedores-y-cajones",
+    "nombre": "Contenedores y cajones",
+    "padre": "cocina-y-gastronomia",
+    "orden": 2,
+    "placeholder": "cocina",
+    "descripcion": "Contenedores con cierre, bandejas plásticas reutilizables, cajones para carnicería y cajones para delivery.",
+    "hijos": [],
+    "cantidad": 13,
+    "cantidadDirecta": 13
+  },
+  {
+    "slug": "limpieza-e-higiene",
+    "nombre": "Limpieza e higiene",
+    "padre": null,
+    "orden": 13,
+    "placeholder": "limpieza",
+    "descripcion": "Artículos y productos de limpieza, guantes, cofias, basureros y dispensadores.",
+    "hijos": [
+      "articulos-de-limpieza",
+      "productos-de-limpieza",
+      "guantes-y-cofias",
+      "basureros-y-dispensadores"
+    ],
+    "cantidad": 50,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "articulos-de-limpieza",
+    "nombre": "Artículos de limpieza",
+    "padre": "limpieza-e-higiene",
+    "orden": 1,
+    "placeholder": "limpieza",
+    "descripcion": "Escobas, lampazos, mopas, baldes, paños, rejillas, esponjas y cepillos.",
+    "hijos": [],
+    "cantidad": 24,
+    "cantidadDirecta": 24
+  },
+  {
+    "slug": "productos-de-limpieza",
+    "nombre": "Productos de limpieza",
+    "padre": "limpieza-e-higiene",
+    "orden": 2,
+    "placeholder": "limpieza",
+    "descripcion": "Bidones de limpiador, detergente, hipoclorito, jabón y antigrasa, y aromatizadores.",
+    "hijos": [],
+    "cantidad": 7,
+    "cantidadDirecta": 7
+  },
+  {
+    "slug": "guantes-y-cofias",
+    "nombre": "Guantes y cofias",
+    "padre": "limpieza-e-higiene",
+    "orden": 3,
+    "placeholder": "limpieza",
+    "descripcion": "Guantes de nitrilo, látex, nylon y goma, y cofias descartables.",
+    "hijos": [],
+    "cantidad": 6,
+    "cantidadDirecta": 6
+  },
+  {
+    "slug": "basureros-y-dispensadores",
+    "nombre": "Basureros y dispensadores",
+    "padre": "limpieza-e-higiene",
+    "orden": 4,
+    "placeholder": "limpieza",
+    "descripcion": "Tarros de basura, papeleras y dispensadores de papel higiénico, toalla y jabón.",
+    "hijos": [],
+    "cantidad": 13,
+    "cantidadDirecta": 13
+  },
+  {
+    "slug": "oficina-y-comercio",
+    "nombre": "Oficina y comercio",
+    "padre": null,
+    "orden": 14,
+    "placeholder": "oficina",
+    "descripcion": "Rollos para registradora y etiquetas de balanza, rotuladoras, notas de pedido y artículos de papelería.",
+    "hijos": [
+      "rollos-y-etiquetas",
+      "papeleria",
+      "rotuladoras-y-turnos"
+    ],
+    "cantidad": 41,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "rollos-y-etiquetas",
+    "nombre": "Rollos y etiquetas",
+    "padre": "oficina-y-comercio",
+    "orden": 1,
+    "placeholder": "oficina",
+    "descripcion": "Rollos de papel térmico y común para registradora, rollos para rotuladora y etiquetas de balanza.",
+    "hijos": [],
+    "cantidad": 15,
+    "cantidadDirecta": 15
+  },
+  {
+    "slug": "papeleria",
+    "nombre": "Papelería",
+    "padre": "oficina-y-comercio",
+    "orden": 2,
+    "placeholder": "oficina",
+    "descripcion": "Notas de pedido, cuadernolas, hojas A4, marcadores, tijeras, engrampadoras y calculadoras.",
+    "hijos": [],
+    "cantidad": 19,
+    "cantidadDirecta": 19
+  },
+  {
+    "slug": "rotuladoras-y-turnos",
+    "nombre": "Rotuladoras y turnos",
+    "padre": "oficina-y-comercio",
+    "orden": 3,
+    "placeholder": "oficina",
+    "descripcion": "Máquinas rotuladoras de precios, dispensadores y rollos de números para turnos.",
+    "hijos": [],
+    "cantidad": 7,
+    "cantidadDirecta": 7
+  },
+  {
+    "slug": "embalaje",
+    "nombre": "Embalaje, hilos y cintas",
+    "padre": null,
+    "orden": 15,
+    "placeholder": "embalaje",
+    "descripcion": "Cintas adhesivas, cinteros, film para paletizar, nylon burbuja, hilos, rafia, mallas, precintos y selladoras.",
+    "hijos": [
+      "cintas-adhesivas",
+      "hilos-y-rafia",
+      "mallas-y-precintos",
+      "film-para-embalar",
+      "selladoras"
+    ],
+    "cantidad": 49,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "cintas-adhesivas",
+    "nombre": "Cintas adhesivas",
+    "padre": "embalaje",
+    "orden": 1,
+    "placeholder": "embalaje",
+    "descripcion": "Cintas transparentes, marrones, de papel, impresas, doble faz, aisladora y cinteros.",
+    "hijos": [],
+    "cantidad": 18,
+    "cantidadDirecta": 18
+  },
+  {
+    "slug": "hilos-y-rafia",
+    "nombre": "Hilos y rafia",
+    "padre": "embalaje",
+    "orden": 2,
+    "placeholder": "embalaje",
+    "descripcion": "Hilos de nylon, algodón, poliéster y sisal, y rafia por kilo.",
+    "hijos": [],
+    "cantidad": 13,
+    "cantidadDirecta": 13
+  },
+  {
+    "slug": "mallas-y-precintos",
+    "nombre": "Mallas y precintos",
+    "padre": "embalaje",
+    "orden": 3,
+    "placeholder": "embalaje",
+    "descripcion": "Mallas para carne arrollada y frutas, precintos y ganchos forrados.",
+    "hijos": [],
+    "cantidad": 11,
+    "cantidadDirecta": 11
+  },
+  {
+    "slug": "film-para-embalar",
+    "nombre": "Film para embalar y burbuja",
+    "padre": "embalaje",
+    "orden": 4,
+    "placeholder": "embalaje",
+    "descripcion": "Film para paletizar, con y sin mango, nylon burbuja por metro y cartón corrugado.",
+    "hijos": [],
+    "cantidad": 5,
+    "cantidadDirecta": 5
+  },
+  {
+    "slug": "selladoras",
+    "nombre": "Selladoras",
+    "padre": "embalaje",
+    "orden": 5,
+    "placeholder": "embalaje",
+    "descripcion": "Máquinas selladoras de bolsas.",
+    "hijos": [],
+    "cantidad": 2,
+    "cantidadDirecta": 2
+  },
+  {
+    "slug": "hogar",
+    "nombre": "Hogar",
+    "padre": null,
+    "orden": 16,
+    "placeholder": "hogar",
+    "descripcion": "Cajas organizadoras, cestos, artículos de baño, macetas y otros artículos para la casa.",
+    "hijos": [
+      "organizacion",
+      "bano",
+      "macetas",
+      "otros-hogar"
+    ],
+    "cantidad": 40,
+    "cantidadDirecta": 0
+  },
+  {
+    "slug": "organizacion",
+    "nombre": "Cajas organizadoras y cestos",
+    "padre": "hogar",
+    "orden": 1,
+    "placeholder": "hogar",
+    "descripcion": "Cajas organizadoras de 10 a 53 litros, cestos rattan y cómodas.",
+    "hijos": [],
+    "cantidad": 15,
+    "cantidadDirecta": 15
+  },
+  {
+    "slug": "bano",
+    "nombre": "Baño",
+    "padre": "hogar",
+    "orden": 2,
+    "placeholder": "hogar",
+    "descripcion": "Tapas de inodoro, cortinas, alfombras, escobillas y papeleras de baño.",
+    "hijos": [],
+    "cantidad": 10,
+    "cantidadDirecta": 10
+  },
+  {
+    "slug": "macetas",
+    "nombre": "Macetas",
+    "padre": "hogar",
+    "orden": 3,
+    "placeholder": "hogar",
+    "descripcion": "Macetas de 22 a 45 cm, macetas de cultivo y de pared.",
+    "hijos": [],
+    "cantidad": 6,
+    "cantidadDirecta": 6
+  },
+  {
+    "slug": "otros-hogar",
+    "nombre": "Otros para el hogar",
+    "padre": "hogar",
+    "orden": 4,
+    "placeholder": "hogar",
+    "descripcion": "Perchas, palillos para ropa, tendederos, cestos de ropa, bancos, felpudos y hules.",
+    "hijos": [],
+    "cantidad": 9,
+    "cantidadDirecta": 9
+  }
+]

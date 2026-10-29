@@ -1,0 +1,22 @@
+# Cabeceras para Cloudflare Pages. La política de scripts (CSP con hashes) va en cada página como <meta>,
+# la agrega scripts/seo/csp.mjs después del build. Acá van las directivas que un <meta> no puede llevar.
+/*
+  Content-Security-Policy: frame-ancestors 'none'; base-uri 'self'; object-src 'none'; form-action 'self'
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()
+  Cross-Origin-Opener-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000
+
+/_next/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/img/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/marca/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
+
+/datos/*
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400

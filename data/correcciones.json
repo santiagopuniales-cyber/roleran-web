@@ -1,0 +1,5113 @@
+{
+  "245": {
+    "nombre": "Balde Sanremo 12 L"
+  },
+  "308": {
+    "nombre": "Escurridor de cubiertos con divisiones"
+  },
+  "328": {
+    "nombre": "Molde para helados (set de 6)",
+    "presentacion": "unidad",
+    "presentacionTexto": "Set × 6",
+    "rubros": [
+      "+heladerias"
+    ]
+  },
+  "335": {
+    "nombre": "Cúpula plástica para torta"
+  },
+  "341": {
+    "nombre": "Bandeja plástica blanca chica 28,5 × 19,5 × 6 cm",
+    "atributos": {
+      "medidas": "28,5 × 19,5 × 6 cm"
+    }
+  },
+  "342": {
+    "nombre": "Bandeja plástica blanca mediana 44 × 28,5 × 8 cm",
+    "atributos": {
+      "medidas": "44 × 28,5 × 8 cm"
+    }
+  },
+  "343": {
+    "nombre": "Bandeja plástica blanca grande 58 × 38 × 9 cm",
+    "atributos": {
+      "medidas": "58 × 38 × 9 cm"
+    }
+  },
+  "354": {
+    "nombre": "Escurreplatos con bandeja",
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "355": {
+    "nombre": "Cubiertera con tapa Sanremo",
+    "atributos": {
+      "medidas": "35 × 24 × 5 cm"
+    }
+  },
+  "521": {
+    "nombre": "Caja rectangular Plasvale 2,2 L",
+    "categoria": "contenedores-y-cajones",
+    "atributos": {
+      "capacidad": "2,2 L"
+    },
+    "pendientes": [
+      "El nombre original dice «Papelera» y la descripción «Caja rectangular»: confirmar qué es."
+    ]
+  },
+  "522": {
+    "nombre": "Bandeja plástica Plasvale 30 × 45 × 8 cm, 7 L"
+  },
+  "523": {
+    "nombre": "Bandeja plástica Plasvale 40 × 60 cm, 17 L",
+    "atributos": {
+      "medidas": "60,5 × 40 × 9,2 cm"
+    }
+  },
+  "876": {
+    "nombre": "Azucarero 480 ml"
+  },
+  "898": {
+    "nombre": "Canasto para palillos"
+  },
+  "1024": {
+    "atributos": {
+      "diametro": "24 cm"
+    }
+  },
+  "1027": {
+    "atributos": {
+      "diametro": "27 cm"
+    }
+  },
+  "1030": {
+    "atributos": {
+      "diametro": "30 cm"
+    }
+  },
+  "1033": {
+    "atributos": {
+      "diametro": "33 cm"
+    }
+  },
+  "1036": {
+    "atributos": {
+      "diametro": "36 cm"
+    }
+  },
+  "1039": {
+    "atributos": {
+      "diametro": "39 cm"
+    }
+  },
+  "1831": {
+    "nombre": "Molde para hamburguesas",
+    "extras": [
+      [
+        "Diámetro",
+        "12 cm"
+      ],
+      [
+        "Alto",
+        "6 cm"
+      ]
+    ],
+    "notas": [
+      "Permite regular el grosor para que las hamburguesas queden todas iguales."
+    ]
+  },
+  "3014": {
+    "nombre": "Manga flex N.º 14",
+    "atributos": {
+      "medidas": null,
+      "largo": "35 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "3016": {
+    "nombre": "Manga flex N.º 16",
+    "atributos": {
+      "medidas": null,
+      "largo": "40 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "3018": {
+    "nombre": "Manga flex N.º 18",
+    "atributos": {
+      "medidas": null,
+      "largo": "45 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "3021": {
+    "nombre": "Manga flex N.º 21",
+    "atributos": {
+      "medidas": null,
+      "largo": "53,3 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "3024": {
+    "nombre": "Manga flex N.º 24",
+    "atributos": {
+      "medidas": null,
+      "largo": "60 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "3090": {
+    "nombre": "Caja organizadora Estra 37 L blanca",
+    "atributos": {
+      "marca": "Estra",
+      "medidas": "62 × 47,5 × 21 cm"
+    }
+  },
+  "3957": {
+    "nombre": "Rollo de bolsas de residuos 50 × 55 cm con cierre fácil",
+    "presentacion": "rollo:10:bolsas"
+  },
+  "4817": {
+    "nombre": "Caja organizadora Atma 53 L"
+  },
+  "4925": {
+    "nombre": "Pala dosificadora Atma chica"
+  },
+  "4990": {
+    "nombre": "Caja organizadora Atma grande 35 L"
+  },
+  "5241": {
+    "nombre": "Cortante para empanadas 5 cm",
+    "rubros": [
+      "+rotiserias-y-delivery"
+    ]
+  },
+  "5307": {
+    "nombre": "Tapa de inodoro Canadian Atma"
+  },
+  "8104": {
+    "nombre": "Basurero Atma 10 L con tapa vaivén"
+  },
+  "8118": {
+    "nombre": "Cesto rattan N.º 3 con tapa"
+  },
+  "8137": {
+    "nombre": "Cesto rattan N.º 4 con tapa"
+  },
+  "8143": {
+    "nombre": "Cesto rattan N.º 1 con tapa"
+  },
+  "8144": {
+    "nombre": "Cesto rattan N.º 2 con tapa"
+  },
+  "9015": {
+    "nombre": "Palo para escoba",
+    "pendientes": [
+      "El nombre original es «Palo p/ escoba bueno»: confirmar en qué se diferencia del palo de madera (PALO)."
+    ]
+  },
+  "9117": {
+    "nombre": "Mopa de repuesto sin cabo"
+  },
+  "9143": {
+    "nombre": "Escobilla sanitaria Sanremo",
+    "atributos": {
+      "marca": "Sanremo"
+    }
+  },
+  "31064": {
+    "nombre": "Pala con mango largo Atma",
+    "categoria": "articulos-de-limpieza",
+    "sinonimos": [
+      "pala de residuos",
+      "recogedor"
+    ]
+  },
+  "32411": {
+    "nombre": "Dispensador de jabón o alcohol Nobre"
+  },
+  "34061": {
+    "nombre": "Caja organizadora Atma Pandora N.º 2 alta 37 L"
+  },
+  "34202": {
+    "nombre": "Servilleta de repuesto Nobre 10 × 20 cm"
+  },
+  "34371": {
+    "nombre": "Toalla intercalada 20 × 23 cm"
+  },
+  "34780": {
+    "nombre": "Caja organizadora Atma Broadway N.º 1 14 L",
+    "atributos": {
+      "medidas": "48 × 35 × 14 cm"
+    }
+  },
+  "34781": {
+    "nombre": "Caja organizadora Atma Broadway N.º 2 23 L"
+  },
+  "34782": {
+    "nombre": "Caja organizadora Atma Broadway N.º 3 32 L"
+  },
+  "35510": {
+    "nombre": "Alfombra de pelitos 40 × 60 cm"
+  },
+  "36351": {
+    "nombre": "Servilletero de mesa Nobre",
+    "categoria": "utensilios-de-cocina",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "38104": {
+    "nombre": "Organizador 10 L con tapa"
+  },
+  "38846": {
+    "nombre": "Caja organizadora Pandora",
+    "atributos": {
+      "medidas": null,
+      "capacidad": null
+    },
+    "extras": [
+      [
+        "Tamaños",
+        "N.º 1 baja 12 L (40 × 29 × 15 cm) · N.º 1 baja 15,6 L (40 × 30 × 19 cm) · N.º 2 baja 20 L (50 × 36 × 18 cm) · N.º 2 media 28,5 L (50 × 36 × 25 cm) · N.º 1 alta 20,5 L (40 × 30 × 24 cm) · N.º 2 alta 37 L (50 × 36 × 30 cm)"
+      ]
+    ],
+    "pendientes": [
+      "La descripción vieja lista seis tamaños: confirmar cuáles hay en stock."
+    ]
+  },
+  "_leeme": "Correcciones manuales que el script aplica sobre las reglas automáticas. Clave = id del producto (SKU en slug, o r<idWoo> si no tiene SKU). Campos: nombre, presentacion ('caja:1000', 'paquete:12:rollos', 'kg', 'unidad', 'metro', 'consultar'), fuentePresentacion, categoria, secundarias, atributos (null borra), extras [[etiqueta, valor]], notas [oraciones con datos de la descripción original], uso (frase de uso; '' la quita), rubros ['+slug','-slug'], pendientes, sinonimos, visible, duplicadoDe, destacado.",
+  "r4670": {
+    "nombre": "Bolsa de papel kraft impresa 32 × 50 × 16 cm",
+    "atributos": {
+      "medidas": "32 × 50 × 16 cm"
+    },
+    "notas": [
+      "Bolsa de papel kraft con diseños."
+    ]
+  },
+  "r4669": {
+    "nombre": "Bolsa de papel kraft impresa 28 × 38 × 15 cm",
+    "atributos": {
+      "medidas": "28 × 38 × 15 cm"
+    },
+    "notas": [
+      "Bolsa de papel kraft con diseños."
+    ]
+  },
+  "r4668": {
+    "nombre": "Bolsa de papel kraft impresa 22 × 34 × 14 cm",
+    "atributos": {
+      "medidas": "22 × 34 × 14 cm"
+    },
+    "notas": [
+      "Bolsa de papel kraft con diseños."
+    ]
+  },
+  "r4291": {
+    "nombre": "Estuche de PET para frutillas 500 g",
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "r3797": {
+    "nombre": "Mondadientes cóctel con sombrillita",
+    "atributos": {
+      "material": "Bambú y papel",
+      "largo": "10 cm"
+    },
+    "notas": [
+      "Palillos de 10 cm con sombrillita de papel, en colores surtidos."
+    ],
+    "rubros": [
+      "+restaurantes-y-gastronomia"
+    ],
+    "sinonimos": [
+      "sombrillitas",
+      "palillos de coctel",
+      "paraguitas"
+    ]
+  },
+  "r3682": {
+    "nombre": "Tapa para vaso de polipapel 12 oz (360 cc)",
+    "atributos": {
+      "capacidad": null
+    },
+    "extras": [
+      [
+        "Para vaso de",
+        "12 oz (360 cc)"
+      ]
+    ],
+    "uso": "Tapa para vasos de polipapel, para llevar bebidas frías y calientes.",
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "r3681": {
+    "nombre": "Tapa para vaso de polipapel 8 oz (240 cc)",
+    "atributos": {
+      "capacidad": null
+    },
+    "extras": [
+      [
+        "Para vaso de",
+        "8 oz (240 cc)"
+      ]
+    ],
+    "uso": "Tapa para vasos de polipapel, para llevar bebidas frías y calientes.",
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "r3679": {
+    "nombre": "Tapa para vaso de polipapel 6,5 oz (190 cc)",
+    "atributos": {
+      "capacidad": null
+    },
+    "extras": [
+      [
+        "Para vaso de",
+        "6,5 oz (190 cc)"
+      ]
+    ],
+    "uso": "Tapa para vasos de polipapel, para llevar bebidas frías y calientes.",
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "r3672": {
+    "nombre": "Vaso de polipapel 12 oz (360 cc)",
+    "rubros": [
+      "+heladerias"
+    ]
+  },
+  "r3287": {
+    "nombre": "Sobre de papel para cubiertos",
+    "atributos": {
+      "color": "Blanco"
+    },
+    "uso": "Para entregar los cubiertos envueltos.",
+    "rubros": [
+      "+rotiserias-y-delivery",
+      "+restaurantes-y-gastronomia"
+    ]
+  },
+  "vippxun": {
+    "nombre": "Servilleta Vipp 21 × 23 cm",
+    "pendientes": [
+      "Confirmar cuántas servilletas trae la unidad de venta."
+    ]
+  },
+  "velax24": {
+    "nombre": "Vela de número perlada",
+    "atributos": {
+      "color": null
+    },
+    "extras": [
+      [
+        "Colores",
+        "Rosa perlado, celeste perlado y dorado"
+      ]
+    ],
+    "sinonimos": [
+      "vela numero",
+      "velas numeros"
+    ]
+  },
+  "velax15d": {
+    "nombre": "Velas de 15 cm doradas y plateadas",
+    "atributos": {
+      "color": "Dorado y plateado",
+      "largo": "15 cm"
+    }
+  },
+  "velagrno": {
+    "nombre": "Vela grande de número con brillantina",
+    "sinonimos": [
+      "vela numero",
+      "vela glitter"
+    ]
+  },
+  "vela15cm": {
+    "nombre": "Velas de 15 cm",
+    "atributos": {
+      "largo": "15 cm"
+    }
+  },
+  "vaso3oz": {
+    "nombre": "Vaso shot 3 oz (88 ml) cristal"
+  },
+  "vaso330blx100": {
+    "nombre": "Vaso 330 cc blanco",
+    "atributos": {
+      "capacidad": "330 cc"
+    }
+  },
+  "vaso210": {
+    "nombre": "Vaso 210 cc Tami",
+    "atributos": {
+      "capacidad": "210 cc"
+    }
+  },
+  "vaso190x100": {
+    "nombre": "Vaso 190 cc blanco"
+  },
+  "vaso190cc": {
+    "nombre": "Vaso 190 cc blanco",
+    "pendientes": [
+      "Hay otro código (VASO190X100) con el mismo vaso en paquete de 100: confirmar en qué se diferencia este."
+    ]
+  },
+  "vacio35x50": {
+    "nombre": "Bolsa para envasar al vacío 35 × 50 cm"
+  },
+  "vacio25x40": {
+    "nombre": "Bolsa para envasar al vacío 25 × 40 cm"
+  },
+  "vacio25x35": {
+    "nombre": "Bolsa para envasar al vacío 25 × 35 cm"
+  },
+  "vacio22x50": {
+    "nombre": "Bolsa para envasar al vacío 22 × 50 cm"
+  },
+  "vacio22x40": {
+    "nombre": "Bolsa para envasar al vacío 22 × 40 cm"
+  },
+  "vacio20x30": {
+    "nombre": "Bolsa para envasar al vacío 20 × 30 cm"
+  },
+  "vacio16x30": {
+    "nombre": "Bolsa para envasar al vacío 16 × 30 cm"
+  },
+  "vacio16x25": {
+    "nombre": "Bolsa para envasar al vacío 16 × 25 cm"
+  },
+  "v300tx1000": {
+    "nombre": "Vaso 300 cc Copobras",
+    "atributos": {
+      "capacidad": "300 cc"
+    }
+  },
+  "v180x100": {
+    "nombre": "Vaso 180 cc American",
+    "atributos": {
+      "capacidad": "180 cc"
+    }
+  },
+  "v16ozc-tx1000": {
+    "nombre": "Vaso 16 oz (460 cc) con tapa domo",
+    "atributos": {
+      "capacidad": "460 cc (16 oz)"
+    },
+    "notas": [
+      "Vaso transparente con tapa domo con perforación para sorbito."
+    ]
+  },
+  "v12oz": {
+    "nombre": "Vaso 12 oz (350 cc) con tapa domo",
+    "atributos": {
+      "capacidad": "350 cc (12 oz)"
+    },
+    "notas": [
+      "Vaso transparente con tapa domo con perforación para sorbito."
+    ]
+  },
+  "v110x1000": {
+    "nombre": "Vaso 110 cc",
+    "atributos": {
+      "capacidad": "110 cc"
+    }
+  },
+  "unisold35x50ippon": {
+    "nombre": "Rollo de bolsas unisold 35 × 50 cm Ippon Sak",
+    "atributos": {
+      "marca": "Ippon Sak"
+    }
+  },
+  "unisold30x40ippon": {
+    "nombre": "Rollo de bolsas unisold 30 × 40 cm Ippon Sak",
+    "atributos": {
+      "marca": "Ippon Sak"
+    }
+  },
+  "uni40x60tasheco": {
+    "nombre": "Rollo de bolsas unisold 40 × 60 cm Ippon Sak",
+    "atributos": {
+      "marca": "Ippon Sak"
+    },
+    "pendientes": [
+      "El código (UNI40X60TASHECO) sugiere marca Tashiro y el nombre dice Ippon Sak: confirmar."
+    ]
+  },
+  "uni40x60eco": {
+    "nombre": "Rollo de bolsas unisold 40 × 60 cm coex",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni40x60c": {
+    "nombre": "Rollo de bolsas unisold 40 × 60 cm Canmai",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni40x60": {
+    "nombre": "Rollo de bolsas unisold 40 × 60 cm Tashiro",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni35x50eco": {
+    "nombre": "Rollo de bolsas unisold 35 × 50 cm coex",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni35x50c": {
+    "nombre": "Rollo de bolsas unisold 34 × 50 cm Canmai",
+    "presentacion": "rollo:750:bolsas",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ],
+    "pendientes": [
+      "El código dice 35X50 y el nombre 34 × 50: confirmar la medida."
+    ]
+  },
+  "uni35x50": {
+    "nombre": "Rollo de bolsas unisold 35 × 50 cm"
+  },
+  "uni30x40eco": {
+    "nombre": "Rollo de bolsas unisold 30 × 40 cm coex",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni30x40c": {
+    "nombre": "Rollo de bolsas unisold 30 × 40 cm Canmai",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "uni30x40": {
+    "nombre": "Rollo de bolsas unisold 30 × 40 cm Tashiro",
+    "notas": [
+      "Bolsa multipliegue transparente con soldadura tipo estrella."
+    ]
+  },
+  "tv330": {
+    "nombre": "Tapa para vaso 330 cc Copobras eco",
+    "uso": "Tapa para vasos plásticos.",
+    "extras": [
+      [
+        "Para vaso de",
+        "330 cc"
+      ]
+    ],
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "tubularnegro": {
+    "nombre": "Bobina tubular de nylon negra eco",
+    "atributos": {
+      "material": "Nylon"
+    }
+  },
+  "trs": {
+    "nombre": "Contenedor triangular de PET para sándwich"
+  },
+  "tralx100": {
+    "nombre": "Vaso largo de acrílico para trago"
+  },
+  "tr": {
+    "nombre": "Contenedor triangular para postre"
+  },
+  "tpamgr": {
+    "nombre": "Toalla intercalada grande 26 × 20 cm",
+    "atributos": {
+      "medidas": "26 × 20 cm"
+    }
+  },
+  "tpamch": {
+    "nombre": "Toalla intercalada chica 20 × 21 cm"
+  },
+  "tortr70xf": {
+    "nombre": "Tortera rectangular G70",
+    "atributos": {
+      "medidas": "24 × 35 × 12 cm"
+    }
+  },
+  "tortpio65x100": {
+    "nombre": "Tortera para pionono G65"
+  },
+  "tort18a-100": {
+    "nombre": "Tortera 18 cm de diámetro y 9 cm de alto",
+    "presentacion": "paquete:100",
+    "fuentePresentacion": "codigo",
+    "atributos": {
+      "medidas": "Ø 18 cm, 9 cm de alto"
+    }
+  },
+  "tijeras": {
+    "nombre": "Tijera Maped 21 cm"
+  },
+  "tijeraeco": {
+    "nombre": "Tijera Maped 17 cm"
+  },
+  "tickrote": {
+    "nombre": "Rollo de etiquetas de precios para rotuladora",
+    "presentacion": "paquete:10:rollos",
+    "sinonimos": [
+      "etiquetas rotuladora",
+      "rollo rotuladora"
+    ]
+  },
+  "termico61x85": {
+    "nombre": "Rollo térmico 61 × 85",
+    "atributos": {
+      "medidas": "61 × 85"
+    }
+  },
+  "teoriaxun": {
+    "nombre": "Cuadernola Teoría tapa dura 100 hojas",
+    "presentacion": "unidad"
+  },
+  "tenex100": {
+    "nombre": "Tenedores descartables"
+  },
+  "tefgr": {
+    "nombre": "Teflón térmico 40 × 60 cm",
+    "sinonimos": [
+      "lamina teflon",
+      "papel teflon"
+    ]
+  },
+  "tefch": {
+    "nombre": "Teflón térmico 30 × 50 cm",
+    "sinonimos": [
+      "lamina teflon",
+      "papel teflon"
+    ]
+  },
+  "te01": {
+    "nombre": "Cortahuevos reforzado",
+    "atributos": {
+      "material": "Acero inoxidable y plástico"
+    },
+    "sinonimos": [
+      "corta huevos"
+    ]
+  },
+  "tc80": {
+    "nombre": "Tira de cartón 80 cm",
+    "categoria": "bandejas-de-carton",
+    "secundarias": [
+      "cajas-para-masas-y-postres"
+    ],
+    "uso": "Para llevar bandejas de masas, dulces y bocados."
+  },
+  "tc70": {
+    "nombre": "Tira de cartón 70 cm",
+    "categoria": "bandejas-de-carton",
+    "secundarias": [
+      "cajas-para-masas-y-postres"
+    ],
+    "uso": "Para llevar bandejas de masas, dulces y bocados."
+  },
+  "tc60": {
+    "nombre": "Tira de cartón 60 cm",
+    "categoria": "bandejas-de-carton",
+    "secundarias": [
+      "cajas-para-masas-y-postres"
+    ],
+    "uso": "Para llevar bandejas de masas, dulces y bocados."
+  },
+  "tc50": {
+    "nombre": "Tira de cartón 50 cm",
+    "categoria": "bandejas-de-carton",
+    "secundarias": [
+      "cajas-para-masas-y-postres"
+    ],
+    "uso": "Para llevar bandejas de masas, dulces y bocados."
+  },
+  "sushi": {
+    "nombre": "Palitos para sushi",
+    "atributos": {
+      "material": "Bambú",
+      "largo": "21 cm"
+    },
+    "notas": [
+      "Vienen envueltos de a par."
+    ],
+    "rubros": [
+      "+restaurantes-y-gastronomia",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "palillos chinos",
+      "palitos chinos"
+    ]
+  },
+  "sulf65x25kg": {
+    "nombre": "Papel sulfito cortado 65 × 100 cm",
+    "atributos": {
+      "medidas": "65 × 100 cm"
+    },
+    "extras": [
+      [
+        "Hojas por kilo",
+        "40"
+      ]
+    ],
+    "pendientes": [
+      "El código termina en 25KG: confirmar si se vende por kilo o en paquete de 25 kg."
+    ]
+  },
+  "sulf50-65kg": {
+    "nombre": "Papel sulfito cortado 50 × 65 cm",
+    "atributos": {
+      "medidas": "50 × 65 cm"
+    },
+    "extras": [
+      [
+        "Hojas por kilo",
+        "70"
+      ]
+    ],
+    "pendientes": [
+      "Confirmar si se vende por kilo."
+    ]
+  },
+  "sulf0-75": {
+    "nombre": "Rollo de papel sulfito 75 cm",
+    "atributos": {
+      "color": "Blanco",
+      "ancho": "75 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "40 g"
+      ],
+      [
+        "Peso del rollo",
+        "13 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "35 aprox."
+      ]
+    ]
+  },
+  "sulf0-50": {
+    "nombre": "Rollo de papel sulfito 50 cm",
+    "atributos": {
+      "color": "Blanco",
+      "ancho": "50 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "40 g"
+      ],
+      [
+        "Peso del rollo",
+        "8,5 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "55 aprox."
+      ]
+    ]
+  },
+  "sulf0-38": {
+    "nombre": "Rollo de papel sulfito 38 cm",
+    "atributos": {
+      "color": "Blanco",
+      "ancho": "38 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "40 g"
+      ],
+      [
+        "Peso del rollo",
+        "8 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "65 aprox."
+      ]
+    ]
+  },
+  "sulf0-25": {
+    "nombre": "Rollo de papel sulfito 25 cm",
+    "atributos": {
+      "color": "Blanco",
+      "ancho": "25 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "40 g"
+      ],
+      [
+        "Peso del rollo",
+        "4 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "105 aprox."
+      ]
+    ]
+  },
+  "sorbitox100": {
+    "nombre": "Sorbitos biodegradables blancos",
+    "notas": [
+      "Vienen envueltos de a uno."
+    ],
+    "rubros": [
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "pajitas",
+      "bombillas",
+      "popotes"
+    ]
+  },
+  "sorbitokraft": {
+    "nombre": "Sorbitos biodegradables kraft",
+    "atributos": {
+      "material": "Papel kraft",
+      "color": "Marrón"
+    },
+    "extras": [
+      [
+        "Diámetro",
+        "5 mm"
+      ]
+    ],
+    "rubros": [
+      "-comercios-y-oficinas",
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "pajitas",
+      "sorbitos de papel"
+    ]
+  },
+  "sopletegr": {
+    "nombre": "Soplete de cocina grande profesional",
+    "extras": [
+      [
+        "Capacidad del tanque",
+        "50 ml"
+      ]
+    ],
+    "notas": [
+      "No incluye la recarga de gas."
+    ],
+    "secundarias": [
+      "mangas-y-reposteria"
+    ]
+  },
+  "soplete": {
+    "nombre": "Soplete de cocina chico",
+    "extras": [
+      [
+        "Capacidad de gas",
+        "15 ml"
+      ]
+    ],
+    "notas": [
+      "Llama regulable. No incluye la recarga de gas butano."
+    ],
+    "secundarias": [
+      "mangas-y-reposteria"
+    ]
+  },
+  "sisal": {
+    "nombre": "Hilo sisal"
+  },
+  "sindway": {
+    "nombre": "Servilleta de repuesto Sindway",
+    "notas": [
+      "Para servilleteros de mesa y mostrador."
+    ]
+  },
+  "sho70x100": {
+    "nombre": "Vaso shot 70 cc",
+    "sinonimos": [
+      "chupito",
+      "vasito"
+    ]
+  },
+  "sho185x500": {
+    "nombre": "Vaso shot 185 cc",
+    "sinonimos": [
+      "chupito",
+      "vasito"
+    ]
+  },
+  "sho140x100": {
+    "nombre": "Vaso shot 140 cc",
+    "sinonimos": [
+      "chupito",
+      "vasito"
+    ]
+  },
+  "sho135x100": {
+    "nombre": "Vaso shot 135 cc",
+    "sinonimos": [
+      "chupito",
+      "vasito"
+    ]
+  },
+  "servfl": {
+    "nombre": "Servilleta Florax 30 × 30 cm",
+    "atributos": {
+      "color": "Blanco"
+    }
+  },
+  "servcol-20": {
+    "nombre": "Servilleta lisa de color 33 × 33 cm",
+    "extras": [
+      [
+        "Pliegos",
+        "3"
+      ]
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ],
+    "secundarias": [
+      "velas-y-globos"
+    ]
+  },
+  "serv388x3000": {
+    "nombre": "Servilleta IP 388"
+  },
+  "serv25x25": {
+    "nombre": "Servilleta con ondulado 25 × 25 cm"
+  },
+  "serv20x20": {
+    "nombre": "Servilleta con ondulado 20 × 20 cm"
+  },
+  "sella40cm": {
+    "nombre": "Máquina selladora 40 cm",
+    "atributos": {
+      "color": "Azul"
+    },
+    "sinonimos": [
+      "selladora de bolsas",
+      "termoselladora"
+    ]
+  },
+  "sella30cm": {
+    "nombre": "Máquina selladora 30 cm",
+    "atributos": {
+      "color": "Azul"
+    },
+    "sinonimos": [
+      "selladora de bolsas",
+      "termoselladora"
+    ]
+  },
+  "secadorv": {
+    "nombre": "Secador de vegetales 4 L",
+    "extras": [
+      [
+        "Diámetro",
+        "24 cm"
+      ]
+    ],
+    "sinonimos": [
+      "centrifugador de verduras",
+      "escurridor de lechuga"
+    ]
+  },
+  "sandw50x100": {
+    "nombre": "Caja para 50 sándwiches",
+    "atributos": {
+      "material": "Cartón y cartulina"
+    },
+    "notas": [
+      "Base de cartón y tapa de cartulina."
+    ],
+    "rubros": [
+      "+panaderias-y-confiterias",
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "caja sandwiches de miga"
+    ]
+  },
+  "sandw100": {
+    "nombre": "Caja para 100 sándwiches",
+    "atributos": {
+      "material": "Cartón y cartulina"
+    },
+    "notas": [
+      "Base de cartón y tapa de cartulina separada."
+    ],
+    "rubros": [
+      "+panaderias-y-confiterias",
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "caja sandwiches de miga"
+    ]
+  },
+  "ruedas120l": {
+    "nombre": "Tarro de basura con ruedas y pedal 120 L"
+  },
+  "rturno": {
+    "nombre": "Rollo de números para turnos",
+    "categoria": "rotuladoras-y-turnos",
+    "presentacion": "paquete:10:rollos",
+    "extras": [
+      [
+        "Números por rollo",
+        "1.000, del 0 al 999"
+      ]
+    ],
+    "uso": "Para dispensadores de números de atención."
+  },
+  "rotue": {
+    "nombre": "Máquina rotuladora de precios eco",
+    "sinonimos": [
+      "etiquetadora",
+      "remarcadora"
+    ]
+  },
+  "rotu": {
+    "nombre": "Máquina rotuladora de precios 8 dígitos",
+    "sinonimos": [
+      "etiquetadora",
+      "remarcadora"
+    ]
+  },
+  "roscax100": {
+    "nombre": "Molde de papel para rosca",
+    "atributos": {
+      "medidas": "20 × 5 cm"
+    },
+    "notas": [
+      "Tiene chimenea central y permite hornear y presentar en el mismo molde."
+    ],
+    "sinonimos": [
+      "molde rosca de pascua"
+    ]
+  },
+  "rolx150": {
+    "nombre": "Rollo de papel de cocina Elite 150 m"
+  },
+  "roltoa": {
+    "nombre": "Rollo de toalla de papel 20 cm × 200 m",
+    "presentacion": "funda:6:rollos",
+    "atributos": {
+      "color": "Blanco",
+      "medidas": "20 cm × 200 m"
+    }
+  },
+  "rolr79-80": {
+    "nombre": "Rollo térmico para registradora 79 × 80",
+    "uso": "Para registradoras e impresoras térmicas de tickets."
+  },
+  "rolr79-7025": {
+    "nombre": "Rollo térmico para registradora 79 × 60",
+    "presentacion": "paquete:25:rollos",
+    "uso": "Para registradoras e impresoras térmicas de tickets."
+  },
+  "rolr69-70": {
+    "nombre": "Rollo para registradora 69 × 70"
+  },
+  "rolr57-57-25": {
+    "nombre": "Rollo para registradora 57 × 57",
+    "presentacion": "caja:25:rollos"
+  },
+  "rolr57-57": {
+    "nombre": "Rollo para registradora 57 × 57"
+  },
+  "rolr57-50t25": {
+    "nombre": "Rollo térmico para registradora 57 × 45",
+    "presentacion": "paquete:25:rollos",
+    "pendientes": [
+      "El código dice 57/50 y el nombre 57/45: confirmar la medida."
+    ]
+  },
+  "rolr57-30t": {
+    "nombre": "Rollo térmico 57 × 30 para POS"
+  },
+  "rolr44-57-25": {
+    "nombre": "Rollo para registradora 44 × 57",
+    "presentacion": "caja:25:rollos"
+  },
+  "rolmant": {
+    "nombre": "Rollo de papel manteca 30 cm × 4 m",
+    "atributos": {
+      "medidas": "30 cm × 4 m"
+    }
+  },
+  "rolloxkgeco": {
+    "nombre": "Bolsas en rollo económicas"
+  },
+  "rolloxkgc": {
+    "nombre": "Bolsas en rollo Canmai"
+  },
+  "rolloxkg": {
+    "nombre": "Bolsas en rollo ROU",
+    "atributos": {
+      "marca": "ROU"
+    }
+  },
+  "rolloresix30": {
+    "nombre": "Rollo de bolsas de residuos 50 × 60 cm unisold",
+    "atributos": {
+      "medidas": "50 × 62 cm"
+    },
+    "extras": [
+      [
+        "Rollos por caja",
+        "30"
+      ]
+    ],
+    "pendientes": [
+      "El nombre dice 50 × 60 y la descripción vieja 50 × 62: confirmar."
+    ]
+  },
+  "rolloresieco": {
+    "nombre": "Rollo de bolsas de residuos 50 × 60 cm económico reforzado",
+    "presentacion": "rollo:30:bolsas"
+  },
+  "rollore": {
+    "nombre": "Rollo de bolsas de residuos 70 × 100 cm"
+  },
+  "rollomax": {
+    "nombre": "Rollo de cocina Tom 120 paños",
+    "presentacion": "unidad",
+    "extras": [
+      [
+        "Medida del paño",
+        "19 × 19 cm"
+      ]
+    ],
+    "atributos": {
+      "color": "Blanco"
+    }
+  },
+  "rollobalanza": {
+    "nombre": "Rollo de etiquetas térmicas para balanza 55 × 44",
+    "presentacion": "rollo:500:etiquetas",
+    "uso": "Etiquetas adhesivas térmicas para balanzas.",
+    "sinonimos": [
+      "etiquetas balanza"
+    ]
+  },
+  "rollo35x50": {
+    "nombre": "Rollo de bolsas 35 × 50 cm Canmai",
+    "presentacion": "rollo:500:bolsas"
+  },
+  "rollo28x40": {
+    "nombre": "Rollo de bolsas 28 × 40 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo24x35": {
+    "nombre": "Rollo de bolsas 24 × 35 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo22x22": {
+    "nombre": "Rollo de bolsas para hamburguesa 20 × 20 cm",
+    "presentacion": "rollo:500:bolsas",
+    "secundarias": [
+      "bolsas-impresas"
+    ],
+    "notas": [
+      "Bolsas de nylon estampadas para hamburguesas, choripanes y panchos."
+    ],
+    "pendientes": [
+      "El código dice 22X22 y el nombre 20 × 20: confirmar la medida."
+    ],
+    "rubros": [
+      "-carnicerias-y-supermercados"
+    ]
+  },
+  "rollo20x60": {
+    "nombre": "Rollo de bolsas 20 × 60 cm",
+    "presentacion": "rollo:1000:bolsas"
+  },
+  "rollo20x30": {
+    "nombre": "Rollo de bolsas 20 × 30 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo20x20": {
+    "nombre": "Rollo de bolsas 20 × 20 cm",
+    "presentacion": "rollo:1000:bolsas"
+  },
+  "rollo16x24": {
+    "nombre": "Rollo de bolsas 16 × 24 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo12x24": {
+    "nombre": "Rollo de bolsas 12 × 24 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo12x20": {
+    "nombre": "Rollo de bolsas 12 × 20 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rollo10x20": {
+    "nombre": "Rollo de bolsas 10 × 20 cm",
+    "presentacion": "rollo:1000:bolsas",
+    "atributos": {
+      "color": "Transparente",
+      "material": "Nylon"
+    }
+  },
+  "rolfpale050": {
+    "nombre": "Rollo de film para paletizar 50 cm",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "medidas": null,
+      "ancho": "50 cm"
+    },
+    "extras": [
+      [
+        "Peso del rollo",
+        "5 kg aprox."
+      ]
+    ],
+    "sinonimos": [
+      "film stretch",
+      "strech"
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "rolfpale": {
+    "nombre": "Rollo de film para paletizar con mango",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "extras": [
+      [
+        "Peso del rollo",
+        "800 g aprox."
+      ]
+    ],
+    "sinonimos": [
+      "film stretch",
+      "strech"
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "rolf45xind": {
+    "nombre": "Rollo de film industrial 45 cm × 600 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "medidas": "45 cm × 600 m"
+    }
+  },
+  "rolf45x250": {
+    "nombre": "Rollo de film 45 cm × 250 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "rolf38x250": {
+    "nombre": "Rollo de film 38 cm × 250 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "rolf38x100": {
+    "nombre": "Rollo de film 38 cm × 100 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "rolf38ind": {
+    "nombre": "Rollo de film industrial 38 cm × 600 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "medidas": "38 cm × 600 m"
+    }
+  },
+  "rolf30ind": {
+    "nombre": "Rollo de film industrial 30 cm × 600 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "medidas": "30 cm × 600 m",
+      "material": "PVC"
+    }
+  },
+  "rolf28x30": {
+    "nombre": "Rollo de film 28 cm × 30 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "rolf28x250": {
+    "nombre": "Rollo de film 30 cm × 250 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "material": "PVC"
+    },
+    "pendientes": [
+      "El código dice 28X250 y el nombre 30 cm: confirmar el ancho."
+    ]
+  },
+  "rolf28x200": {
+    "nombre": "Rollo de film 28 cm × 200 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "rolf28x100": {
+    "nombre": "Rollo de film 28 cm × 100 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "material": "PVC"
+    }
+  },
+  "rolcorr": {
+    "nombre": "Rollo de cartón corrugado",
+    "presentacion": "kg",
+    "atributos": {
+      "medidas": null,
+      "ancho": "96 cm aprox."
+    },
+    "extras": [
+      [
+        "Peso del rollo",
+        "25 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "2,5 aprox."
+      ]
+    ],
+    "categoria": "film-para-embalar",
+    "secundarias": [
+      "papel-para-envolver"
+    ],
+    "sinonimos": [
+      "carton corrugado",
+      "carton ondulado"
+    ]
+  },
+  "rolcel": {
+    "nombre": "Rollo de papel celeste 50 cm",
+    "atributos": {
+      "ancho": "50 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "45 g"
+      ],
+      [
+        "Peso del rollo",
+        "7 kg aprox."
+      ],
+      [
+        "Metros por kilo",
+        "59 aprox."
+      ]
+    ],
+    "sinonimos": [
+      "papel tienda"
+    ]
+  },
+  "rola45x7-5": {
+    "nombre": "Rollo de papel aluminio 45 cm × 7,5 m",
+    "atributos": {
+      "medidas": "45 cm × 7,5 m"
+    }
+  },
+  "rola45x50x20": {
+    "nombre": "Rollo de papel aluminio 45 cm × 50 m Conserv",
+    "atributos": {
+      "medidas": "45 cm × 50 m"
+    }
+  },
+  "rola45x150": {
+    "nombre": "Rollo de papel aluminio 45 cm × 150 m Alumay",
+    "atributos": {
+      "medidas": "45 cm × 150 m"
+    },
+    "extras": [
+      [
+        "Espesor",
+        "12 micras"
+      ]
+    ]
+  },
+  "rola30x7-5eco": {
+    "nombre": "Rollo de papel aluminio 30 cm × 7,5 m eco",
+    "atributos": {
+      "medidas": "30 cm × 7,5 m"
+    }
+  },
+  "rola30x4": {
+    "nombre": "Rollo de papel aluminio 30 cm × 4 m",
+    "atributos": {
+      "medidas": "30 cm × 4 m"
+    }
+  },
+  "rodalesx140x26": {
+    "nombre": "Rodal redondo 26 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "26 cm"
+    }
+  },
+  "rodal9": {
+    "nombre": "Rodal redondo 9 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "9 cm"
+    }
+  },
+  "rodal45x55": {
+    "nombre": "Rodal rectangular 45 × 55 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal42": {
+    "nombre": "Rodal redondo 42 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "42 cm"
+    }
+  },
+  "rodal40x50": {
+    "nombre": "Rodal rectangular 40 × 50 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal38": {
+    "nombre": "Rodal redondo 38 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "38 cm"
+    }
+  },
+  "rodal36": {
+    "nombre": "Rodal redondo 36 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "36 cm"
+    }
+  },
+  "rodal35x45": {
+    "nombre": "Rodal rectangular 35 × 45 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal34": {
+    "nombre": "Rodal redondo 34 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "34 cm"
+    }
+  },
+  "rodal33": {
+    "nombre": "Rodal redondo 32 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "32 cm"
+    },
+    "pendientes": [
+      "El código dice RODAL33 y el nombre 32 cm: confirmar la medida."
+    ]
+  },
+  "rodal32x45": {
+    "nombre": "Rodal rectangular 32 × 45 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal30x40": {
+    "nombre": "Rodal rectangular 30 × 40 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal28x100": {
+    "nombre": "Rodal redondo 28 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "28 cm"
+    }
+  },
+  "rodal28": {
+    "nombre": "Rodal redondo 28 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "28 cm"
+    }
+  },
+  "rodal26": {
+    "nombre": "Rodal redondo 26 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "26 cm"
+    }
+  },
+  "rodal25x35": {
+    "nombre": "Rodal rectangular 25 × 35 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal24": {
+    "nombre": "Rodal redondo 24 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "24 cm"
+    }
+  },
+  "rodal21": {
+    "nombre": "Rodal redondo 21 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "21 cm"
+    }
+  },
+  "rodal19x23": {
+    "nombre": "Rodal rectangular 19 × 23 cm",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "rodal18": {
+    "nombre": "Rodal redondo 18 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "18 cm"
+    }
+  },
+  "rodal15": {
+    "nombre": "Rodal redondo 15 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "15 cm"
+    }
+  },
+  "rodal11-5": {
+    "nombre": "Rodal redondo 11,5 cm",
+    "atributos": {
+      "material": "Papel",
+      "diametro": "11,5 cm"
+    }
+  },
+  "resix100papelera": {
+    "nombre": "Rollo de bolsas de residuos para papelera 35 × 40 cm"
+  },
+  "resix100": {
+    "nombre": "Rollo de bolsas de residuos 50 × 60 cm negras",
+    "atributos": {
+      "color": "Negro",
+      "medidas": "50 × 60 cm"
+    },
+    "notas": [
+      "Para recipientes de 20 L."
+    ]
+  },
+  "resicuerda": {
+    "nombre": "Rollo de bolsas de residuos 50 × 55 cm verdes con cuerda",
+    "presentacion": "rollo:10:bolsas"
+  },
+  "resi80x100": {
+    "nombre": "Bolsa de residuos 80 × 100 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi70x100": {
+    "nombre": "Bolsa de residuos 70 × 100 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi60x75": {
+    "nombre": "Bolsa de residuos 60 × 75 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi50x60": {
+    "nombre": "Bolsa de residuos 50 × 60 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi120x140": {
+    "nombre": "Bolsa de residuos 120 × 140 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi100x120": {
+    "nombre": "Bolsa de residuos 100 × 120 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "resi100x100": {
+    "nombre": "Bolsa de residuos 100 × 100 cm",
+    "presentacionTexto": "Paquete × 100 aprox."
+  },
+  "repuestox5000": {
+    "nombre": "Servilleta de repuesto Vipp"
+  },
+  "repuestox200": {
+    "nombre": "Servilleta de repuesto Nobre 10 × 20 cm",
+    "atributos": {
+      "medidas": "10 × 20 cm"
+    }
+  },
+  "reji": {
+    "nombre": "Rejilla",
+    "sinonimos": [
+      "paño rejilla",
+      "trapo rejilla"
+    ]
+  },
+  "registradora79-60": {
+    "nombre": "Rollo térmico para registradora 79 × 60",
+    "presentacion": "paquete:25:rollos",
+    "pendientes": [
+      "Mismo nombre que ROLR79/7025 pero otro código en el sistema de Roleran: se publican los dos. Confirmar en qué se diferencian."
+    ],
+    "duplicadoDe": "rolr79-7025"
+  },
+  "recupxkg": {
+    "nombre": "Bolsa de nylon natural recuperado",
+    "atributos": {
+      "material": "Nylon recuperado"
+    }
+  },
+  "ravioles": {
+    "nombre": "Caja de cartón para ravioles"
+  },
+  "rafiaesp": {
+    "nombre": "Rafia especial"
+  },
+  "rafiacolch": {
+    "nombre": "Rafia de colores chica",
+    "extras": [
+      [
+        "Colores",
+        "Más de 10 tonos"
+      ],
+      [
+        "Rendimiento",
+        "2.000 m por kg"
+      ]
+    ]
+  },
+  "rafiacol-kg": {
+    "nombre": "Rafia de colores grande",
+    "extras": [
+      [
+        "Colores",
+        "Más de 10 tonos"
+      ],
+      [
+        "Rendimiento",
+        "2.000 m por kg"
+      ]
+    ]
+  },
+  "pvc60": {
+    "nombre": "PVC transparente para cerramiento exterior 0,6",
+    "presentacion": "consultar",
+    "sinonimos": [
+      "nylon cristal",
+      "cerramiento"
+    ]
+  },
+  "pstylus": {
+    "nombre": "Rollo de cocina Florax",
+    "presentacion": "paquete:2:rollos",
+    "extras": [
+      [
+        "Paños por rollo",
+        "55"
+      ],
+      [
+        "Medida del paño",
+        "20 × 19 cm"
+      ]
+    ]
+  },
+  "pre20": {
+    "nombre": "Precinto 20 cm",
+    "sinonimos": [
+      "precintos plasticos",
+      "cintillos",
+      "abrazadera"
+    ]
+  },
+  "pr91063": {
+    "nombre": "Tapa de inodoro acolchonada"
+  },
+  "pp12x24kg": {
+    "nombre": "Bolsa de polipropileno 12 × 24 cm",
+    "categoria": "bolsas-de-nylon-por-kilo",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "pendientes": [
+      "La medida 12 × 24 y la venta por kilo salen del código (PP12X24KG): confirmar."
+    ]
+  },
+  "pote750liso": {
+    "nombre": "Pote liso 750 ml con tapa",
+    "atributos": {
+      "material": "Polipropileno (PP)",
+      "color": "Transparente",
+      "capacidad": "750 ml"
+    }
+  },
+  "postrec": {
+    "nombre": "Caja para postre 28 × 28 × 14,5 cm"
+  },
+  "postre": {
+    "nombre": "Caja para postre 26 × 26 × 18 cm"
+  },
+  "pos2000x25": {
+    "nombre": "Rollo autocopiante para registradora POS 2000",
+    "presentacion": "paquete:25:rollos",
+    "fuentePresentacion": "codigo"
+  },
+  "portauni": {
+    "nombre": "Portarrollo para bolsas unisold",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "uso": "Soporte para colgar el rollo de bolsas unisold."
+  },
+  "porta0-75": {
+    "nombre": "Portarrollos para papel de 75 cm",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "material": null
+    },
+    "uso": "Para cortar papel en rollo en el mostrador."
+  },
+  "porta0-50": {
+    "nombre": "Portarrollos para papel de 50 cm",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "material": null
+    },
+    "uso": "Para cortar papel en rollo en el mostrador."
+  },
+  "porta0-25": {
+    "nombre": "Portarrollos para papel de 25 cm",
+    "categoria": "papel-para-envolver",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "atributos": {
+      "material": null
+    },
+    "uso": "Para cortar papel en rollo en el mostrador."
+  },
+  "polip240x100": {
+    "nombre": "Vaso de polipapel 8 oz (240 cc)",
+    "rubros": [
+      "+heladerias"
+    ]
+  },
+  "polip190x100": {
+    "nombre": "Vaso de polipapel 6,5 oz (190 cc)",
+    "rubros": [
+      "+heladerias"
+    ]
+  },
+  "poliestch": {
+    "nombre": "Hilo de poliéster en cono",
+    "categoria": "hilos-y-rafia",
+    "presentacion": "unidad",
+    "extras": [
+      [
+        "Peso del cono",
+        "200 g"
+      ]
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery",
+      "-heladerias",
+      "+comercios-y-oficinas"
+    ]
+  },
+  "pmlel500": {
+    "nombre": "Pote para miel 500 ml con tapa",
+    "notas": [
+      "Tapa con precinto de cierre."
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "pmlel1kgx100": {
+    "nombre": "Pote para miel 1 kg con tapa",
+    "atributos": {
+      "capacidad": "1000 ml"
+    },
+    "notas": [
+      "Tapa con precinto de cierre."
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "pmlel180x100": {
+    "nombre": "Pote para miel 180 ml con tapa",
+    "atributos": {
+      "capacidad": "180 ml"
+    },
+    "notas": [
+      "Tipo vasito, con tapa con precinto de cierre."
+    ],
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "plu8040": {
+    "nombre": "Molde de papel para mini budín con diseños",
+    "atributos": {
+      "color": "Rojo, verde, marrón y amarillo"
+    },
+    "extras": [
+      [
+        "Para budín de",
+        "100 g"
+      ]
+    ]
+  },
+  "plesp62x300": {
+    "nombre": "Plato hondo de espumaplast 629",
+    "atributos": {
+      "color": "Blanco",
+      "diametro": "20 cm"
+    },
+    "sinonimos": [
+      "plato termico",
+      "plato telgopor"
+    ]
+  },
+  "plesp60x400": {
+    "nombre": "Plato de espumaplast 60 de 21 cm",
+    "atributos": {
+      "color": "Blanco",
+      "diametro": "21 cm"
+    },
+    "sinonimos": [
+      "plato termico",
+      "plato telgopor"
+    ]
+  },
+  "plesp23": {
+    "nombre": "Plato de espumaplast 23 cm",
+    "atributos": {
+      "diametro": "23 cm"
+    },
+    "sinonimos": [
+      "plato telgopor"
+    ]
+  },
+  "plesp18": {
+    "nombre": "Plato de espumaplast 18 cm",
+    "atributos": {
+      "diametro": "18 cm"
+    },
+    "sinonimos": [
+      "plato telgopor"
+    ]
+  },
+  "plesp15": {
+    "nombre": "Plato de espumaplast 15 cm",
+    "atributos": {
+      "diametro": "15 cm"
+    },
+    "sinonimos": [
+      "plato telgopor"
+    ]
+  },
+  "pldes21": {
+    "nombre": "Plato plástico descartable 21 cm",
+    "atributos": {
+      "diametro": "21 cm"
+    }
+  },
+  "pldes18": {
+    "nombre": "Plato plástico descartable 18 cm",
+    "atributos": {
+      "diametro": "18 cm"
+    }
+  },
+  "plawp20": {
+    "nombre": "Plato de aluminio WP 20 cm",
+    "atributos": {
+      "diametro": "20 cm",
+      "usoApto": "Horno y freezer"
+    },
+    "extras": [
+      [
+        "Altura",
+        "2 cm"
+      ]
+    ],
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "plap15": {
+    "nombre": "Plato de aluminio P15 de 15 cm",
+    "atributos": {
+      "diametro": "15 cm",
+      "usoApto": "Horno y freezer"
+    },
+    "rubros": [
+      "-eventos-y-cumpleanos"
+    ]
+  },
+  "pizzagourmet": {
+    "nombre": "Caja para pizza gourmet 33 × 33 cm"
+  },
+  "pizmar42": {
+    "nombre": "Caja para pizza marrón 42 × 42 cm"
+  },
+  "pizmar33": {
+    "nombre": "Caja para pizza marrón 33 × 33 cm"
+  },
+  "pizmar28": {
+    "nombre": "Caja para pizza marrón 28 × 28 cm"
+  },
+  "pizmar23": {
+    "nombre": "Caja para pizza marrón 23 × 23 cm"
+  },
+  "pizim32": {
+    "nombre": "Caja para pizza impresa 32 × 32 cm"
+  },
+  "pizim1m": {
+    "nombre": "Caja para pizza de 1 m marrón 20 × 50 cm",
+    "atributos": {
+      "medidas": "20 × 50 × 4,5 cm",
+      "material": "Cartón"
+    }
+  },
+  "pizim1-2m": {
+    "nombre": "Caja para pizza de 1/2 m marrón 18 × 25 cm",
+    "atributos": {
+      "medidas": "18 × 25 × 4,5 cm",
+      "material": "Cartón"
+    }
+  },
+  "pizbl33": {
+    "nombre": "Caja para pizza blanca 33 × 33 cm"
+  },
+  "pinorav32": {
+    "nombre": "Papel pino raviolero 16 × 32 cm",
+    "pendientes": [
+      "La descripción vieja dice 16 × 30: confirmar la medida."
+    ]
+  },
+  "pinorav30": {
+    "nombre": "Papel pino raviolero 16 × 30 cm"
+  },
+  "pinoimp": {
+    "nombre": "Rollo de papel pino impreso",
+    "atributos": {
+      "material": "Papel"
+    }
+  },
+  "pino65-100": {
+    "nombre": "Papel pino cortado 65 × 100 cm"
+  },
+  "pino50-65kg": {
+    "nombre": "Papel pino cortado 50 × 65 cm",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "extras": [
+      [
+        "Hojas por kilo",
+        "60 aprox."
+      ]
+    ],
+    "pendientes": [
+      "La descripción vieja dice 50 × 60 cm: confirmar la medida."
+    ]
+  },
+  "pino1kg": {
+    "nombre": "Papel pino cortado 40 × 50 cm",
+    "presentacion": "paquete::1 kg",
+    "atributos": {
+      "medidas": "40 × 50 cm"
+    },
+    "extras": [
+      [
+        "Hojas por kilo",
+        "85 aprox."
+      ]
+    ]
+  },
+  "pino1-4kg": {
+    "nombre": "Papel pino cortado 1/4",
+    "pendientes": [
+      "Confirmar qué indica 1/4 (tamaño de la hoja o peso del paquete)."
+    ]
+  },
+  "pino1-2pkg": {
+    "nombre": "Papel pino cortado 1/2",
+    "pendientes": [
+      "Confirmar qué indica 1/2 (tamaño de la hoja o peso del paquete)."
+    ]
+  },
+  "pino0-75": {
+    "nombre": "Rollo de papel pino 75 cm",
+    "atributos": {
+      "ancho": "75 cm"
+    }
+  },
+  "pino0-50": {
+    "nombre": "Rollo de papel pino 50 cm",
+    "atributos": {
+      "ancho": "50 cm"
+    }
+  },
+  "pino0-40": {
+    "nombre": "Rollo de papel pino 40 cm",
+    "atributos": {
+      "ancho": "40 cm"
+    }
+  },
+  "pino0-25": {
+    "nombre": "Rollo de papel pino 25 cm",
+    "atributos": {
+      "ancho": "25 cm"
+    }
+  },
+  "piksx200": {
+    "nombre": "Palitos pick de madera para sándwich",
+    "atributos": {
+      "material": "Madera",
+      "marca": "Theoto"
+    },
+    "sinonimos": [
+      "pinchos",
+      "palillos sandwich"
+    ]
+  },
+  "phsuavex30-12": {
+    "nombre": "Papel higiénico Suavex hoja doble 30 m"
+  },
+  "phj500mt-8": {
+    "nombre": "Papel higiénico jumbo 500 m",
+    "presentacion": "paquete:8:rollos"
+  },
+  "phf60mtx12": {
+    "nombre": "Papel higiénico Florax 60 m",
+    "presentacion": "paquete:12:rollos"
+  },
+  "perchasx100": {
+    "nombre": "Perchas de plástico"
+  },
+  "pdm500": {
+    "nombre": "Molde de papel para pan dulce de 500 g"
+  },
+  "pdm250": {
+    "nombre": "Molde de papel para pan dulce de 250 g"
+  },
+  "pdm1000": {
+    "nombre": "Molde de papel para pan dulce de 1 kg"
+  },
+  "pdm100": {
+    "nombre": "Molde de papel para pan dulce mini de 100 g"
+  },
+  "papc": {
+    "nombre": "Papelera de colores eco"
+  },
+  "panoe": {
+    "nombre": "Paño de piso económico",
+    "sinonimos": [
+      "trapo de piso"
+    ]
+  },
+  "panhco": {
+    "nombre": "Cartón para pancho impreso",
+    "sinonimos": [
+      "portapancho",
+      "bandeja pancho"
+    ]
+  },
+  "panchogde20": {
+    "nombre": "Bandeja de cartón para pancho grande 20 × 9 × 3,5 cm",
+    "atributos": {
+      "material": "Cartón"
+    },
+    "sinonimos": [
+      "portapancho"
+    ],
+    "categoria": "conos-y-portapanchos",
+    "secundarias": [
+      "bandejas-de-carton"
+    ]
+  },
+  "panchogde": {
+    "nombre": "Bandeja de cartón para pancho grande 20 × 5 × 3,5 cm",
+    "atributos": {
+      "material": "Cartón"
+    },
+    "sinonimos": [
+      "portapancho"
+    ],
+    "categoria": "conos-y-portapanchos",
+    "secundarias": [
+      "bandejas-de-carton"
+    ]
+  },
+  "paloa": {
+    "nombre": "Palitos para algodón de azúcar",
+    "presentacion": "paquete::1 kg",
+    "atributos": {
+      "material": null
+    },
+    "rubros": [
+      "+eventos-y-cumpleanos"
+    ]
+  },
+  "palo": {
+    "nombre": "Palo de madera para escoba"
+  },
+  "palitoglc-b": {
+    "nombre": "Palitos soporte para globos con base"
+  },
+  "palilloplast": {
+    "nombre": "Palillos de plástico para ropa",
+    "presentacion": "consultar",
+    "sinonimos": [
+      "broches de ropa",
+      "pinzas"
+    ]
+  },
+  "palih": {
+    "nombre": "Palitos para helado",
+    "notas": [
+      "Extremos redondeados."
+    ],
+    "rubros": [
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "paca370x50": {
+    "nombre": "Pote acanalado 370 cc con tapa"
+  },
+  "paca250x100": {
+    "nombre": "Pote acanalado 250 cc con tapa"
+  },
+  "paca200x100": {
+    "nombre": "Pote acanalado 200 cc con tapa"
+  },
+  "p700liso": {
+    "nombre": "Pote liso 750 ml con tapa Copobras",
+    "atributos": {
+      "material": "Polipropileno (PP)",
+      "color": "Transparente",
+      "capacidad": "750 ml",
+      "usoApto": "Freezer y microondas"
+    }
+  },
+  "p500liso": {
+    "nombre": "Pote liso 500 cc con tapa",
+    "atributos": {
+      "material": "Polipropileno (PP)",
+      "color": "Transparente"
+    }
+  },
+  "p500du": {
+    "nombre": "Pote de plástico duro 500 ml con tapa"
+  },
+  "p350liso": {
+    "nombre": "Pote liso 350 ml con tapa",
+    "atributos": {
+      "material": "Polipropileno (PP)",
+      "color": "Transparente"
+    }
+  },
+  "p2oz": {
+    "nombre": "Pote para salsas 2 oz con tapa",
+    "sinonimos": [
+      "dips",
+      "aderecero"
+    ]
+  },
+  "p250liso": {
+    "nombre": "Pote liso 250 ml con tapa",
+    "atributos": {
+      "material": "Polipropileno (PP)",
+      "color": "Transparente"
+    }
+  },
+  "p250du": {
+    "nombre": "Pote de plástico duro 250 cc con tapa"
+  },
+  "p1oz": {
+    "nombre": "Pote dip 1½ oz (45 cc) con tapa",
+    "atributos": {
+      "capacidad": "45 cc (1½ oz)"
+    },
+    "pendientes": [
+      "El código (P1OZ) dice 1 oz y el nombre 1½ oz: confirmar."
+    ],
+    "sinonimos": [
+      "dips",
+      "pote salsa"
+    ],
+    "uso": "Para salsas, aderezos y acompañamientos."
+  },
+  "p1kduv": {
+    "nombre": "Pote de plástico duro 1 kg con tapa verde"
+  },
+  "p1kdu": {
+    "nombre": "Pote de plástico duro 1 kg con tapa"
+  },
+  "p11-2oz": {
+    "nombre": "Pote dip 1 oz (30 cc) con tapa",
+    "atributos": {
+      "capacidad": "30 cc (1 oz)"
+    },
+    "pendientes": [
+      "El código (P11/2OZ) dice 1½ oz y el nombre 1 oz: confirmar."
+    ],
+    "sinonimos": [
+      "dips",
+      "pote salsa"
+    ],
+    "uso": "Para salsas, aderezos y acompañamientos."
+  },
+  "nylonkg": {
+    "nombre": "Hilo de nylon N.º 3 y N.º 6",
+    "extras": [
+      [
+        "Rendimiento N.º 3",
+        "600 m por kg"
+      ],
+      [
+        "Rendimiento N.º 6",
+        "340 m por kg"
+      ]
+    ]
+  },
+  "nturno": {
+    "nombre": "Números dobles para turnos",
+    "presentacion": "consultar"
+  },
+  "notapnx20": {
+    "nombre": "Nota de pedido numerada"
+  },
+  "notapn": {
+    "nombre": "Nota de pedido numerada"
+  },
+  "notapcx40": {
+    "nombre": "Nota de pedido común"
+  },
+  "notapc": {
+    "nombre": "Nota de pedido común"
+  },
+  "notal3": {
+    "nombre": "Block de notas de pedido liso N.º 3"
+  },
+  "notal2": {
+    "nombre": "Block de notas de pedido liso N.º 2"
+  },
+  "notal1": {
+    "nombre": "Block de notas de pedido liso N.º 1"
+  },
+  "ne352": {
+    "nombre": "Contenedor con cierre 9 L (27 × 38 × 13 cm)",
+    "atributos": {
+      "medidas": "27 × 38 × 13 cm"
+    }
+  },
+  "ne351": {
+    "nombre": "Contenedor con cierre 8 L (22 × 30 × 19 cm)",
+    "atributos": {
+      "medidas": "22 × 30 × 19 cm"
+    }
+  },
+  "ne350": {
+    "nombre": "Contenedor con cierre 5 L (22 × 30 × 13 cm)",
+    "atributos": {
+      "medidas": "22 × 30 × 13 cm"
+    }
+  },
+  "no8": {
+    "nombre": "Bolsa de papel lisa con asa N.º 8, 28 × 38 × 15 cm",
+    "rubros": [
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "no6": {
+    "nombre": "Bolsa de papel lisa con asa N.º 6, 22 × 34 × 14 cm",
+    "rubros": [
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "no2": {
+    "nombre": "Hilo de nylon N.º 2"
+  },
+  "no13": {
+    "nombre": "Bolsa de papel lisa con asa N.º 13, 32 × 50 × 16 cm",
+    "rubros": [
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "no12": {
+    "nombre": "Bolsa de papel con asa N.º 12, 32 × 38 × 16 cm"
+  },
+  "muffinx12": {
+    "nombre": "Caja para 12 muffins o cupcakes",
+    "sinonimos": [
+      "caja cupcakes",
+      "caja magdalenas"
+    ]
+  },
+  "mpollosu": {
+    "nombre": "Malla para pollo arrollado N.º 16 SU",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "mpollo18e": {
+    "nombre": "Malla para pollo arrollado N.º 18 eco",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "mpollo16e": {
+    "nombre": "Malla para pollo arrollado N.º 16 eco",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "mpdisco18": {
+    "nombre": "Disco dorado 18 cm",
+    "atributos": {
+      "diametro": "18 cm"
+    },
+    "sinonimos": [
+      "base para torta",
+      "disco torta"
+    ]
+  },
+  "mpdis26dorado": {
+    "nombre": "Disco dorado 26 cm",
+    "atributos": {
+      "diametro": "26 cm"
+    },
+    "sinonimos": [
+      "base para torta",
+      "disco torta"
+    ]
+  },
+  "mpamplsu": {
+    "nombre": "Malla para pamplona N.º 14 SU",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "mpampl-m": {
+    "nombre": "Malla para pamplona N.º 14 eco",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "motexun": {
+    "nombre": "Rollo de etiquetas Motex para rotuladora",
+    "presentacion": "paquete:10:rollos",
+    "sinonimos": [
+      "etiquetas rotuladora"
+    ]
+  },
+  "mostgr": {
+    "nombre": "Mostacero para salsas grande 500 cc blanco"
+  },
+  "mostch": {
+    "nombre": "Mostacero para salsas chico 200 cc blanco"
+  },
+  "mopabalde": {
+    "nombre": "Kit de balde, mopa y palo SuperPro",
+    "extras": [
+      [
+        "Incluye",
+        "Balde de 14 L, mopa con palo y escurridor"
+      ]
+    ]
+  },
+  "mondx5000": {
+    "nombre": "Mondadientes Theoto a granel",
+    "sinonimos": [
+      "escarbadientes",
+      "palillos"
+    ]
+  },
+  "mondx200x20": {
+    "nombre": "Mondadientes Theoto en cajita",
+    "presentacionTexto": "Cajita × 200",
+    "extras": [
+      [
+        "Funda",
+        "20 cajitas"
+      ]
+    ],
+    "sinonimos": [
+      "escarbadientes",
+      "palillos"
+    ]
+  },
+  "mondx100x25": {
+    "nombre": "Mondadientes Theoto en cajita",
+    "presentacionTexto": "Cajita × 100",
+    "extras": [
+      [
+        "Funda",
+        "25 cajitas"
+      ]
+    ],
+    "atributos": {
+      "marca": "Theoto"
+    },
+    "sinonimos": [
+      "escarbadientes",
+      "palillos"
+    ]
+  },
+  "mondx1000": {
+    "nombre": "Mondadientes envueltos individualmente",
+    "notas": [
+      "Vienen envueltos de a uno."
+    ],
+    "sinonimos": [
+      "escarbadientes",
+      "palillos"
+    ]
+  },
+  "moldef": {
+    "nombre": "Molde de papel para freidora",
+    "sinonimos": [
+      "air fryer",
+      "freidora de aire"
+    ]
+  },
+  "moldeempx3": {
+    "nombre": "Molde para empanadas (set de 3)",
+    "categoria": "utensilios-de-cocina",
+    "presentacion": "unidad",
+    "presentacionTexto": "Set × 3",
+    "extras": [
+      [
+        "Diámetros",
+        "6, 8 y 10 cm"
+      ]
+    ],
+    "notas": [
+      "Set de 3 moldes de distinto tamaño para cerrar y dar forma a las empanadas."
+    ],
+    "rubros": [
+      "+rotiserias-y-delivery"
+    ]
+  },
+  "mfruta": {
+    "nombre": "Malla para frutas",
+    "sinonimos": [
+      "malla tubular"
+    ]
+  },
+  "mezx100": {
+    "nombre": "Mezcladores de plástico para café",
+    "sinonimos": [
+      "revolvedor",
+      "paletitas cafe"
+    ]
+  },
+  "mezex100e": {
+    "nombre": "Mezcladores de plástico para tragos",
+    "sinonimos": [
+      "revolvedor"
+    ]
+  },
+  "mezclmadera": {
+    "nombre": "Mezcladores de madera para café Theoto",
+    "sinonimos": [
+      "revolvedor",
+      "paletitas cafe"
+    ]
+  },
+  "mezclador14cm": {
+    "nombre": "Mezcladores de madera 14 cm Darnel",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "largo": "14 cm"
+    },
+    "sinonimos": [
+      "revolvedor",
+      "paletitas cafe"
+    ]
+  },
+  "mcerdosu": {
+    "nombre": "Malla para cerdo arrollado N.º 18 SU",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "mcerdo": {
+    "nombre": "Malla para cerdo arrollado N.º 24 SU",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "max-f": {
+    "nombre": "Rollo de cocina Tom 120 paños",
+    "presentacion": "funda:24:rollos"
+  },
+  "masinim": {
+    "nombre": "Molde de papel para massini"
+  },
+  "masa1kvisor": {
+    "nombre": "Caja para masas con visor",
+    "atributos": {
+      "medidas": null
+    },
+    "extras": [
+      [
+        "Medidas",
+        "250 g: 18 × 12 × 6 cm · 500 g: 23 × 18 × 6 cm · 1 kg: 30 × 22 × 6 cm"
+      ]
+    ],
+    "pendientes": [
+      "El código (MASA1KVISOR) sugiere la de 1 kg y la descripción lista tres tamaños: confirmar cuáles hay."
+    ]
+  },
+  "masa1kg": {
+    "nombre": "Caja para masas 1 kg eco",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "30 × 22 × 6,5 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa1k": {
+    "nombre": "Caja para masas 1 kg reforzada",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "30 × 22 × 6,5 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa11-2kgx50": {
+    "nombre": "Caja para masas 1 ½ kg eco",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "35 × 22 × 6 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa1-4kg": {
+    "nombre": "Caja para masas 1/4 kg eco",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "18 × 12 × 6 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa1-4": {
+    "nombre": "Caja para masas 1/4 kg reforzada",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "18 × 12 × 6 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa1-2kg": {
+    "nombre": "Caja para masas 1/2 kg eco",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "23 × 18 × 6 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "masa1-2": {
+    "nombre": "Caja para masas 1/2 kg reforzada",
+    "atributos": {
+      "material": "Cartulina",
+      "color": "Blanco",
+      "medidas": "23 × 18 × 6 cm"
+    },
+    "notas": [
+      "Caja blanca de cartulina con tapa integrada."
+    ]
+  },
+  "marmita": {
+    "nombre": "Marmita de espumaplast con tapa",
+    "notas": [
+      "Viene con tapa."
+    ],
+    "sinonimos": [
+      "marmita telgopor",
+      "envase termico comida"
+    ]
+  },
+  "marcpizz": {
+    "nombre": "Marcadores para pizarra",
+    "presentacion": "consultar"
+  },
+  "marcp": {
+    "nombre": "Marcador permanente Teoría",
+    "extras": [
+      [
+        "Colores",
+        "Azul o negro"
+      ],
+      [
+        "Trazo",
+        "4,5 mm"
+      ]
+    ]
+  },
+  "manteca50m": {
+    "nombre": "Rollo de papel manteca 30 cm × 50 m",
+    "atributos": {
+      "medidas": "30 cm × 50 m",
+      "usoApto": "Horno y freezer"
+    }
+  },
+  "manga42cm": {
+    "nombre": "Manga descartable de nylon 42 cm",
+    "atributos": {
+      "largo": "42 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "manga21": {
+    "nombre": "Manga descartable en rollo N.º 21",
+    "atributos": {
+      "medidas": null,
+      "largo": "53,3 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "manga18": {
+    "nombre": "Manga descartable en rollo N.º 18",
+    "atributos": {
+      "medidas": null,
+      "largo": "45 cm"
+    },
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "manga12": {
+    "nombre": "Manga descartable 12 pulgadas",
+    "sinonimos": [
+      "manga pastelera"
+    ]
+  },
+  "malla22": {
+    "nombre": "Malla para cerdo arrollado N.º 22",
+    "sinonimos": [
+      "red para carne",
+      "malla elastica"
+    ]
+  },
+  "macno14": {
+    "nombre": "Maceta de cultivo chica"
+  },
+  "macetar": {
+    "nombre": "Maceta de pared semirredonda"
+  },
+  "limpiador5l": {
+    "nombre": "Limpiador perfumol Orion 5 L",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón de 5 L",
+    "extras": [
+      [
+        "Fragancias",
+        "Varias"
+      ]
+    ]
+  },
+  "lampazom": {
+    "nombre": "Lampazo manual para vidrio"
+  },
+  "kraftf": {
+    "nombre": "Rollo de papel kraft fantasía"
+  },
+  "kraft0-75": {
+    "nombre": "Rollo de papel kraft 75 cm",
+    "presentacion": "kg",
+    "fuentePresentacion": "descripcion",
+    "atributos": {
+      "ancho": "75 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "80 g"
+      ],
+      [
+        "Peso del rollo",
+        "7,5 kg aprox."
+      ]
+    ]
+  },
+  "kraft0-50": {
+    "nombre": "Rollo de papel kraft 50 cm",
+    "presentacion": "kg",
+    "fuentePresentacion": "descripcion",
+    "atributos": {
+      "ancho": "50 cm"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "80 g"
+      ]
+    ]
+  },
+  "jarsachet": {
+    "nombre": "Jarra para leche 1 L eco",
+    "sinonimos": [
+      "jarra sachet"
+    ]
+  },
+  "jabonr": {
+    "nombre": "Jabón líquido para ropa Barón Rojo 3 L",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón de 3 L",
+    "atributos": {
+      "color": null
+    }
+  },
+  "jabonm5l": {
+    "nombre": "Jabón líquido para manos 5 L",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón de 5 L"
+  },
+  "ip1472x2400": {
+    "nombre": "Servilleta Elite IP 1472"
+  },
+  "indiv": {
+    "nombre": "Individuales de papel descartables",
+    "categoria": "servilletas",
+    "presentacion": "consultar",
+    "uso": "Para la mesa.",
+    "sinonimos": [
+      "mantelitos",
+      "individual de papel"
+    ]
+  },
+  "imp38198": {
+    "nombre": "Juego de cortina de baño de PVC y alfombra"
+  },
+  "imp17005": {
+    "nombre": "Cortina de baño de tela poliéster diamante"
+  },
+  "imkg": {
+    "nombre": "Rollo de papel impreso"
+  },
+  "imbx1000": {
+    "nombre": "Bolsa impresa para budín 16 × 35 cm",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "imbx100": {
+    "nombre": "Bolsa impresa para budín 16 × 35 cm",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "im28x40x1000": {
+    "nombre": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm)",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "im28x40x100": {
+    "nombre": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm)",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "im24x35x1000": {
+    "nombre": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm)",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "im24x35x100": {
+    "nombre": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm)",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    }
+  },
+  "hpp24x35kg": {
+    "nombre": "Hojas de polipropileno 24 × 35 cm",
+    "categoria": "bolsas-de-nylon-por-kilo",
+    "atributos": {
+      "medidas": "24 × 35 cm"
+    },
+    "rubros": [
+      "-rotiserias-y-delivery",
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "hojasal": {
+    "nombre": "Hojas de aluminio 30 × 40 cm Alumay"
+  },
+  "hojasa4": {
+    "nombre": "Hojas A4 para fotocopiadora"
+  },
+  "hojaaluminioeco": {
+    "nombre": "Hojas de aluminio 27 × 30 cm Alumay"
+  },
+  "hojaaluminio": {
+    "nombre": "Hojas de aluminio 27 × 30 cm Wyda"
+  },
+  "hoja-1000": {
+    "nombre": "Rollo de hojas",
+    "presentacion": "rollo:1000:hojas",
+    "pendientes": [
+      "Confirmar qué producto es (nombre original: «Rollo hoja / 1000»)."
+    ]
+  },
+  "hipocl": {
+    "nombre": "Hipoclorito Orion 5 L",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón de 5 L",
+    "sinonimos": [
+      "agua jane",
+      "cloro",
+      "lavandina"
+    ]
+  },
+  "hilopoly-kg": {
+    "nombre": "Hilo de poliéster",
+    "extras": [
+      [
+        "Peso del cono",
+        "200 g"
+      ]
+    ],
+    "notas": [
+      "Para coser bolsas y atar paquetes."
+    ]
+  },
+  "hilonx12": {
+    "nombre": "Ovillos de hilo de nylon",
+    "presentacion": "paquete:12:ovillos",
+    "fuentePresentacion": "descripcion"
+  },
+  "hilono1": {
+    "nombre": "Hilo de nylon N.º 1",
+    "extras": [
+      [
+        "Rendimiento",
+        "2.500 m por kg"
+      ]
+    ]
+  },
+  "hiloalx12": {
+    "nombre": "Ovillos de hilo de algodón",
+    "presentacion": "paquete:12:ovillos",
+    "fuentePresentacion": "codigo"
+  },
+  "heladosandw": {
+    "nombre": "Bolsa para helado sándwich"
+  },
+  "helado3-4": {
+    "nombre": "Pote térmico para helado 3/4 kg",
+    "sinonimos": [
+      "pote telgopor helado"
+    ]
+  },
+  "helado1kg": {
+    "nombre": "Pote térmico para helado 1 kg",
+    "sinonimos": [
+      "pote telgopor helado"
+    ]
+  },
+  "helado1-2": {
+    "nombre": "Pote térmico para helado 1/2 kg",
+    "sinonimos": [
+      "pote telgopor helado"
+    ]
+  },
+  "hambx1000": {
+    "nombre": "Bolsa impresa para hamburguesa"
+  },
+  "hafelp": {
+    "nombre": "Hule afelpado",
+    "presentacion": "consultar"
+  },
+  "gsintal": {
+    "nombre": "Guantes de goma Sintal"
+  },
+  "gorradama-100": {
+    "nombre": "Cofias descartables tipo gorra",
+    "sinonimos": [
+      "gorro descartable",
+      "cofia"
+    ]
+  },
+  "gnitrilo": {
+    "nombre": "Guantes de nitrilo"
+  },
+  "gnegro": {
+    "nombre": "Guantes de nitrilo negros"
+  },
+  "gmanopla": {
+    "nombre": "Guantes manopla de nylon"
+  },
+  "globor9": {
+    "nombre": "Globos de colores 10 pulgadas",
+    "extras": [
+      [
+        "Colores",
+        "Varios"
+      ]
+    ]
+  },
+  "globon": {
+    "nombre": "Globo de número inflable"
+  },
+  "glatex": {
+    "nombre": "Guantes de látex"
+  },
+  "gas": {
+    "nombre": "Recarga de gas butano 300 ml",
+    "uso": "Para cargar sopletes de cocina.",
+    "sinonimos": [
+      "gas soplete",
+      "garrafita"
+    ]
+  },
+  "ganchoseco": {
+    "nombre": "Ganchos de alambre forrados",
+    "pendientes": [
+      "El nombre dice por kilo y la descripción vieja «paquete de 800 unidades, aprox. 400 g»: confirmar."
+    ]
+  },
+  "ganchos": {
+    "nombre": "Ganchos para engrampadora",
+    "sinonimos": [
+      "grampas",
+      "broches"
+    ]
+  },
+  "g682": {
+    "nombre": "Ensaladera G682 con tapa"
+  },
+  "g680": {
+    "nombre": "Pote G680 para flan 250 ml"
+  },
+  "g650x300": {
+    "nombre": "Pote con tapa para massini G650",
+    "atributos": {
+      "material": "PET"
+    },
+    "notas": [
+      "Pote de PET cristal con tapa para porciones de dulces y postres."
+    ]
+  },
+  "g50a": {
+    "nombre": "Tortera 23 cm de diámetro y 13 cm de alto",
+    "atributos": {
+      "medidas": "Ø 23 cm, 13 cm de alto"
+    },
+    "pendientes": [
+      "El nombre original es «Tortera 23/13 alto»: confirmar que 23 es el diámetro y 13 la altura."
+    ]
+  },
+  "frpvc60x100": {
+    "nombre": "Frasco de PVC transparente 60 ml"
+  },
+  "frpvc30x100": {
+    "nombre": "Frasco de PVC transparente 30 ml"
+  },
+  "frpvc250x100": {
+    "nombre": "Frasco de PVC transparente 250 ml"
+  },
+  "frpvc100x100": {
+    "nombre": "Frasco de PVC transparente 100 ml",
+    "presentacion": "paquete:100",
+    "fuentePresentacion": "codigo"
+  },
+  "franela": {
+    "nombre": "Franela de limpieza"
+  },
+  "frafar30": {
+    "nombre": "Frasco opaco de PP 30 ml",
+    "categoria": "frascos-y-botellas"
+  },
+  "fra500ml": {
+    "nombre": "Frasco rociador con gatillo 500 ml",
+    "sinonimos": [
+      "pulverizador",
+      "atomizador"
+    ]
+  },
+  "fra1lt": {
+    "nombre": "Frasco rociador con gatillo 1 L",
+    "sinonimos": [
+      "pulverizador",
+      "atomizador"
+    ]
+  },
+  "fr60x100": {
+    "nombre": "Frasco opaco de PP 60 ml",
+    "categoria": "frascos-y-botellas"
+  },
+  "fr500x100": {
+    "nombre": "Frasco opaco de PP 500 ml",
+    "categoria": "frascos-y-botellas"
+  },
+  "fr250x100": {
+    "nombre": "Frasco opaco de PP 250 ml",
+    "categoria": "frascos-y-botellas"
+  },
+  "fr100x100": {
+    "nombre": "Frasco opaco de PP 100 ml",
+    "categoria": "frascos-y-botellas",
+    "presentacion": "paquete:100",
+    "fuentePresentacion": "codigo"
+  },
+  "fno4": {
+    "nombre": "Fuente oval de cartón N.º 4"
+  },
+  "fno3": {
+    "nombre": "Fuente oval de cartón N.º 3"
+  },
+  "fno2": {
+    "nombre": "Fuente oval de cartón N.º 2"
+  },
+  "fno1": {
+    "nombre": "Fuente oval de cartón N.º 1"
+  },
+  "florax30m": {
+    "nombre": "Papel higiénico Florax hoja doble 30 m"
+  },
+  "florax24x24": {
+    "nombre": "Servilleta Florax 23 × 22 cm",
+    "pendientes": [
+      "El código dice 24X24 y el nombre 23 × 22: confirmar la medida."
+    ]
+  },
+  "flor32": {
+    "nombre": "Disco oblea de espumaplast con forma de flor 32 cm",
+    "atributos": {
+      "material": "Espumaplast (EPS)",
+      "diametro": "32 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "filmnegro": {
+    "nombre": "Rollo de film para paletizar negro con mango",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "film stretch negro"
+    ]
+  },
+  "film45x100": {
+    "nombre": "Rollo de film 45 cm × 100 m",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "fmasx30": {
+    "nombre": "Bolsa de residuos Fira+ 48 × 55 cm"
+  },
+  "fmasx10": {
+    "nombre": "Bolsa de residuos Fira+ 48 × 55 cm"
+  },
+  "fmas70x100f": {
+    "nombre": "Bolsa de residuos Fira+ 70 × 100 cm",
+    "presentacionTexto": "Paquete × 10 (atado de 5)",
+    "pendientes": [
+      "El nombre original dice «atado 5 x10u»: confirmar cómo se arma el atado."
+    ],
+    "duplicadoDe": "fmas70x100-10"
+  },
+  "fmas70x100-10": {
+    "nombre": "Bolsa de residuos Fira+ 70 × 100 cm",
+    "presentacionTexto": "Paquete × 10 (atado de 5)",
+    "pendientes": [
+      "Mismo nombre que F+70X100F pero otro código en el sistema de Roleran: se publican los dos. Confirmar en qué se diferencian."
+    ]
+  },
+  "fmas70x100": {
+    "nombre": "Bolsa de residuos Fira+ 70 × 100 cm"
+  },
+  "fmas48x55-30": {
+    "nombre": "Bolsa de residuos Fira+ 48 × 55 cm",
+    "presentacionTexto": "Paquete × 30 (atado de 10)",
+    "pendientes": [
+      "El nombre original dice «atado 10 x30u»: confirmar cómo se arma el atado."
+    ]
+  },
+  "fmas48x55-10": {
+    "nombre": "Bolsa de residuos Fira+ 48 × 55 cm",
+    "presentacionTexto": "Paquete × 10 (atado de 25)",
+    "pendientes": [
+      "El nombre original dice «atado 25 x10u»: confirmar cómo se arma el atado."
+    ]
+  },
+  "fmas100x100": {
+    "nombre": "Bolsa de residuos Fira+ 100 × 100 cm",
+    "presentacionTexto": "Paquete × 10 (en atado)"
+  },
+  "etiqueta20x30": {
+    "nombre": "Rollo de etiquetas para balanza 20 × 30",
+    "presentacion": "rollo:6000:etiquetas",
+    "sinonimos": [
+      "etiquetas balanza"
+    ]
+  },
+  "esthamb-200": {
+    "nombre": "Caja de cartón para hamburguesa"
+  },
+  "esponjav": {
+    "nombre": "Esponja amarilla y verde",
+    "atributos": {
+      "color": "Amarillo y verde"
+    }
+  },
+  "esponjatefl": {
+    "nombre": "Esponja multiuso para teflón",
+    "categoria": "articulos-de-limpieza",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "esponja": {
+    "nombre": "Esponjas Limpaki 4 × 3",
+    "atributos": {
+      "medidas": null
+    },
+    "presentacion": "consultar",
+    "pendientes": [
+      "Confirmar qué indica «4 × 3» (¿pack de 4 esponjas?)."
+    ]
+  },
+  "espaditaf": {
+    "nombre": "Espaditas plásticas para copetín",
+    "rubros": [
+      "+restaurantes-y-gastronomia"
+    ],
+    "sinonimos": [
+      "palillos copetin",
+      "pinchos"
+    ]
+  },
+  "engr": {
+    "nombre": "Engrampadora plástica Kangaro",
+    "sinonimos": [
+      "abrochadora",
+      "grampadora"
+    ]
+  },
+  "empgr-kg": {
+    "nombre": "Bolsa de papel para empanadas grande",
+    "rubros": [
+      "+rotiserias-y-delivery"
+    ]
+  },
+  "empch-kg": {
+    "nombre": "Bolsa de papel para empanadas chica",
+    "rubros": [
+      "+rotiserias-y-delivery"
+    ]
+  },
+  "ealuminio": {
+    "nombre": "Esponja de aluminio",
+    "categoria": "articulos-de-limpieza",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "virulana"
+    ]
+  },
+  "e13": {
+    "nombre": "Embudo Atma 13 cm"
+  },
+  "domo32oz": {
+    "nombre": "Ensaladera con tapa domo 32 oz (1000 ml)"
+  },
+  "dispnum": {
+    "nombre": "Dispensador de números para turnos",
+    "rubros": [
+      "-restaurantes-y-gastronomia"
+    ]
+  },
+  "dispensvaso": {
+    "nombre": "Dispensador de vasos",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "uso": "",
+    "secundarias": [
+      "basureros-y-dispensadores"
+    ]
+  },
+  "dispensadorph": {
+    "nombre": "Dispensador de papel higiénico jumbo",
+    "categoria": "basureros-y-dispensadores",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "dispensadorm": {
+    "nombre": "Dispensador de toalla intercalada",
+    "categoria": "basureros-y-dispensadores",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla"
+  },
+  "dispenmostr": {
+    "nombre": "Cintero de mesa para mostrador",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "uso": "Para cortar cinta adhesiva en el mostrador.",
+    "sinonimos": [
+      "portacinta",
+      "dispensador de cinta"
+    ]
+  },
+  "dispenmanual": {
+    "nombre": "Cintero manual para embalar",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "uso": "Para cerrar cajas con cinta de embalaje.",
+    "sinonimos": [
+      "portacinta",
+      "pistola de cinta"
+    ]
+  },
+  "disco15x400": {
+    "nombre": "Disco de espumaplast 15 cm",
+    "atributos": {
+      "diametro": "15 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "dips1oz": {
+    "nombre": "Pote dip 1 oz (30 cc) con tapa Darnel",
+    "atributos": {
+      "capacidad": "30 cc (1 oz)"
+    },
+    "sinonimos": [
+      "dips",
+      "pote salsa"
+    ],
+    "uso": "Para salsas, aderezos y acompañamientos."
+  },
+  "dips1-5oz": {
+    "nombre": "Pote dip 1½ oz (45 cc) con tapa Darnel",
+    "atributos": {
+      "capacidad": "45 cc (1½ oz)"
+    },
+    "sinonimos": [
+      "dips",
+      "pote salsa"
+    ],
+    "uso": "Para salsas, aderezos y acompañamientos."
+  },
+  "deter5l": {
+    "nombre": "Detergente Orion 5 L",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón de 5 L"
+  },
+  "desodorante": {
+    "nombre": "Aromatizador de ambiente Harpers"
+  },
+  "deguxcaja": {
+    "nombre": "Vaso de degustación 50 cc",
+    "atributos": {
+      "material": null
+    },
+    "extras": [
+      [
+        "Caja cerrada",
+        "50 tubos de 100"
+      ]
+    ],
+    "sinonimos": [
+      "vasito cafe",
+      "vaso cafe"
+    ]
+  },
+  "degux100": {
+    "nombre": "Vaso de degustación 50 cc",
+    "atributos": {
+      "material": null
+    },
+    "presentacionTexto": "Tubo × 100",
+    "sinonimos": [
+      "vasito cafe",
+      "vaso cafe"
+    ]
+  },
+  "d8": {
+    "nombre": "Bandeja de aluminio D8 1500 cc con tapa",
+    "notas": [
+      "Tapa de cartón aluminizado, cierre manual."
+    ],
+    "sinonimos": [
+      "bandeja descartable aluminio"
+    ]
+  },
+  "d7": {
+    "nombre": "Bandeja de aluminio D7 750 cc con tapa",
+    "atributos": {
+      "capacidad": "750 cc"
+    },
+    "notas": [
+      "Tapa de cartón aluminizado, cierre manual."
+    ],
+    "sinonimos": [
+      "bandeja descartable aluminio"
+    ]
+  },
+  "d6": {
+    "nombre": "Bandeja de aluminio D6 500 cc con tapa",
+    "atributos": {
+      "capacidad": "500 cc"
+    },
+    "notas": [
+      "Tapa de cartón aluminizado, cierre manual."
+    ],
+    "sinonimos": [
+      "bandeja descartable aluminio"
+    ]
+  },
+  "d5": {
+    "nombre": "Bandeja de aluminio D5 1150 cc con tapa",
+    "notas": [
+      "Tapa de cartón aluminizado, cierre manual."
+    ],
+    "sinonimos": [
+      "bandeja descartable aluminio"
+    ]
+  },
+  "d4-2009": {
+    "nombre": "Bandeja de aluminio D4 220 ml con tapa",
+    "notas": [
+      "Tapa de cartón aluminizado, cierre manual."
+    ],
+    "sinonimos": [
+      "bandeja descartable aluminio"
+    ]
+  },
+  "d30x400": {
+    "nombre": "Disco de espumaplast 30 cm",
+    "atributos": {
+      "diametro": "30 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "d30d": {
+    "nombre": "Disco dorado corrugado 30 cm",
+    "atributos": {
+      "diametro": "30 cm"
+    },
+    "rubros": [
+      "-comercios-y-oficinas"
+    ],
+    "sinonimos": [
+      "base para torta",
+      "disco torta"
+    ]
+  },
+  "d25x400": {
+    "nombre": "Disco de espumaplast 25 cm",
+    "atributos": {
+      "diametro": "25 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "d25dorado": {
+    "nombre": "Disco dorado corrugado 25 cm",
+    "atributos": {
+      "diametro": "25 cm"
+    },
+    "rubros": [
+      "-comercios-y-oficinas"
+    ],
+    "sinonimos": [
+      "base para torta",
+      "disco torta"
+    ]
+  },
+  "d23x400": {
+    "nombre": "Disco de espumaplast 23 cm",
+    "atributos": {
+      "diametro": "23 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "d21x500": {
+    "nombre": "Disco de espumaplast 21 cm",
+    "atributos": {
+      "diametro": "21 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "d20dorado": {
+    "nombre": "Disco dorado corrugado 20 cm",
+    "atributos": {
+      "diametro": "20 cm"
+    },
+    "rubros": [
+      "-comercios-y-oficinas"
+    ],
+    "sinonimos": [
+      "base para torta",
+      "disco torta"
+    ]
+  },
+  "d18x400": {
+    "nombre": "Disco de espumaplast 18 cm",
+    "atributos": {
+      "diametro": "18 cm"
+    },
+    "rubros": [
+      "-carnicerias-y-supermercados",
+      "+panaderias-y-confiterias",
+      "+rotiserias-y-delivery"
+    ],
+    "sinonimos": [
+      "disco telgopor",
+      "base torta"
+    ]
+  },
+  "cuchie-100": {
+    "nombre": "Cuchillos plásticos descartables"
+  },
+  "cuche-1000": {
+    "nombre": "Cucharas plásticas eco",
+    "presentacion": "caja:1000"
+  },
+  "cuche-100": {
+    "nombre": "Cucharas plásticas eco"
+  },
+  "cuchch": {
+    "nombre": "Cucharita sundae chica",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "cucharah-2000": {
+    "nombre": "Cucharitas para helado",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "crepas": {
+    "nombre": "Estuche para crepas",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "cpostre28": {
+    "nombre": "Caja para postre 28 × 28 × 14,5 cm",
+    "pendientes": [
+      "Mismo nombre que POSTREC pero otro código en el sistema de Roleran: se publican los dos. Confirmar en qué se diferencian.",
+      "Presentación «Por unidad»: la URL vieja del producto dice «x unidad»."
+    ],
+    "presentacion": "unidad",
+    "fuentePresentacion": "nombre"
+  },
+  "cpostre": {
+    "nombre": "Caja para postre 26 × 26 × 18 cm",
+    "pendientes": [
+      "Hay otro código (POSTRE) con la misma caja por unidad: confirmar en qué se diferencian."
+    ]
+  },
+  "cpopm200": {
+    "nombre": "Cono para pop mediano",
+    "rubros": [
+      "-heladerias",
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "pochoclo",
+      "palomitas",
+      "pororo"
+    ],
+    "pendientes": [
+      "El código (CPOPM200) sugiere paquete de 200: confirmar."
+    ]
+  },
+  "cpopgr200": {
+    "nombre": "Cono para pop grande",
+    "rubros": [
+      "-heladerias",
+      "+eventos-y-cumpleanos"
+    ],
+    "sinonimos": [
+      "pochoclo",
+      "palomitas",
+      "pororo"
+    ],
+    "pendientes": [
+      "El código (CPOPGR200) sugiere paquete de 200: confirmar."
+    ]
+  },
+  "cosechero": {
+    "nombre": "Cajón cosechero calado de plástico",
+    "atributos": {
+      "medidas": "35 × 50 × 28 cm"
+    }
+  },
+  "cortbano": {
+    "nombre": "Cortina de baño de poliéster 1,8 × 1,8 m Berta",
+    "atributos": {
+      "medidas": "1,8 × 1,8 m"
+    }
+  },
+  "copvino": {
+    "nombre": "Copa para vino"
+  },
+  "coponx100": {
+    "nombre": "Copón de acrílico 400 cc",
+    "atributos": {
+      "capacidad": "400 cc"
+    },
+    "extras": [
+      [
+        "Alto",
+        "12 cm"
+      ],
+      [
+        "Base",
+        "8 cm"
+      ]
+    ],
+    "sinonimos": [
+      "copa helado"
+    ]
+  },
+  "copchampca": {
+    "nombre": "Copa de champagne descartable"
+  },
+  "composeco": {
+    "nombre": "Bolsa camiseta compostable 40 × 50 cm"
+  },
+  "compo54x100": {
+    "nombre": "Bolsa camiseta compostable raviolera 51 × 56 cm",
+    "categoria": "bolsas-camiseta",
+    "atributos": {
+      "medidas": "51 × 56 cm"
+    },
+    "rubros": [
+      "-panaderias-y-confiterias"
+    ]
+  },
+  "cometa": {
+    "nombre": "Hilo para cometa engomado"
+  },
+  "coltorta": {
+    "nombre": "Colorante para torta"
+  },
+  "colorx20": {
+    "nombre": "Servilleta con diseños 33 × 33 cm",
+    "extras": [
+      [
+        "Pliegos",
+        "3"
+      ]
+    ],
+    "secundarias": [
+      "velas-y-globos"
+    ],
+    "rubros": [
+      "-restaurantes-y-gastronomia"
+    ]
+  },
+  "cintregalop": {
+    "nombre": "Cinta para regalos",
+    "uso": "Para envolver regalos."
+  },
+  "cintpato48x10": {
+    "nombre": "Cinta pato 4,8 cm × 10 m",
+    "sinonimos": [
+      "cinta americana",
+      "cinta plateada",
+      "duct tape"
+    ]
+  },
+  "cintpapel24x10": {
+    "nombre": "Cinta de papel 2,4 cm × 10 m",
+    "atributos": {
+      "color": "Blanco"
+    },
+    "pendientes": [
+      "La descripción vieja dice 2,4 cm × 50 m: confirmar el largo."
+    ],
+    "sinonimos": [
+      "cinta de enmascarar",
+      "cinta crepe",
+      "masking tape"
+    ]
+  },
+  "cintmar48x90p": {
+    "nombre": "Cinta marrón 4,8 cm × 100 m",
+    "pendientes": [
+      "El código dice 48X90: confirmar si son 90 o 100 m."
+    ],
+    "sinonimos": [
+      "cinta de embalar",
+      "cinta de empaque"
+    ]
+  },
+  "cintmar48x50p": {
+    "nombre": "Cinta marrón 4,8 cm × 50 m",
+    "atributos": {
+      "medidas": "4,8 cm × 50 m"
+    },
+    "pendientes": [
+      "El nombre original dice «x50cm»; se corrigió a 50 m según el código (CINTMAR48X50P): confirmar."
+    ],
+    "sinonimos": [
+      "cinta de embalar",
+      "cinta de empaque"
+    ]
+  },
+  "cintim48": {
+    "nombre": "Cinta impresa «Frágil» 4,8 cm × 100 m"
+  },
+  "cintim25": {
+    "nombre": "Cinta impresa «Promoción» 2,5 cm × 100 m"
+  },
+  "cintap-ancha": {
+    "nombre": "Cinta de papel ancha 3,5 cm",
+    "sinonimos": [
+      "cinta de enmascarar",
+      "cinta crepe"
+    ]
+  },
+  "cintaisla": {
+    "nombre": "Cinta aisladora",
+    "uso": "",
+    "sinonimos": [
+      "cinta aislante",
+      "cinta electrica"
+    ]
+  },
+  "cintafaz": {
+    "nombre": "Cinta doble faz 2,4 cm × 2,7 m"
+  },
+  "cintad48x90p": {
+    "nombre": "Cinta adhesiva transparente 4,8 cm × 100 m",
+    "presentacion": "tubo:6",
+    "atributos": {
+      "color": "Transparente"
+    },
+    "sinonimos": [
+      "cinta de embalar",
+      "cinta scotch"
+    ]
+  },
+  "cintad48x50f": {
+    "nombre": "Cinta adhesiva 48 mm × 50 m",
+    "sinonimos": [
+      "cinta de embalar",
+      "cinta scotch"
+    ]
+  },
+  "cintad24x50p": {
+    "nombre": "Cinta adhesiva 24 mm × 50 m",
+    "sinonimos": [
+      "cinta scotch"
+    ]
+  },
+  "cintad24x100f": {
+    "nombre": "Cinta adhesiva 25 mm × 100 m",
+    "sinonimos": [
+      "cinta scotch"
+    ]
+  },
+  "cintad12x50p": {
+    "nombre": "Cinta adhesiva 12 mm × 50 m",
+    "presentacion": "tubo:12",
+    "fuentePresentacion": "descripcion",
+    "sinonimos": [
+      "cinta scotch"
+    ]
+  },
+  "cintad12x30p": {
+    "nombre": "Cinta adhesiva 12 mm × 30 m",
+    "sinonimos": [
+      "cinta scotch"
+    ]
+  },
+  "cilindrochico": {
+    "nombre": "Cilindro para papas fritas chico"
+  },
+  "chivgde": {
+    "nombre": "Caja de cartón para chivito grande 28 × 22 × 8 cm"
+  },
+  "chivch": {
+    "nombre": "Caja de cartón para chivito chica marrón"
+  },
+  "cfrit300": {
+    "nombre": "Cono para papas fritas",
+    "rubros": [
+      "-heladerias"
+    ],
+    "pendientes": [
+      "El código (CFRIT300) sugiere paquete de 300: confirmar."
+    ]
+  },
+  "cestoc-tgr": {
+    "nombre": "Cesto de ropa negro con tapa"
+  },
+  "casqx6": {
+    "nombre": "Caja con visor para 6 muffins",
+    "atributos": {
+      "medidas": "24,5 × 16,5 × 8,5 cm"
+    }
+  },
+  "casqcolx45z": {
+    "nombre": "Casquetes de colores Zanetti",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq71": {
+    "nombre": "Casquetes N.º 71",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "medidas": null
+    },
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq69-1000": {
+    "nombre": "Casquetes N.º 69",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq69": {
+    "nombre": "Casquetes N.º 69",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq68": {
+    "nombre": "Casquetes N.º 68",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "medidas": null
+    },
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq64": {
+    "nombre": "Casquetes N.º 64",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq62": {
+    "nombre": "Casquetes N.º 62",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq59": {
+    "nombre": "Casquetes N.º 59",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "medidas": null
+    },
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq57": {
+    "nombre": "Casquetes N.º 57",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "medidas": null
+    },
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "casq55": {
+    "nombre": "Casquetes N.º 55",
+    "presentacion": "caja:1000",
+    "atributos": {
+      "medidas": null
+    },
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "cartonpb": {
+    "nombre": "Cartón para pancho blanco",
+    "sinonimos": [
+      "portapancho",
+      "bandeja pancho"
+    ]
+  },
+  "carameleram": {
+    "nombre": "Caramelera mediana",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "caramelerag": {
+    "nombre": "Caramelera grande",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "caramelerach": {
+    "nombre": "Caramelera chica",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "caqdiseno": {
+    "nombre": "Casquetes de colores",
+    "sinonimos": [
+      "pirotines",
+      "capacillos"
+    ]
+  },
+  "cam80x100": {
+    "nombre": "Bolsa camiseta autorizada 80 × 100 cm"
+  },
+  "cam100mchx100": {
+    "nombre": "Bolsa camiseta autorizada 40 × 50 cm, 100 micras",
+    "extras": [
+      [
+        "Espesor",
+        "100 micras"
+      ]
+    ]
+  },
+  "cam100mch": {
+    "nombre": "Bolsa camiseta autorizada 40 × 50 cm, 100 micras",
+    "extras": [
+      [
+        "Espesor",
+        "100 micras"
+      ]
+    ]
+  },
+  "cam100m50x60": {
+    "nombre": "Bolsa camiseta autorizada 50 × 60 cm, 100 micras",
+    "extras": [
+      [
+        "Espesor",
+        "100 micras"
+      ]
+    ]
+  },
+  "cam100m": {
+    "nombre": "Bolsa camiseta autorizada 60 × 70 cm, 100 micras",
+    "extras": [
+      [
+        "Espesor",
+        "100 micras"
+      ]
+    ]
+  },
+  "calc": {
+    "nombre": "Calculadora"
+  },
+  "cajond": {
+    "nombre": "Cajón baúl para delivery 60 L",
+    "extras": [
+      [
+        "Colores",
+        "Verde o rojo"
+      ]
+    ],
+    "sinonimos": [
+      "caja delivery",
+      "baul moto"
+    ]
+  },
+  "cajoncar35l": {
+    "nombre": "Cajón para carnicería 35 L",
+    "notas": [
+      "Cajón encastrable, con laterales y fondo llenos."
+    ]
+  },
+  "cajonazul": {
+    "nombre": "Cajón para carnicería 35 L azul",
+    "notas": [
+      "Cajón encastrable, con laterales y fondo llenos."
+    ]
+  },
+  "cajitaf": {
+    "nombre": "Caja take away 14 × 21 × 14 cm"
+  },
+  "cajafeliz": {
+    "nombre": "Cajita feliz fantasía 13 × 13 × 14 cm"
+  },
+  "byt501-cx100": {
+    "nombre": "Bandeja BYT 501 con base negra",
+    "atributos": {
+      "color": null
+    },
+    "extras": [
+      [
+        "Base",
+        "Negra"
+      ]
+    ]
+  },
+  "byt158": {
+    "nombre": "Bandeja para pollo BYT 158",
+    "atributos": {
+      "material": "Polipropileno (PP)"
+    },
+    "pendientes": [
+      "El material (PP) se deduce de que la ficha dice apta para microondas: confirmar."
+    ]
+  },
+  "burbujaxm": {
+    "nombre": "Nylon burbuja",
+    "categoria": "film-para-embalar",
+    "rubros": [
+      "-restaurantes-y-gastronomia",
+      "+comercios-y-oficinas"
+    ],
+    "sinonimos": [
+      "plastico burbuja",
+      "film burbuja",
+      "papel burbuja"
+    ]
+  },
+  "budinm500": {
+    "nombre": "Molde de cartón para budín de 500 g"
+  },
+  "brravr": {
+    "nombre": "Bandeja de cartón raviolera 5A",
+    "rubros": [
+      "+rotiserias-y-delivery"
+    ]
+  },
+  "brochx100": {
+    "nombre": "Palitos de brochette 13 cm",
+    "atributos": {
+      "material": "Madera"
+    },
+    "pendientes": [
+      "La descripción vieja dice 10 cm de largo: confirmar la medida."
+    ],
+    "rubros": [
+      "+restaurantes-y-gastronomia"
+    ],
+    "sinonimos": [
+      "pinchos",
+      "palitos de madera",
+      "brochetas"
+    ]
+  },
+  "broch25": {
+    "nombre": "Palitos de brochette 25 cm",
+    "atributos": {
+      "material": "Madera",
+      "largo": "25 cm"
+    },
+    "rubros": [
+      "+restaurantes-y-gastronomia",
+      "+carnicerias-y-supermercados"
+    ],
+    "sinonimos": [
+      "pinchos",
+      "palitos de madera",
+      "brochetas"
+    ]
+  },
+  "broch10": {
+    "nombre": "Palitos de brochette 10 cm",
+    "atributos": {
+      "material": "Madera",
+      "largo": "10 cm"
+    },
+    "rubros": [
+      "+restaurantes-y-gastronomia"
+    ],
+    "sinonimos": [
+      "pinchos",
+      "palitos de madera",
+      "brochetas"
+    ]
+  },
+  "bpp147xf": {
+    "nombre": "Bandeja de PP 147"
+  },
+  "bpp146x100": {
+    "nombre": "Bandeja estuche de PP 146",
+    "pendientes": [
+      "El código termina en X100 y la ficha dice caja de 200: confirmar la presentación."
+    ]
+  },
+  "bpp145": {
+    "nombre": "Bandeja estuche de PP 145"
+  },
+  "bpp143-f": {
+    "nombre": "Bandeja estuche de PP 143"
+  },
+  "bpp142": {
+    "nombre": "Bandeja estuche de PP 142"
+  },
+  "bpp107x100": {
+    "nombre": "Bandeja de PP 107"
+  },
+  "bpp105x100": {
+    "nombre": "Bandeja de PP 105",
+    "pendientes": [
+      "El código termina en X100 y la ficha dice caja de 400: confirmar la presentación."
+    ]
+  },
+  "bpp105rect": {
+    "nombre": "Bandeja de PP 105 rectangular"
+  },
+  "bpp103": {
+    "nombre": "Bandeja de PP 103"
+  },
+  "bpp102": {
+    "nombre": "Bandeja de PP 102"
+  },
+  "bpet147": {
+    "nombre": "Bandeja estuche de PET 147"
+  },
+  "bpet146": {
+    "nombre": "Bandeja estuche de PET 146"
+  },
+  "bpet145": {
+    "nombre": "Bandeja estuche de PET 145"
+  },
+  "bpet143": {
+    "nombre": "Bandeja estuche de PET 143"
+  },
+  "bpet142": {
+    "nombre": "Bandeja estuche de PET 142"
+  },
+  "bpet141": {
+    "nombre": "Bandeja estuche de PET 141"
+  },
+  "bpch": {
+    "nombre": "Bandeja de cartón para pancho chica 14 × 5 × 3,5 cm",
+    "atributos": {
+      "material": "Cartón"
+    },
+    "sinonimos": [
+      "portapancho"
+    ],
+    "categoria": "conos-y-portapanchos",
+    "secundarias": [
+      "bandejas-de-carton"
+    ]
+  },
+  "botella500eco": {
+    "nombre": "Botella transparente 500 ml eco"
+  },
+  "botella250eco": {
+    "nombre": "Botella transparente 250 ml eco"
+  },
+  "botella1leco": {
+    "nombre": "Botella transparente 1 L eco"
+  },
+  "bot1lt": {
+    "nombre": "Botella opaca blanca 1 L"
+  },
+  "bolshx1000": {
+    "nombre": "Bolsa para helado"
+  },
+  "bolsavino": {
+    "nombre": "Bolsa de papel para botella de vino",
+    "categoria": "bolsas-de-papel",
+    "rubros": [
+      "+comercios-y-oficinas"
+    ]
+  },
+  "bolsaroja": {
+    "nombre": "Bolsa roja impresa para residuos biológicos",
+    "atributos": {
+      "medidas": null
+    },
+    "extras": [
+      [
+        "Medidas",
+        "50 × 60 cm y 70 × 100 cm"
+      ]
+    ],
+    "sinonimos": [
+      "residuos patogenicos",
+      "bolsa roja"
+    ]
+  },
+  "bolsaf": {
+    "nombre": "Bolsa de papel para farmacia 16 × 24 cm"
+  },
+  "bobinaxmn": {
+    "nombre": "Bobina tubular de nylon negra"
+  },
+  "bobinax60tr": {
+    "nombre": "Bobina tubular de nylon transparente"
+  },
+  "bno9r": {
+    "nombre": "Bandeja de cartón rectangular N.º 9"
+  },
+  "bno8r": {
+    "nombre": "Bandeja de cartón rectangular N.º 8"
+  },
+  "bno8o": {
+    "nombre": "Bandeja de cartón redonda N.º 8",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno7r": {
+    "nombre": "Bandeja de cartón rectangular N.º 7"
+  },
+  "bno7o": {
+    "nombre": "Bandeja de cartón redonda N.º 7",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno6r": {
+    "nombre": "Bandeja de cartón rectangular N.º 6"
+  },
+  "bno6o": {
+    "nombre": "Bandeja de cartón redonda N.º 6",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno5r": {
+    "nombre": "Bandeja de cartón rectangular N.º 5"
+  },
+  "bno5o": {
+    "nombre": "Bandeja de cartón redonda N.º 5",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno4r": {
+    "nombre": "Bandeja de cartón rectangular N.º 4"
+  },
+  "bno4o": {
+    "nombre": "Bandeja de cartón redonda N.º 4",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno3r": {
+    "nombre": "Bandeja de cartón rectangular N.º 3"
+  },
+  "bno3o": {
+    "nombre": "Bandeja de cartón redonda N.º 3",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno2r": {
+    "nombre": "Bandeja de cartón rectangular N.º 2"
+  },
+  "bno2o": {
+    "nombre": "Bandeja de cartón redonda N.º 2",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno1r": {
+    "nombre": "Bandeja de cartón rectangular N.º 1",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno1o": {
+    "nombre": "Bandeja de cartón redonda N.º 1",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bno10r": {
+    "nombre": "Bandeja de cartón rectangular N.º 10",
+    "atributos": {
+      "material": "Cartón"
+    }
+  },
+  "bl70x100kg": {
+    "nombre": "Bolsa de nylon blanco leche",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "atributos": {
+      "medidas": null
+    },
+    "extras": [
+      [
+        "Medidas",
+        "12 × 20, 12 × 24, 16 × 24, 20 × 30, 24 × 35, 28 × 40, 35 × 50 y 40 × 60 cm"
+      ]
+    ],
+    "pendientes": [
+      "El código dice 70X100 y la descripción vieja lista otras medidas: confirmar cuáles hay."
+    ]
+  },
+  "bl35x50kg": {
+    "nombre": "Bolsa blanco leche para lavadero",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "atributos": {
+      "medidas": null,
+      "material": "Polietileno de alta densidad"
+    },
+    "extras": [
+      [
+        "Medidas",
+        "40 × 60, 50 × 60, 60 × 50, 60 × 60 y 70 × 100 cm"
+      ]
+    ],
+    "rubros": [
+      "-carnicerias-y-supermercados"
+    ]
+  },
+  "bizmar3kg": {
+    "nombre": "Bolsa de papel para bizcochos marrón N.º 3 (para 1 kg)"
+  },
+  "bizmar2kg": {
+    "nombre": "Bolsa de papel para bizcochos marrón N.º 2 (para 1/2 kg)",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo"
+  },
+  "bizmar1kg": {
+    "nombre": "Bolsa de papel para bizcochos marrón N.º 1 (para 1/4 kg)"
+  },
+  "bizimpr": {
+    "nombre": "Bolsa de papel para bizcochos impresa genérica",
+    "atributos": {
+      "material": "Papel kraft"
+    },
+    "extras": [
+      [
+        "Gramaje",
+        "80 g"
+      ],
+      [
+        "Para",
+        "1/2 kg de bizcochos"
+      ]
+    ],
+    "notas": [
+      "Con diseño genérico en marrón."
+    ]
+  },
+  "bizgrkg": {
+    "nombre": "Bolsa de papel kraft para delivery",
+    "extras": [
+      [
+        "Medidas",
+        "N.º 6: 22 × 34 · N.º 8: 28 × 38 · N.º 11: 32 × 28 · N.º 12: 33 × 38 cm"
+      ]
+    ],
+    "rubros": [
+      "+restaurantes-y-gastronomia"
+    ]
+  },
+  "bizblkg": {
+    "nombre": "Bolsa de papel blanca para bizcochos",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo"
+  },
+  "bio50x60-1000": {
+    "nombre": "Bolsa camiseta biocompostable 50 × 60 cm"
+  },
+  "besps1x200": {
+    "nombre": "Estuche de espumaplast S1",
+    "atributos": {
+      "medidas": "20 × 20 × 7 cm"
+    },
+    "sinonimos": [
+      "estuche telgopor",
+      "clamshell"
+    ]
+  },
+  "bespnegra21": {
+    "nombre": "Bandeja de espumaplast 21 negra",
+    "sinonimos": [
+      "bandeja telgopor negra"
+    ]
+  },
+  "bespnegra19": {
+    "nombre": "Bandeja de espumaplast 19 negra (18 × 22 cm)",
+    "sinonimos": [
+      "bandeja telgopor negra"
+    ]
+  },
+  "bespnegra18": {
+    "nombre": "Bandeja de espumaplast 18 negra (15 × 21 cm)",
+    "sinonimos": [
+      "bandeja telgopor negra"
+    ]
+  },
+  "bespnegra17": {
+    "nombre": "Bandeja de espumaplast 17 negra (15 × 15 cm)",
+    "sinonimos": [
+      "bandeja telgopor negra"
+    ]
+  },
+  "bespl1x200": {
+    "nombre": "Estuche de espumaplast L1",
+    "atributos": {
+      "medidas": "24 × 24 cm"
+    },
+    "sinonimos": [
+      "estuche telgopor",
+      "clamshell"
+    ]
+  },
+  "bespamar19": {
+    "nombre": "Bandeja de espumaplast 19 amarilla (18 × 22 cm)",
+    "presentacion": "funda:600",
+    "fuentePresentacion": "descripcion",
+    "atributos": {
+      "medidas": "18 × 22 cm"
+    },
+    "sinonimos": [
+      "bandeja telgopor amarilla"
+    ]
+  },
+  "besp8sx200": {
+    "nombre": "Bandeja de espumaplast 8S (23 × 27 cm)"
+  },
+  "besp690-un": {
+    "nombre": "Bandeja de espumaplast 690",
+    "presentacion": "unidad",
+    "fuentePresentacion": "codigo",
+    "atributos": {
+      "color": "Blanco o negro"
+    },
+    "extras": [
+      [
+        "Funda cerrada",
+        "100 unidades"
+      ]
+    ]
+  },
+  "besp650x200": {
+    "nombre": "Bandeja de espumaplast 650 (24 × 35 cm)",
+    "atributos": {
+      "medidas": "24 × 35 cm"
+    }
+  },
+  "besp625x300": {
+    "nombre": "Bandeja de espumaplast 625"
+  },
+  "besp621x400": {
+    "nombre": "Bandeja de espumaplast 621 (14 × 19 cm)"
+  },
+  "besp618x400": {
+    "nombre": "Bandeja de espumaplast 618 (15 × 21 cm)"
+  },
+  "besp617x400": {
+    "nombre": "Bandeja de espumaplast 617 (14 × 14 cm)"
+  },
+  "besp615x400": {
+    "nombre": "Bandeja de espumaplast 615 (15 × 27 cm)"
+  },
+  "besp18x400": {
+    "nombre": "Bandeja de espumaplast 18 (15 × 21 cm)",
+    "atributos": {
+      "medidas": "15 × 21 cm"
+    }
+  },
+  "besp18profx400": {
+    "nombre": "Bandeja de espumaplast 18 profunda"
+  },
+  "besp17x100": {
+    "nombre": "Bandeja de espumaplast 17 (15 × 15 cm)"
+  },
+  "besp110epx200": {
+    "nombre": "Estuche de espumaplast 110 EP",
+    "sinonimos": [
+      "estuche telgopor",
+      "clamshell"
+    ]
+  },
+  "besp110chx200": {
+    "nombre": "Estuche de espumaplast 110 chico",
+    "sinonimos": [
+      "estuche telgopor",
+      "clamshell"
+    ]
+  },
+  "besp05x200": {
+    "nombre": "Bandeja de espumaplast 05 (29 × 20 cm)",
+    "atributos": {
+      "medidas": "29 × 20 cm"
+    }
+  },
+  "bd9x24kg": {
+    "nombre": "Bolsa de baja densidad natural 9 × 24 cm",
+    "presentacion": "kg"
+  },
+  "bd8x20kg": {
+    "nombre": "Bolsa de baja densidad 8 × 20 cm"
+  },
+  "bd8x15kg": {
+    "nombre": "Bolsa de baja densidad natural 8 × 15 cm",
+    "presentacion": "kg"
+  },
+  "bd80x80kg": {
+    "nombre": "Bolsa de baja densidad natural 80 × 80 cm",
+    "presentacion": "kg"
+  },
+  "bd7x25kg": {
+    "nombre": "Bolsa de baja densidad natural 7 × 25 cm",
+    "presentacion": "kg",
+    "atributos": {
+      "medidas": "7 × 25 cm"
+    }
+  },
+  "bd40x60kg": {
+    "nombre": "Bolsa transparente de baja densidad",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "atributos": {
+      "material": "Polietileno de baja densidad virgen"
+    },
+    "extras": [
+      [
+        "Medidas (ancho × largo)",
+        "6 × 24, 7 × 24, 7 × 15, 8 × 15, 9 × 24, 10 × 15, 10 × 20, 12 × 20, 12 × 24, 16 × 24, 16 × 30, 20 × 30, 24 × 35, 28 × 40, 35 × 50, 40 × 60, 50 × 80, 60 × 90, 70 × 100 y 100 × 120 cm"
+      ]
+    ],
+    "pendientes": [
+      "El código dice 40X60: confirmar si el producto es esa medida o la línea completa."
+    ]
+  },
+  "bc23x17": {
+    "nombre": "Bandeja de cartón 23 × 17 × 3 cm",
+    "atributos": {
+      "medidas": "23 × 17 × 3 cm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "bc20x13": {
+    "nombre": "Bandeja de cartón 20 × 13,5 × 3 cm",
+    "atributos": {
+      "medidas": "20 × 13,5 × 3 cm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "bc18x13": {
+    "nombre": "Bandeja de cartón 180 × 130 × 30 mm",
+    "atributos": {
+      "medidas": "180 × 130 × 30 mm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "bc14x14": {
+    "nombre": "Bandeja de cartón 145 × 145 × 30 mm",
+    "atributos": {
+      "medidas": "145 × 145 × 30 mm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "bc14x10": {
+    "nombre": "Bandeja de cartón 145 × 100 × 30 mm",
+    "presentacion": "consultar",
+    "atributos": {
+      "medidas": "145 × 100 × 30 mm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "bc11x11": {
+    "nombre": "Bandeja de cartón 110 × 110 × 30 mm",
+    "atributos": {
+      "medidas": "110 × 110 × 30 mm"
+    },
+    "rubros": [
+      "+carnicerias-y-supermercados"
+    ]
+  },
+  "basurero96l": {
+    "nombre": "Tarro de basura 96 L con tapa vaivén",
+    "atributos": {
+      "color": "Negro con tapa gris"
+    }
+  },
+  "basurero46l": {
+    "nombre": "Tarro de basura 53 L con tapa vaivén",
+    "atributos": {
+      "color": "Negro con tapa gris"
+    },
+    "pendientes": [
+      "El código dice 46L y el nombre 53 L: confirmar la capacidad."
+    ]
+  },
+  "bandaelast": {
+    "nombre": "Bandas elásticas",
+    "presentacion": "paquete::200 g",
+    "sinonimos": [
+      "gomitas",
+      "elasticos"
+    ]
+  },
+  "band444-c": {
+    "nombre": "Bandeja 444 con base negra y tapa",
+    "atributos": {
+      "color": "Base negra, tapa transparente"
+    }
+  },
+  "band": {
+    "nombre": "Bandeja plástica de colores para desayuno",
+    "categoria": "utensilios-de-cocina",
+    "presentacion": "unidad",
+    "fuentePresentacion": "regla",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ]
+  },
+  "bancoeco": {
+    "nombre": "Banco taburete de plástico",
+    "atributos": {
+      "color": "Marrón oscuro"
+    }
+  },
+  "baln10lt": {
+    "nombre": "Balde negro reforzado 10 L"
+  },
+  "bagkg": {
+    "nombre": "Bolsa de papel para baguette",
+    "presentacion": "kg",
+    "fuentePresentacion": "descripcion",
+    "atributos": {
+      "medidas": "12 × 60 cm, fuelle de 7 cm"
+    },
+    "extras": [
+      [
+        "Unidades por kilo",
+        "75 aprox."
+      ]
+    ]
+  },
+  "babudin500": {
+    "nombre": "Bandeja de aluminio para budín de 500 g"
+  },
+  "babudin250": {
+    "nombre": "Bandeja de aluminio para budín de 250 g"
+  },
+  "b85p": {
+    "nombre": "Bandeja plateada rectangular B85 (29 × 37 cm)"
+  },
+  "b80p": {
+    "nombre": "Bandeja plateada redonda B80 32 cm",
+    "atributos": {
+      "diametro": "32 cm"
+    }
+  },
+  "b70p": {
+    "nombre": "Bandeja plateada rectangular B70 (23 × 33 cm)"
+  },
+  "b65p": {
+    "nombre": "Bandeja plateada rectangular B65 (15 × 33,5 cm)"
+  },
+  "b60p": {
+    "nombre": "Bandeja plateada redonda B60 28 cm",
+    "atributos": {
+      "diametro": "28 cm"
+    }
+  },
+  "b54p": {
+    "nombre": "Bandeja plateada redonda B54 24 cm",
+    "atributos": {
+      "diametro": "24 cm"
+    }
+  },
+  "b50p": {
+    "nombre": "Bandeja plateada redonda B50 22,5 cm",
+    "atributos": {
+      "diametro": "22,5 cm"
+    }
+  },
+  "b45p": {
+    "nombre": "Bandeja plateada rectangular B45 (21 × 28 cm)",
+    "atributos": {
+      "material": "PET"
+    }
+  },
+  "b40p": {
+    "nombre": "Bandeja plateada redonda B40 21 cm",
+    "atributos": {
+      "diametro": "21 cm"
+    }
+  },
+  "b32p": {
+    "nombre": "Bandeja plateada redonda B32 17 cm",
+    "atributos": {
+      "medidas": null,
+      "diametro": "17 cm"
+    }
+  },
+  "avonxun": {
+    "nombre": "Cuadernola Avon tapa flexible 84 hojas",
+    "presentacion": "unidad",
+    "fuentePresentacion": "codigo"
+  },
+  "autocopiantex20": {
+    "nombre": "Nota de pedido duplicada autocopiante"
+  },
+  "atom60ml": {
+    "nombre": "Frasco atomizador perfumero 60 ml"
+  },
+  "atom30ml": {
+    "nombre": "Frasco atomizador perfumero 30 ml"
+  },
+  "atom100ml": {
+    "nombre": "Frasco atomizador perfumero 100 ml"
+  },
+  "ap8x200": {
+    "nombre": "Bandeja blíster AP08",
+    "atributos": {
+      "medidas": "15,5 × 8,1 × 4 cm"
+    }
+  },
+  "ap10x200": {
+    "nombre": "Bandeja blíster AP10"
+  },
+  "antigrasaliso": {
+    "nombre": "Papel antigrasa blanco liso 30 × 40 cm",
+    "categoria": "film-aluminio-y-papel-de-cocina",
+    "sinonimos": [
+      "papel hamburguesa",
+      "papel parafinado"
+    ]
+  },
+  "antigrasa5l": {
+    "nombre": "Antigrasa en bidón",
+    "categoria": "productos-de-limpieza",
+    "presentacion": "unidad",
+    "presentacionTexto": "Bidón",
+    "rubros": [
+      "-rotiserias-y-delivery"
+    ],
+    "pendientes": [
+      "El código (ANTIGRASA5L) sugiere 5 L: confirmar."
+    ],
+    "sinonimos": [
+      "desengrasante"
+    ]
+  },
+  "antigrasa": {
+    "nombre": "Papel antigrasa fantasía 30 × 40 cm",
+    "categoria": "film-aluminio-y-papel-de-cocina",
+    "sinonimos": [
+      "papel hamburguesa",
+      "papel parafinado"
+    ]
+  },
+  "alumay30x100": {
+    "nombre": "Rollo de papel aluminio 30 cm × 100 m Alumay",
+    "atributos": {
+      "medidas": "30 cm × 100 m"
+    },
+    "extras": [
+      [
+        "Espesor",
+        "12 micras"
+      ]
+    ]
+  },
+  "alum40x50": {
+    "nombre": "Rollo de papel aluminio 40 cm × 50 m OP",
+    "atributos": {
+      "medidas": "40 cm × 50 m"
+    }
+  },
+  "alu45x65": {
+    "nombre": "Rollo de papel aluminio 45 cm × 65 m Bompack",
+    "presentacion": "caja:6:rollos",
+    "fuentePresentacion": "descripcion"
+  },
+  "alu30x100": {
+    "nombre": "Rollo de papel aluminio 30 cm × 100 m Bompack"
+  },
+  "algxkg": {
+    "nombre": "Hilo de algodón",
+    "extras": [
+      [
+        "Cono",
+        "1 kg aprox."
+      ]
+    ],
+    "notas": [
+      "Algodón 100 %, para atar paquetes y manualidades."
+    ],
+    "rubros": [
+      "+panaderias-y-confiterias"
+    ]
+  },
+  "alfbano": {
+    "nombre": "Alfombra de baño de PVC"
+  },
+  "alambrex8": {
+    "nombre": "Esponja de alambre",
+    "sinonimos": [
+      "virulana"
+    ]
+  },
+  "ad60x100kg": {
+    "nombre": "Bolsa transparente de alta densidad Papelplast",
+    "categoria": "bolsas-de-nylon-por-kilo",
+    "presentacion": "kg",
+    "fuentePresentacion": "codigo",
+    "extras": [
+      [
+        "Medidas (ancho × largo)",
+        "15 × 80, 20 × 30, 20 × 60, 24 × 35, 28 × 40, 35 × 50, 40 × 60, 50 × 70, 60 × 80 y 60 × 100 cm"
+      ]
+    ],
+    "rubros": [
+      "-comercios-y-oficinas"
+    ],
+    "pendientes": [
+      "El código dice 60X100: confirmar si el producto es esa medida o la línea completa."
+    ]
+  },
+  "acolch-eco": {
+    "nombre": "Tapa de inodoro acolchonada Sanremo"
+  },
+  "acetato": {
+    "nombre": "Lámina de acetato 1 × 0,5 m",
+    "presentacion": "consultar",
+    "atributos": {
+      "medidas": "1 × 0,5 m"
+    }
+  },
+  "ac65": {
+    "nombre": "Rallador de metal chato"
+  },
+  "ac63": {
+    "nombre": "Fuente oval de acero inoxidable 35 cm"
+  },
+  "ac40": {
+    "nombre": "Rallador de metal de 4 caras"
+  },
+  "ac23": {
+    "nombre": "Cernidor para canela"
+  },
+  "ab": {
+    "nombre": "Felpudo Welcome",
+    "categoria": "otros-hogar"
+  },
+  "9ozx100": {
+    "nombre": "Vaso 9 oz (270 cc) con tapa domo",
+    "atributos": {
+      "capacidad": "270 cc (9 oz)"
+    },
+    "notas": [
+      "Vaso transparente con tapa domo con perforación para sorbito."
+    ]
+  },
+  "628x200": {
+    "nombre": "Bandeja redonda de espumaplast 628",
+    "atributos": {
+      "diametro": "32,2 cm"
+    }
+  },
+  "623x300": {
+    "nombre": "Bandeja de espumaplast 623 (23 × 29 cm)",
+    "atributos": {
+      "medidas": "23 × 29 cm"
+    }
+  },
+  "618a-600": {
+    "nombre": "Bandeja de espumaplast 618 amarilla",
+    "atributos": {
+      "material": "Espumaplast (EPS)"
+    },
+    "sinonimos": [
+      "bandeja telgopor amarilla"
+    ]
+  },
+  "59-39": {
+    "nombre": "Rollo térmico para registradora 57 × 39",
+    "presentacion": "paquete:25:rollos",
+    "pendientes": [
+      "El código dice 59/39 y el nombre 57 × 39: confirmar la medida."
+    ]
+  },
+  "53l": {
+    "nombre": "Basurero negro 53 L con tapa vaivén"
+  },
+  "500opaca": {
+    "nombre": "Botella opaca 500 cc"
+  },
+  "44x45t": {
+    "nombre": "Rollo térmico para registradora 44 × 45",
+    "presentacion": "paquete:25:rollos"
+  },
+  "42l": {
+    "nombre": "Tarro para basura o comida de perro 42 L con tapa"
+  },
+  "38x200": {
+    "nombre": "Rollo de film 38 cm × 200 m"
+  },
+  "37r": {
+    "nombre": "Bandeja de espumaplast decorada 47 × 38 cm",
+    "presentacion": "funda:50",
+    "fuentePresentacion": "descripcion",
+    "atributos": {
+      "color": "Blanco"
+    },
+    "rubros": [
+      "+panaderias-y-confiterias",
+      "+eventos-y-cumpleanos"
+    ]
+  },
+  "34371x250": {
+    "nombre": "Toalla intercalada 20 × 23 cm"
+  },
+  "34202un": {
+    "nombre": "Servilleta bocadillo 10 × 20 cm",
+    "presentacion": "paquete:200",
+    "pendientes": [
+      "El nombre original es «xun. (200 und»: confirmar que la unidad de venta es un paquete de 200."
+    ]
+  },
+  "32r": {
+    "nombre": "Bandeja de espumaplast decorada 40 × 33 cm",
+    "presentacion": "consultar",
+    "atributos": {
+      "color": "Blanco"
+    },
+    "rubros": [
+      "+panaderias-y-confiterias",
+      "+eventos-y-cumpleanos"
+    ]
+  },
+  "323x6000": {
+    "nombre": "Toalla Elite 323 (313)"
+  },
+  "3071-400": {
+    "nombre": "Pote cristal con tapa bisagra 500 g",
+    "notas": [
+      "Con tapa abatible."
+    ]
+  },
+  "3050-400": {
+    "nombre": "Pote cristal con tapa bisagra 380 g",
+    "notas": [
+      "Con tapa abatible."
+    ]
+  },
+  "3042-400": {
+    "nombre": "Pote cristal con tapa bisagra 250 g",
+    "notas": [
+      "Con tapa abatible."
+    ]
+  },
+  "2971x800": {
+    "nombre": "Pote petaca cuadrado de PET 440 g"
+  },
+  "2941x1000": {
+    "nombre": "Pote cristal 2941 con tapa bisagra 250 g"
+  },
+  "274gr": {
+    "nombre": "Basurero con pedal 11 L gris"
+  },
+  "26x29": {
+    "nombre": "Bolsa de papel con asa 26 × 29 × 14 cm"
+  },
+  "213gc": {
+    "nombre": "Cómoda de 4 estantes trenzada"
+  },
+  "151mbr": {
+    "nombre": "Cómoda de 4 estantes mármol"
+  },
+  "20p": {
+    "nombre": "Bandeja de espumaplast 20P"
+  },
+  "2020copetinero": {
+    "nombre": "Copetinero de colores"
+  },
+  "110ehmx200": {
+    "nombre": "Estuche de espumaplast para hamburguesa 110EHM",
+    "sinonimos": [
+      "estuche telgopor",
+      "clamshell",
+      "caja hamburguesa"
+    ]
+  },
+  "0818": {
+    "nombre": "Bandeja rectangular para servir 43 × 30 cm marrón",
+    "atributos": {
+      "medidas": "43 × 30 cm"
+    }
+  },
+  "0771": {
+    "nombre": "Papelera negra 10 L con metalizado"
+  },
+  "0382": {
+    "nombre": "Escobilla de inodoro calada",
+    "categoria": "bano"
+  },
+  "budinera": {
+    "nombre": "Budinera de aluminio"
+  },
+  "rollo6185": {
+    "nombre": "Rollo térmico para registradora 61 × 85"
+  },
+  "_categoriasViejas": {
+    "_por_que": "Destino a mano de categorías de la web vieja cuyo nombre pide otra cosa que la cuenta de productos (scripts/catalogo/construir.mjs).",
+    "articulos-de-bano": "bano",
+    "articulos-de-cumple": "reposteria-y-cumpleanos",
+    "bandejas-de-carton": "bandejas-de-carton",
+    "platos": "cubiertos-y-platos"
+  }
+}

@@ -1,0 +1,70 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+!.env.example
+
+# pruebas y reportes
+/test-results/
+/playwright-report/
+/blob-report/
+/.lighthouse/
+/tmp/
+/tests/tmp
+
+# Cloudflare (caché local de wrangler)
+.wrangler/
+
+# Código privado (repo roleran-web-privado): la conexión con el sistema de gestión, el vigía y las
+# notas internas. En GitHub Actions lo trae publicar.yml con una clave de solo lectura; en la PC,
+# `npm run privado` lo copia desde ../web-privado. Nunca se commitea acá.
+/.privado/
+/worker/
+/functions/
+/vigia/
+/wrangler.jsonc
+/wrangler.redireccion.jsonc
+/tests/worker.test.ts
+/scripts/catalogo/sistema.mjs
+/scripts/catalogo/espacio-base.mjs
+/scripts/imagenes/fotos-sistema.mjs
+/scripts/publicar-oculto.vbs
+/docs/
+/screenshots/

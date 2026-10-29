@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es-UY">
+<head>
+<meta charset="utf-8">
+<title>Comparación tipográfica — Roleran</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Archivo+Narrow:wght@500;600;700&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@500;600;700&family=Public+Sans:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=block" rel="stylesheet">
+<style>
+  body { margin: 0; background: #f4f5f1; color: #1b1f1a; font-size: 16px; }
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 24px; }
+  .muestra { background: #fff; border: 1px solid #e3e6df; border-radius: 10px; padding: 20px; }
+  .etq { font: 600 11px/1 monospace; color: #6b7066; text-transform: uppercase; letter-spacing: .08em; margin-bottom: 14px; }
+  h1 { font-size: 34px; line-height: 1.05; margin: 0 0 10px; letter-spacing: -0.01em; }
+  h2 { font-size: 20px; margin: 18px 0 8px; }
+  p { margin: 0 0 10px; line-height: 1.5; color: #3e443b; }
+  .card { display: grid; grid-template-columns: 84px 1fr; gap: 12px; align-items: start; border-top: 1px solid #eceee8; padding-top: 12px; margin-top: 12px; }
+  .ph { width: 84px; height: 84px; background: #f1ece3; border-radius: 6px; }
+  .nombre { font-weight: 600; font-size: 16px; line-height: 1.25; }
+  .chip { display: inline-block; margin-top: 6px; font-size: 12.5px; font-weight: 600; background: #f3e9da; color: #6b4e2e; padding: 3px 8px; border-radius: 4px; }
+  .sku { font-size: 12px; color: #6b7066; margin-left: 6px; font-variant-numeric: tabular-nums; }
+  .btn { display: inline-block; margin-top: 14px; background: #0c6a08; color: #fff; font-weight: 600; padding: 11px 16px; border-radius: 8px; font-size: 15px; }
+  .nums { font-variant-numeric: tabular-nums; font-size: 15px; }
+</style>
+</head>
+<body>
+<div class="grid" id="grid"></div>
+<script>
+const fuentes = [
+  ["A · Archivo ancho 72 + Archivo", "Archivo", "Archivo", "72"],
+  ["B · Barlow Condensed + Barlow 500", "Barlow Condensed", "Barlow", null],
+  ["C · Barlow Condensed + Archivo", "Barlow Condensed", "Archivo", null],
+];
+const g = document.getElementById("grid");
+for (const [etq, titulo, texto, ancho] of fuentes) {
+  const el = document.createElement("div");
+  el.className = "muestra";
+  el.style.fontFamily = `'${texto}', sans-serif`; if (texto==='Barlow') el.style.fontWeight='500';
+  el.innerHTML = `
+    <div class="etq">${etq}</div>
+    <h1 style="font-family:'${titulo}';font-weight:700;${ancho?'font-stretch:'+ancho+'%':''}">Casi todo en descartables, para tu negocio y para tu casa</h1>
+    <p>Bandejas, vasos, bolsas, cajas para pizza y todo lo que necesita una rotisería. Armá tu pedido y te confirmamos precio por WhatsApp.</p>
+    <h2 style="font-family:'${titulo}';font-weight:700;${ancho?'font-stretch:'+ancho+'%':''}">Bandejas de espumaplast</h2>
+    <div class="card"><div class="ph"></div><div>
+      <div class="nombre">Bandeja de espumaplast 625</div>
+      <span class="chip">Funda × 300</span><span class="sku">BESP625X300</span>
+      <div class="nums">215 × 305 × 25 mm · 38 cm × 250 m · 1½ oz (45 cc)</div>
+    </div></div>
+    <div class="card"><div class="ph"></div><div>
+      <div class="nombre">Rollo de bolsas unisold 34 × 50 cm Canmai</div>
+      <span class="chip">Rollo × 750 bolsas</span><span class="sku">UNI35X50C</span>
+    </div></div>
+    <span class="btn">Agregar al pedido</span>`;
+  g.appendChild(el);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "name": "roleran-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/seo/redirecciones.mjs && next build && node scripts/build/segmentos.mjs && node scripts/build/ocultos.mjs && node scripts/build/indexacion.mjs && node scripts/seo/csp.mjs && node scripts/build/sin-nombre.mjs",
+    "lint": "eslint",
+    "datos:descargar": "node scripts/catalogo/descargar.mjs",
+    "imagenes:descargar": "node scripts/imagenes/descargar.mjs",
+    "imagenes:hojas": "node scripts/imagenes/hojas-contacto.mjs",
+    "imagenes": "node scripts/imagenes/procesar.mjs",
+    "catalogo": "node scripts/catalogo/construir.mjs && node scripts/catalogo/documentos.mjs",
+    "test": "vitest run",
+    "pruebas:busqueda": "vitest run tests/busqueda.test.ts --mode doc",
+    "servir": "node scripts/servir.mjs",
+    "verificar:enlaces": "node scripts/qa/enlaces.mjs",
+    "verificar:seo": "node scripts/seo/verificar.mjs",
+    "og": "cross-env PLAYWRIGHT_BROWSERS_PATH=../.pw-browsers node scripts/marca/og.mjs",
+    "lighthouse": "cross-env PLAYWRIGHT_BROWSERS_PATH=../.pw-browsers node scripts/qa/lighthouse.mjs",
+    "fuente": "python scripts/marca/fuente.py",
+    "e2e": "cross-env PLAYWRIGHT_BROWSERS_PATH=../.pw-browsers playwright test",
+    "verificar:contenido": "node scripts/qa/contenido.mjs",
+    "verificar": "node scripts/qa/enlaces.mjs && node scripts/seo/verificar.mjs && node scripts/qa/contenido.mjs && node --no-warnings scripts/qa/datos-web-vieja.mjs",
+    "logo": "node scripts/marca/logo.mjs",
+    "capturas": "cross-env PLAYWRIGHT_BROWSERS_PATH=../.pw-browsers node scripts/diseno/capturas.mjs",
+    "pw:instalar": "cross-env PLAYWRIGHT_BROWSERS_PATH=../.pw-browsers playwright install chromium webkit",
+    "build:cloudflare": "node scripts/cloudflare/build.mjs",
+    "verificar:datos": "node --no-warnings scripts/qa/datos-web-vieja.mjs",
+    "datos:sistema": "node scripts/catalogo/sistema.mjs",
+    "publicar": "node scripts/publicar.mjs",
+    "verificar:dominio": "node scripts/qa/dominio.mjs",
+    "privado": "node scripts/privado.mjs"
+  },
+  "dependencies": {
+    "minisearch": "^7.2.0",
+    "next": "16.4.3",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "ajv": "^8.20.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.3",
+    "lighthouse": "^13.5.0",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "vitest": "^4.1.11",
+    "wrangler": "4.148.0"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}

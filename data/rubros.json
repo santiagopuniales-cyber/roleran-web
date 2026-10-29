@@ -1,0 +1,106 @@
+[
+  {
+    "slug": "rotiserias-y-delivery",
+    "nombre": "Rotiserías y delivery",
+    "titulo": "Envases y descartables para rotiserías y delivery",
+    "intro": "Para despachar comida: bandejas de aluminio con tapa, estuches de espumaplast, potes y dips para salsas, cajas para pizza, hamburguesa y chivito, bolsas, cubiertos, servilletas, guantes y rollos para la registradora.",
+    "primero": [
+      "bandejas-de-aluminio",
+      "envases-pp-y-pet",
+      "cajas-para-pizza",
+      "cajas-para-comidas",
+      "potes-con-tapa"
+    ],
+    "cantidad": 182
+  },
+  {
+    "slug": "panaderias-y-confiterias",
+    "nombre": "Panaderías y confiterías",
+    "titulo": "Envases para panaderías y confiterías",
+    "intro": "Cajas para masas y postres, bandejas de cartón, blondas, rodales, pirotines, moldes de papel, torteras, bolsas para bizcochos y baguettes, envases transparentes para exhibir, guantes y cofias.",
+    "primero": [
+      "cajas-para-masas-y-postres",
+      "bandejas-de-carton",
+      "blondas-rodales-y-bases",
+      "pirotines-y-moldes-de-papel",
+      "envases-pp-y-pet"
+    ],
+    "cantidad": 215
+  },
+  {
+    "slug": "heladerias",
+    "nombre": "Heladerías",
+    "titulo": "Descartables para heladerías",
+    "intro": "Potes térmicos para helado, cucharitas, bolsas para helado, palitos, copones, vasos, sorbitos y servilletas.",
+    "primero": [
+      "potes-termicos-para-helado",
+      "bolsas-impresas",
+      "cubiertos-y-platos"
+    ],
+    "cantidad": 27
+  },
+  {
+    "slug": "carnicerias-y-supermercados",
+    "nombre": "Carnicerías y supermercados",
+    "titulo": "Insumos para carnicerías, almacenes y supermercados",
+    "intro": "Bandejas de espumaplast y plásticas, film, bolsas en rollo y unisold, bolsas para vacío, mallas para carne, papel para envolver, etiquetas de balanza, rotuladoras, números para turnos y cajones.",
+    "primero": [
+      "bandejas-de-espumaplast",
+      "film-aluminio-y-papel-de-cocina",
+      "bolsas-en-rollo",
+      "bolsas-para-vacio",
+      "mallas-y-precintos",
+      "papel-para-envolver"
+    ],
+    "cantidad": 194
+  },
+  {
+    "slug": "restaurantes-y-gastronomia",
+    "nombre": "Restaurantes y gastronomía",
+    "titulo": "Insumos para restaurantes, bares y cafeterías",
+    "intro": "Servilletas y toallas, film y aluminio, guantes y cofias, utensilios, contenedores, vasos para café y tragos, sorbitos, bolsas de residuos y artículos de limpieza para la cocina y el salón.",
+    "primero": [
+      "servilletas",
+      "vasos-plasticos",
+      "vasos-de-polipapel",
+      "copas-y-vasos-para-tragos",
+      "film-aluminio-y-papel-de-cocina",
+      "utensilios-de-cocina"
+    ],
+    "cantidad": 241
+  },
+  {
+    "slug": "eventos-y-cumpleanos",
+    "nombre": "Eventos y cumpleaños",
+    "titulo": "Descartables para eventos y cumpleaños",
+    "intro": "Velas, globos, vasos, copas y shots, platos y cubiertos, servilletas de colores, torteras, cajas para torta y masas, bandejas para tortas, pirotines, carameleras, cajitas para sorpresas, pop, panchos y palitos para copetín.",
+    "primero": [
+      "velas-y-globos",
+      "pirotines-y-moldes-de-papel",
+      "mangas-y-reposteria",
+      "cajas-para-masas-y-postres",
+      "envases-pp-y-pet",
+      "blondas-rodales-y-bases",
+      "bandejas-de-carton",
+      "vasos-plasticos",
+      "copas-y-vasos-para-tragos",
+      "cubiertos-y-platos",
+      "servilletas"
+    ],
+    "cantidad": 205
+  },
+  {
+    "slug": "comercios-y-oficinas",
+    "nombre": "Comercios y oficinas",
+    "titulo": "Embalaje y artículos para comercios y oficinas",
+    "intro": "Rollos para registradora, etiquetas, rotuladoras, notas de pedido, cintas adhesivas, bolsas camiseta y de papel, papel kraft, nylon burbuja y film para embalar.",
+    "primero": [
+      "rollos-y-etiquetas",
+      "papeleria",
+      "rotuladoras-y-turnos",
+      "cintas-adhesivas",
+      "film-para-embalar"
+    ],
+    "cantidad": 105
+  }
+]

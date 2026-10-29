@@ -1,0 +1,76 @@
+# Publica la web con el catálogo del sistema al día, desde la nube (no depende de ninguna PC prendida).
+#  · Solo, unos minutos después de que se edita el catálogo en el sistema: la base del sistema lo nota y
+#    el sistema dispara este flujo (workflow_dispatch). A mano: gh workflow run publicar.yml -f forzar=true
+#  · Una vez por día, por si una publicación falló: 19:30 de Montevideo (22:30 UTC). Si el sistema no
+#    cambió, no publica nada (--si-cambio).
+# Este repo es público (los minutos de Actions no cuentan para la cuota de la cuenta). La conexión con el
+# sistema está en el repo privado roleran-web-privado: se trae con una clave de solo lectura
+# (PRIVADO_DEPLOY_KEY) y no se commitea. Solo el dueño del repo puede disparar este flujo; los PR de
+# afuera nunca lo corren ni ven los secretos.
+name: Publicar
+on:
+  workflow_dispatch:
+    inputs:
+      forzar:
+        description: 'Publicar aunque el catálogo no haya cambiado'
+        type: boolean
+        default: false
+  schedule:
+    - cron: '30 22 * * *'
+    # 1 de enero: publica igual (el año del pie de página sale de la fecha de publicación).
+    - cron: '0 12 1 1 *'
+permissions:
+  contents: write
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/checkout@v5
+        with:
+          repository: santiagopuniales-cyber/roleran-web-privado
+          ssh-key: ${{ secrets.PRIVADO_DEPLOY_KEY }}
+          path: .privado
+          persist-credentials: false
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      # node_modules guardado por versión del package-lock: ahorra el npm ci en cada publicación.
+      - uses: actions/cache@v4
+        id: modulos
+        with:
+          path: node_modules
+          key: modulos-${{ runner.os }}-node22-${{ hashFiles('package-lock.json') }}
+      - if: steps.modulos.outputs.cache-hit != 'true'
+        run: npm ci
+      - name: Código privado
+        run: ROLERAN_PRIVADO=.privado npm run privado && rm -rf .privado
+      - name: Publicar si cambió el catálogo del sistema
+        env:
+          SISTEMA_SUPABASE_URL: ${{ secrets.SISTEMA_SUPABASE_URL }}
+          SISTEMA_SUPABASE_KEY: ${{ secrets.SISTEMA_SUPABASE_KEY }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          ROLERAN_ESTADO: ${{ runner.temp }}/estado
+          # «si» = publicar siempre para www.roleran.com.uy (ver scripts/publicar.mjs).
+          SITIO_EN_DOMINIO: ${{ vars.SITIO_EN_DOMINIO }}
+        run: |
+          git config user.name "roleran-publicar"
+          git config user.email "publicar@users.noreply.github.com"
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::warning::Falta el secreto CLOUDFLARE_API_TOKEN: se arma y se prueba todo, pero no se publica."
+            npm run publicar -- --sin-publicar
+          elif [ "${{ inputs.forzar }}" = "true" ] || [ "${{ github.event.schedule }}" = "0 12 1 1 *" ]; then
+            npm run publicar
+          else
+            npm run publicar -- --si-cambio
+          fi
+      - name: Espacio de la base del sistema
+        env:
+          SISTEMA_SUPABASE_URL: ${{ secrets.SISTEMA_SUPABASE_URL }}
+          SISTEMA_SUPABASE_KEY: ${{ secrets.SISTEMA_SUPABASE_KEY }}
+        run: node scripts/catalogo/espacio-base.mjs

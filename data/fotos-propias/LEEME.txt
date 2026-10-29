@@ -1,0 +1,5 @@
+Fotos propias del local, para la web.
+
+Se cargan desde el sistema: ficha del producto → «Fotos para la web». Al publicar la web
+(scripts/imagenes/fotos-sistema.mjs) se bajan acá y se generan sus versiones; lo que se borra en el
+sistema se borra acá. No pongas archivos a mano en esta carpeta: se borran en la próxima publicación.
