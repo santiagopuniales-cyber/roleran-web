@@ -8,6 +8,9 @@ import type { DatosCliente, Pedido, RenglonPedido } from "./whatsapp";
 const CLAVE = "roleran:pedido:v1";
 // Desde la v2 el código lo da el sistema; los códigos inventados por el navegador (v1) se descartan.
 const VERSION = 2;
+// Una cotización ya mandada que nadie toca hace un día se da por terminada: la próxima visita arranca vacía
+// (pedido de Santi, 31/10). La que no se mandó se guarda siempre, para terminarla otro día.
+const UN_DIA = 24 * 60 * 60 * 1000;
 
 const VACIO: Pedido = {
   codigo: "",
@@ -25,15 +28,18 @@ function leer(): Pedido {
   try {
     const crudo = window.localStorage.getItem(CLAVE);
     if (!crudo) return VACIO;
-    const p = JSON.parse(crudo) as Partial<Pedido> & { v?: number };
+    const p = JSON.parse(crudo) as Partial<Pedido> & { v?: number; tocado?: number };
     const delSistema = p.v === VERSION;
     if (!Array.isArray(p.renglones)) return VACIO;
+    const cliente = { ...VACIO.cliente, ...(p.cliente ?? {}) };
+    // Los datos de quien pide (nombre, RUT, dirección) se quedan: la próxima vez no los tiene que escribir.
+    if (delSistema && p.enviado && typeof p.tocado === "number" && Date.now() - p.tocado > UN_DIA) return { ...VACIO, cliente };
     return {
       codigo: delSistema && typeof p.codigo === "string" ? p.codigo : "",
       enviado: delSistema && typeof p.enviado === "string" ? p.enviado : "",
       renglones: p.renglones.filter((r) => r?.producto?.id && Number(r.cantidad) > 0),
       notaGeneral: typeof p.notaGeneral === "string" ? p.notaGeneral : "",
-      cliente: { ...VACIO.cliente, ...(p.cliente ?? {}) },
+      cliente,
     };
   } catch {
     return VACIO;
@@ -42,7 +48,7 @@ function leer(): Pedido {
 
 function guardar() {
   try {
-    window.localStorage.setItem(CLAVE, JSON.stringify({ ...estado, v: VERSION }));
+    window.localStorage.setItem(CLAVE, JSON.stringify({ ...estado, v: VERSION, tocado: Date.now() }));
   } catch {
     // almacenamiento bloqueado o lleno: el pedido sigue en memoria
   }

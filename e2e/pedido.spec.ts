@@ -193,3 +193,25 @@ test("consultar un producto por WhatsApp", async ({ page }) => {
   expect(texto).toContain("Vaso 550 cc (Cód. V550X1000)");
   expect(texto).toMatch(/https:\/\/[^/\s]+\/productos\/vaso-550-cc\//);
 });
+
+test("una cotización mandada y sin tocar hace un día arranca vacía; sin mandar se guarda", async ({ page }) => {
+  const renglon = { producto: { id: "vaso-550", slug: "vaso-550-cc", nombre: "Vaso 550", sku: null, presentacion: "Por unidad", imagen: null, placeholder: "caja", paso: 1, minimo: 1 }, cantidad: 5, nota: "" };
+  const cliente = { nombre: "Ana", empresa: "", rut: "", entrega: "retiro", direccion: "" };
+  const guardado = (enviado: string, horas: number) => JSON.stringify({ v: 2, codigo: "R-TEST", enviado, renglones: [renglon], notaGeneral: "", cliente, tocado: Date.now() - horas * 3600_000 });
+
+  // Mandada hace 25 h: vacía, pero se acuerda del nombre.
+  await page.addInitScript((v) => { if (!sessionStorage.getItem("ya")) { sessionStorage.setItem("ya", "1"); localStorage.setItem("roleran:pedido:v1", v); } }, guardado("huella", 25));
+  await page.goto("/pedido/");
+  await expect(page.getByText("Tu cotización está vacía")).toBeVisible();
+  expect(JSON.parse((await page.evaluate(() => localStorage.getItem("roleran:pedido:v1"))) ?? "{}").cliente?.nombre ?? "Ana").toBe("Ana");
+
+  // Sin mandar, aunque pase el día, sigue ahí.
+  await page.evaluate((v) => localStorage.setItem("roleran:pedido:v1", v), guardado("", 25));
+  await page.reload();
+  await expect(page.getByRole("link", { name: "Vaso 550", exact: true })).toBeVisible();
+
+  // Mandada hace un rato: sigue ahí.
+  await page.evaluate((v) => localStorage.setItem("roleran:pedido:v1", v), guardado("huella", 2));
+  await page.reload();
+  await expect(page.getByRole("link", { name: "Vaso 550", exact: true })).toBeVisible();
+});
