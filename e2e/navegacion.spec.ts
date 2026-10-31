@@ -3,7 +3,9 @@ import { esMovil, expect, test } from "./base";
 test("inicio: título, buscador, categorías y sin errores", async ({ page, errores }) => {
   await page.goto("/");
   await expect(page.getByRole("heading", { level: 1 })).toContainText("Casi todo en descartables");
-  await expect(page.getByRole("link", { name: /Pedir por WhatsApp/ }).first()).toHaveAttribute("href", /^https:\/\/wa\.me\/59893626134/);
+  // El llamado principal es armar la cotización, no ir a WhatsApp sin lista.
+  await expect(page.locator("main").getByRole("link", { name: "Armar mi cotización" })).toHaveAttribute("href", "/productos/");
+  await expect(page.locator("main").getByRole("link", { name: /Pedir por WhatsApp/ })).toHaveCount(0);
   await expect(page.locator("main").getByRole("heading", { name: "Categorías" })).toBeVisible();
   expect(errores).toEqual([]);
 });

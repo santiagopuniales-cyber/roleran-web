@@ -1,4 +1,3 @@
-import { BotonWhatsApp } from "@/components/BotonWhatsApp";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BloqueUbicacion, ComoPedir, FranjaConfianza, GrillaCategorias } from "@/components/bloques";
@@ -6,7 +5,8 @@ import { Buscador } from "@/components/encabezado/Buscador";
 import { ImagenProducto } from "@/components/ImagenProducto";
 import { JsonLd } from "@/components/JsonLd";
 import { TarjetaProducto } from "@/components/TarjetaProducto";
-import { TituloSeccion } from "@/components/ui";
+import { IconoPedido } from "@/components/iconos";
+import { claseBoton, TituloSeccion } from "@/components/ui";
 import { SITIO } from "@/config/sitio";
 import { obtenerProductoPorId, obtenerRubros, productosDestacados, totalProductos } from "@/lib/catalogo";
 import { canonica, compartir, datosNegocio } from "@/lib/seo";
@@ -43,8 +43,8 @@ export default function Inicio() {
               Casi todo en descartables, para tu negocio y para tu casa
             </h1>
             <p className="mt-4 max-w-xl text-lg text-tinta-suave">
-              Distribuidora en {SITIO.direccion.ciudad}: bandejas, vasos, bolsas, cajas, potes, film y artículos de limpieza. Armá tu lista acá
-              o mandala por WhatsApp: te pasamos precio y disponibilidad.
+              Distribuidora en {SITIO.direccion.ciudad}: bandejas, vasos, bolsas, cajas, potes, film y artículos de limpieza. Buscá lo que
+              necesitás, sumalo a tu cotización y mandala con un toque: te pasamos precio y disponibilidad.
             </p>
             <div className="mt-6 hidden max-w-xl md:block">
               <Buscador grande />
@@ -59,9 +59,11 @@ export default function Inicio() {
               ))}
             </ul>
             <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
-              <BotonWhatsApp mensaje="Quiero hacer un pedido:" tamano="grande">
-                Pedir por WhatsApp
-              </BotonWhatsApp>
+              {/* El llamado principal es armar la cotización en la web (pedido de Roleran, 31/10): un botón de
+                  WhatsApp acá llevaba al chat sin lista y el pedido llegaba suelto. WhatsApp queda para dudas. */}
+              <Link href="/productos/" className={claseBoton("primario", "grande")}>
+                <IconoPedido tamano={22} /> Armar mi cotización
+              </Link>
               <Link href="/productos/" className="-my-2.5 inline-block py-2.5 font-semibold text-verde underline-offset-4 hover:underline">
                 Ver los {totalProductos()} productos →
               </Link>
