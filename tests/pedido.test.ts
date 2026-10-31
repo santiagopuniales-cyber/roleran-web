@@ -79,11 +79,23 @@ describe("enlace de WhatsApp", () => {
     expect(t).toBe("Hola, Roleran S.A. Quiero cotizar estos productos (R-7K2):\n\n1) 3 × Vaso 550 cc (Paquete × 1.000) · Cód. V550X1000\n\n¿Me pasan precio y disponibilidad? Gracias.");
   });
 
-  test("pedido demasiado largo: sin URL, con el texto para copiar", () => {
+  test("pedido largo con código: WhatsApp se abre igual, con los primeros productos y el código para el resto", () => {
     const largo: Pedido = { ...PEDIDO, renglones: Array.from({ length: 60 }, (_, i) => ({ ...PEDIDO.renglones[0], producto: { ...PEDIDO.renglones[0].producto, sku: `SKU${i}` } })) };
     const r = urlPedido(largo);
-    expect(r.url).toBeNull();
+    expect(r.url).not.toBeNull();
+    expect(r.url!.length).toBeLessThanOrEqual(LIMITE_URL_WHATSAPP);
+    const enviado = new URL(r.url!).searchParams.get("text")!;
+    expect(enviado).toContain("Quiero cotizar estos productos (R-7K2):");
+    expect(enviado).toMatch(/\n…y \d+ productos más: la lista completa la tienen con el código R-7K2\.\n/);
+    expect(enviado).toContain("Entrega: envío a Av. Italia 1234, apto 5");
+    // «Copiar lista» sigue copiando todo.
     expect(r.texto).toContain("60) 3 × Vaso 550 cc");
+  });
+
+  test("pedido demasiado largo sin código (el sistema no respondió): sin URL, con el texto para copiar", () => {
+    const largo: Pedido = { ...PEDIDO, codigo: "", renglones: Array.from({ length: 60 }, (_, i) => ({ ...PEDIDO.renglones[0], producto: { ...PEDIDO.renglones[0].producto, sku: `SKU${i}` } })) };
+    const r = urlPedido(largo);
+    expect(r.url).toBeNull();
     expect(urlWhatsApp(r.texto).length).toBeGreaterThan(LIMITE_URL_WHATSAPP);
   });
 

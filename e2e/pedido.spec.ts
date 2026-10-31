@@ -76,7 +76,7 @@ test("vaciar pide confirmación en la página", async ({ page }) => {
   await expect(page.getByText(/Tu cotización está vacía/)).toBeVisible();
 });
 
-test("pedido muy largo: copiar en vez de abrir WhatsApp", async ({ page, context }) => {
+test("pedido muy largo sin código del sistema: copiar en vez de abrir WhatsApp", async ({ page, context }) => {
   await context.grantPermissions(["clipboard-read", "clipboard-write"]).catch(() => {});
   const renglones = Array.from({ length: 45 }, (_, i) => ({
     producto: { id: `p${i}`, slug: "vaso-550-cc", nombre: `Producto de prueba número ${i} con un nombre largo`, sku: `SKU${i}`, presentacion: "Paquete × 100", imagen: null, placeholder: "vaso", paso: 1, minimo: 1 },

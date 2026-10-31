@@ -45,14 +45,17 @@ export function textoRenglon({ producto, cantidad }: RenglonPedido): string {
   return `${formatearCantidad(cantidad)} × ${producto.nombre} (${detalle})${codigo}`;
 }
 
-export function armarMensaje(pedido: Pedido): string {
+/** `hasta`: cuántos renglones escribir; el resto se nombra por el código (la lista entera ya está en el sistema). */
+export function armarMensaje(pedido: Pedido, hasta = pedido.renglones.length): string {
   const l: string[] = [];
   l.push(`${SALUDO} Quiero cotizar estos productos${pedido.codigo ? ` (${pedido.codigo})` : ""}:`);
   l.push("");
-  pedido.renglones.forEach((r, i) => {
+  pedido.renglones.slice(0, hasta).forEach((r, i) => {
     l.push(`${i + 1}) ${textoRenglon(r)}`);
     if (r.nota.trim()) l.push(`   Nota: ${r.nota.trim()}`);
   });
+  const resto = pedido.renglones.length - hasta;
+  if (resto > 0) l.push(`…y ${resto === 1 ? "1 producto más" : `${resto} productos más`}: la lista completa la tienen con el código ${pedido.codigo}.`);
   if (pedido.notaGeneral.trim()) {
     l.push("");
     l.push(`Nota: ${pedido.notaGeneral.trim()}`);
@@ -85,11 +88,22 @@ export function urlWhatsApp(texto?: string): string {
   return texto ? `${base}?text=${encodeURIComponent(texto)}` : base;
 }
 
-/** Devuelve la URL con el texto, o null si queda demasiado larga para abrirse de forma confiable. */
+/**
+ * La URL de WhatsApp y el texto completo (para «Copiar lista»). Si la lista no entra en el enlace y hay
+ * código, el mensaje lleva los primeros productos y el resto se nombra por el código: el sistema ya
+ * tiene la lista entera (pedido de Santi, 31/10: un pedido grande no se podía mandar por WhatsApp).
+ * Sin código (el sistema no respondió) y muy largo: null, y queda «Copiar lista».
+ */
 export function urlPedido(pedido: Pedido): { url: string | null; texto: string } {
   const texto = armarMensaje(pedido);
   const url = urlWhatsApp(texto);
-  return { url: url.length <= LIMITE_URL_WHATSAPP ? url : null, texto };
+  if (url.length <= LIMITE_URL_WHATSAPP) return { url, texto };
+  if (!pedido.codigo) return { url: null, texto };
+  for (let hasta = pedido.renglones.length - 1; hasta >= 0; hasta--) {
+    const corto = urlWhatsApp(armarMensaje(pedido, hasta));
+    if (corto.length <= LIMITE_URL_WHATSAPP) return { url: corto, texto };
+  }
+  return { url: null, texto };
 }
 
 export function mensajeConsulta(nombre: string, sku: string | null, url: string): string {
