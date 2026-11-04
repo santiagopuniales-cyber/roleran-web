@@ -22,13 +22,14 @@ export function itemsExplorador(): ItemExplorador[] {
   }));
 }
 
-/** Orden por defecto: por categoría (orden de la taxonomía), primero con foto, y por nombre. */
+/** Orden por defecto: primero todos los que tienen foto (sin huecos al bajar), después por categoría
+ * (orden de la taxonomía) y por nombre. Los que no tienen foto quedan al final, en el mismo orden. */
 export function ordenarPorRelevancia(items: ItemExplorador[], ordenCategoria: Record<string, number>): ItemExplorador[] {
   return [...items].sort(
     (a, b) =>
+      Number(!a.imagen) - Number(!b.imagen) ||
       (ordenCategoria[a.raiz] ?? 99) - (ordenCategoria[b.raiz] ?? 99) ||
       (ordenCategoria[a.sub] ?? 99) - (ordenCategoria[b.sub] ?? 99) ||
-      Number(!a.imagen) - Number(!b.imagen) ||
       a.nombre.localeCompare(b.nombre, "es", { numeric: true }),
   );
 }

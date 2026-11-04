@@ -6,7 +6,7 @@ import { FilaProducto } from "@/components/FilaProducto";
 import { JsonLd } from "@/components/JsonLd";
 import { Migas } from "@/components/Migas";
 import { SITIO } from "@/config/sitio";
-import { obtenerCategoria, obtenerCategorias, obtenerRubro, obtenerRubros, productosDeRubro } from "@/lib/catalogo";
+import { obtenerCategoria, obtenerCategorias, obtenerRubro, obtenerRubros, productosDeRubro, sinFoto } from "@/lib/catalogo";
 import { canonica, compartir, recortar } from "@/lib/seo";
 import type { Producto } from "@/lib/tipos";
 
@@ -43,7 +43,7 @@ export default async function PaginaRubro({ params }: PageProps<"/rubros/[slug]"
   }
   const prioridad = (slug: string) => (rubro.primero.includes(slug) ? rubro.primero.indexOf(slug) : rubro.primero.length);
   const lista = [...grupos.entries()]
-    .map(([cat, ps]) => ({ cat: obtenerCategoria(cat)!, ps: ps.sort((a, b) => a.nombre.localeCompare(b.nombre, "es", { numeric: true })) }))
+    .map(([cat, ps]) => ({ cat: obtenerCategoria(cat)!, ps: ps.sort((a, b) => sinFoto(a) - sinFoto(b) || a.nombre.localeCompare(b.nombre, "es", { numeric: true })) }))
     .sort((a, b) => {
       const ra = a.cat.padre ? orden[a.cat.padre] : a.cat.orden;
       const rb = b.cat.padre ? orden[b.cat.padre] : b.cat.orden;

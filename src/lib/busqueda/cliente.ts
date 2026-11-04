@@ -68,6 +68,26 @@ function aResultado(r: SearchResult): Resultado {
   };
 }
 
+/**
+ * Primero los que tienen foto, sin perder relevancia. Los resultados se separan en dos grupos: los que
+ * encajan casi tan bien como el mejor (70 % de su puntaje o más) y el resto; dentro de cada grupo van
+ * primero los que tienen foto. Así el producto claramente buscado queda arriba aunque no tenga foto
+ * («cono papas» → «Cono para papas fritas»), y entre parecidos («pote 250») suben los que se ven.
+ * Si la búsqueda cayó a «alguna palabra», antes que nada va el que encontró más palabras.
+ */
+const PARECIDO_AL_MEJOR = 0.7;
+function primeroConFoto(resultados: SearchResult[]): SearchResult[] {
+  const mejor = resultados[0]?.score ?? 0;
+  const grupo = (r: SearchResult) => (r.score >= mejor * PARECIDO_AL_MEJOR ? 0 : 1);
+  return [...resultados].sort(
+    (a, b) =>
+      b.queryTerms.length - a.queryTerms.length ||
+      grupo(a) - grupo(b) ||
+      Number(!a.imagen) - Number(!b.imagen) ||
+      b.score - a.score,
+  );
+}
+
 export function buscar({ ms, codigos }: Datos, consulta: string, limite = 50): Resultado[] {
   const q = consulta.trim();
   if (!q) return [];
@@ -78,6 +98,7 @@ export function buscar({ ms, codigos }: Datos, consulta: string, limite = 50): R
   const exacto = pareceCodigo ? codigos[codigo] : undefined;
   // Si ningún producto tiene todas las palabras, se aceptan los que tengan alguna (salvo que sea un código exacto).
   if (resultados.length === 0 && !exacto) resultados = ms.search(q, { ...opciones, combineWith: "OR" });
+  resultados = primeroConFoto(resultados);
 
   // Código exacto o prefijo de código: va primero.
   if (pareceCodigo) {

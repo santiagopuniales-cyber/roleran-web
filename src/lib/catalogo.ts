@@ -16,6 +16,8 @@ const porId = new Map(PRODUCTOS.map((p) => [p.id, p]));
 const catPorSlug = new Map(CATEGORIAS.map((c) => [c.slug, c]));
 
 const comparar = (a: Producto, b: Producto) => a.nombre.localeCompare(b.nombre, "es", { numeric: true });
+/** Los que tienen foto van antes que los que no (en listados, para que no queden huecos al bajar). */
+export const sinFoto = (p: Pick<Producto, "imagenes">) => Number(!p.imagenes.length);
 
 // ── Productos ────────────────────────────────────────────────────────────────
 export function obtenerProductos(): Producto[] {
@@ -30,13 +32,13 @@ export function obtenerProductoPorId(id: string): Producto | undefined {
   return porId.get(id);
 }
 
-/** Productos de una categoría (incluye subcategorías y categorías secundarias). */
+/** Productos de una categoría (incluye subcategorías y categorías secundarias). Primero los que tienen foto. */
 export function productosDeCategoria(slug: string): Producto[] {
   const cat = catPorSlug.get(slug);
   if (!cat) return [];
   const slugs = new Set([slug, ...cat.hijos]);
   return PRODUCTOS.filter((p) => slugs.has(p.categoria) || p.categoriasSecundarias.some((s) => slugs.has(s))).sort(
-    (a, b) => ordenCategoria(a, slugs) - ordenCategoria(b, slugs) || comparar(a, b),
+    (a, b) => sinFoto(a) - sinFoto(b) || ordenCategoria(a, slugs) - ordenCategoria(b, slugs) || comparar(a, b),
   );
 }
 
