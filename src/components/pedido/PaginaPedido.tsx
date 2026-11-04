@@ -1,5 +1,5 @@
 "use client";
-// Página «Mi lista»: renglones, notas, datos opcionales y pedido de cotización por WhatsApp.
+// Página «Mi lista»: renglones, notas, datos del cliente (ninguno obligatorio salvo retiro o envío) y pedido de cotización por WhatsApp.
 import { BotonWhatsApp } from "@/components/BotonWhatsApp";
 import Link from "next/link";
 import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
@@ -222,11 +222,11 @@ export function PaginaPedido() {
           </h2>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
             <label className="block">
-              <span className="mb-1.5 block text-sm font-semibold">Nombre <span className="font-normal text-tinta-tenue">(opcional)</span></span>
+              <span className="mb-1.5 block text-sm font-semibold">Nombre</span>
               <input className={campo} autoComplete="name" value={p.cliente.nombre} onChange={(e) => pedido.cliente({ nombre: e.target.value })} />
             </label>
             <label className="block">
-              <span className="mb-1.5 block text-sm font-semibold">Empresa o comercio <span className="font-normal text-tinta-tenue">(opcional)</span></span>
+              <span className="mb-1.5 block text-sm font-semibold">Empresa o comercio</span>
               <input className={campo} autoComplete="organization" value={p.cliente.empresa} onChange={(e) => pedido.cliente({ empresa: e.target.value })} />
             </label>
             <label className="block">
