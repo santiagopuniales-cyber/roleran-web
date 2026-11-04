@@ -39,7 +39,7 @@ for (const ancho of ANCHOS) {
     for (const ruta of PAGINAS) {
       await page.goto(ruta);
       await page.waitForLoadState("networkidle");
-      // Con un producto agregado aparecen el selector de cantidad y el aviso «En tu cotización».
+      // Con un producto agregado aparecen el selector de cantidad y el aviso «En tu lista».
       const agregar = page.getByRole("button", { name: /Agregar/ }).first();
       if (await agregar.isVisible().catch(() => false)) await agregar.click();
       for (const t of await partidos(page)) encontrados.push(`${ruta}: ${t}`);

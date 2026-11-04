@@ -1,4 +1,4 @@
-// Encabezado: datos de contacto arriba, logo + buscador + «Cotización», y categorías.
+// Encabezado: datos de contacto arriba, logo + buscador + «Mi lista», y categorías.
 import Link from "next/link";
 import { SITIO } from "@/config/sitio";
 import { categoriasRaiz } from "@/lib/catalogo";

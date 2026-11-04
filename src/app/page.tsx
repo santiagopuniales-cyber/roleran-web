@@ -44,7 +44,7 @@ export default function Inicio() {
             </h1>
             <p className="mt-4 max-w-xl text-lg text-tinta-suave">
               Distribuidora en {SITIO.direccion.ciudad}: bandejas, vasos, bolsas, cajas, potes, film y artículos de limpieza. Buscá lo que
-              necesitás, sumalo a tu cotización y mandala con un toque: te pasamos precio y disponibilidad.
+              necesitás, sumalo a tu lista y mandala con un toque: te pasamos precio y disponibilidad.
             </p>
             <div className="mt-6 hidden max-w-xl md:block">
               <Buscador grande />
@@ -59,10 +59,10 @@ export default function Inicio() {
               ))}
             </ul>
             <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
-              {/* El llamado principal es armar la cotización en la web (pedido de Roleran, 31/10): un botón de
+              {/* El llamado principal es armar la lista en la web (pedido de Roleran, 31/10): un botón de
                   WhatsApp acá llevaba al chat sin lista y el pedido llegaba suelto. WhatsApp queda para dudas. */}
               <Link href="/productos/" className={claseBoton("primario", "grande")}>
-                <IconoPedido tamano={22} /> Armar mi cotización
+                <IconoPedido tamano={22} /> Armar mi lista
               </Link>
               <Link href="/productos/" className="-my-2.5 inline-block py-2.5 font-semibold text-verde underline-offset-4 hover:underline">
                 Ver los {totalProductos()} productos →

@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 const PREGUNTAS: { p: string; r: string; enlace?: { href: string; texto: string } }[] = [
   {
     p: "¿Cómo hago un pedido?",
-    r: "Agregá los productos a la cotización desde la web y tocá «Pedir cotización por WhatsApp», o mandanos tu lista directamente por WhatsApp. Te pasamos el precio y la disponibilidad de cada producto y, si te sirve, coordinamos el retiro o el envío.",
-    enlace: { href: "/pedido/", texto: "Ir a la cotización" },
+    r: "Agregá los productos a tu lista desde la web y tocá «Pedir cotización por WhatsApp», o mandanos tu lista directamente por WhatsApp. Te pasamos el precio y la disponibilidad de cada producto y, si te sirve, coordinamos el retiro o el envío.",
+    enlace: { href: "/pedido/", texto: "Ir a mi lista" },
   },
   {
     p: "¿Venden por unidad?",
@@ -42,7 +42,7 @@ const PREGUNTAS: { p: string; r: string; enlace?: { href: string; texto: string 
     r: "En efectivo o por transferencia bancaria. Si querés pagar con cheque, consultanos.",
   },
   ...(BANDERAS.MOSTRAR_FACTURA_RUT
-    ? [{ p: "¿Facturan con RUT?", r: "Sí, hacemos factura electrónica a nombre de tu empresa. Pasanos el RUT y la razón social junto con el pedido (en la cotización hay un lugar para el RUT)." }]
+    ? [{ p: "¿Facturan con RUT?", r: "Sí, hacemos factura electrónica a nombre de tu empresa. Pasanos el RUT y la razón social junto con el pedido (en tu lista hay un lugar para el RUT)." }]
     : []),
   {
     p: "¿Cuál es el horario?",

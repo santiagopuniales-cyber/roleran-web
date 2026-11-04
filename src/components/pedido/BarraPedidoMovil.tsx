@@ -1,5 +1,5 @@
 "use client";
-// Barra fija abajo en el celular cuando hay productos en la cotización.
+// Barra fija abajo en el celular cuando hay productos en la lista.
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IconoChat } from "@/components/iconos";
@@ -19,7 +19,7 @@ export function BarraPedidoMovil() {
           className="flex h-13 items-center justify-between rounded-control bg-verde px-4 [@media(max-height:500px)]:h-11 font-semibold text-white shadow-[inset_0_-2px_0_rgb(0_0_0/0.12)] active:bg-verde-oscuro"
         >
           <span>
-            Cotización <span className="numeros">({n})</span>
+            Mi lista <span className="numeros">({n})</span>
           </span>
           <span className="flex items-center gap-2">
             Revisar y pedir <IconoChat tamano={20} />

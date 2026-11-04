@@ -32,5 +32,5 @@ test("ver más productos", async ({ page }) => {
 test("rubro: lista compacta con botón para agregar", async ({ page }) => {
   await page.goto("/rubros/heladerias/");
   await page.getByRole("button", { name: /^Agregar/ }).first().click();
-  await expect(page.getByRole("link", { name: /Cotización 1 producto/ }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: /Mi lista 1 producto/ }).first()).toBeVisible();
 });

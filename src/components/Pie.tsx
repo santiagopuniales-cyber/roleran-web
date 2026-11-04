@@ -76,7 +76,7 @@ export function Pie() {
           <h2 className="mb-3 text-lg text-white">{SITIO.nombre}</h2>
           <ul className="space-y-0 text-sm md:space-y-2">
             <li><Link href="/productos/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Todos los productos</Link></li>
-            <li><Link href="/pedido/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Cotización</Link></li>
+            <li><Link href="/pedido/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Mi lista</Link></li>
             <li><Link href="/nosotros/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Nosotros</Link></li>
             <li><Link href="/contacto/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Contacto y cómo llegar</Link></li>
             <li><Link href="/preguntas-frecuentes/" className="flex min-h-10 items-center hover:text-white hover:underline md:inline md:min-h-0">Preguntas frecuentes</Link></li>

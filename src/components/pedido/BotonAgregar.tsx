@@ -18,7 +18,7 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
   if (renglon) {
     return (
       // El aviso va siempre abajo del selector y en un renglón: al costado no entraba en las tarjetas
-      // angostas y se partía en dos («En tu / cotización»).
+      // angostas y se partía en dos («En tu / cotización», cuando se llamaba así).
       <div className="flex flex-col items-start gap-1">
         <SelectorCantidad
           compacto
@@ -30,12 +30,12 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
           onCambio={(n) => {
             if (n <= 0 || n < producto.minimo) {
               pedido.quitar(producto.id);
-              anunciar(`${producto.nombre}: quitado de la cotización`);
+              anunciar(`${producto.nombre}: quitado de la lista`);
             } else pedido.cambiarCantidad(producto.id, n);
           }}
         />
         <span className={`items-center gap-1 whitespace-nowrap text-xs font-semibold text-verde ${recien ? "inline-flex" : "sr-only"}`} aria-hidden={!recien}>
-          <IconoCheck tamano={14} /> En tu cotización
+          <IconoCheck tamano={14} /> En tu lista
         </span>
       </div>
     );
@@ -47,11 +47,11 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
       onClick={() => {
         pedido.agregar(producto, producto.minimo);
         setRecien(true);
-        anunciar(`${producto.nombre}: agregado a la cotización`);
+        anunciar(`${producto.nombre}: agregado a la lista`);
         evento("add_to_cart", { items: [{ item_id: producto.sku ?? producto.id, item_name: producto.nombre, quantity: producto.minimo }] });
       }}
     >
-      <IconoMas tamano={compacto ? 20 : 16} /> <span className={compacto ? "sr-only sm:not-sr-only" : ""}>Agregar</span> <span className="sr-only">{producto.nombre} a la cotización</span>
+      <IconoMas tamano={compacto ? 20 : 16} /> <span className={compacto ? "sr-only sm:not-sr-only" : ""}>Agregar</span> <span className="sr-only">{producto.nombre} a la lista</span>
     </button>
   );
 }

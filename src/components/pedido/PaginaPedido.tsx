@@ -1,5 +1,5 @@
 "use client";
-// Página «Cotización»: renglones, notas, datos opcionales y pedido de cotización por WhatsApp.
+// Página «Mi lista»: renglones, notas, datos opcionales y pedido de cotización por WhatsApp.
 import { BotonWhatsApp } from "@/components/BotonWhatsApp";
 import Link from "next/link";
 import { useEffect, useId, useRef, useState, useSyncExternalStore } from "react";
@@ -66,8 +66,8 @@ export function PaginaPedido() {
   if (!montado) {
     return (
       <>
-        <h1 className="sr-only">Cotización</h1>
-        <div className="mt-6 h-64 rounded-panel bg-white motion-safe:animate-pulse" aria-busy="true" aria-label="Cargando tu cotización" />
+        <h1 className="sr-only">Mi lista</h1>
+        <div className="mt-6 h-64 rounded-panel bg-white motion-safe:animate-pulse" aria-busy="true" aria-label="Cargando tu lista" />
       </>
     );
   }
@@ -75,9 +75,9 @@ export function PaginaPedido() {
   if (p.renglones.length === 0) {
     return (
       <div className="mt-6">
-        <h1 className="sr-only">Cotización</h1>
+        <h1 className="sr-only">Mi lista</h1>
         <EstadoVacio
-          titulo="Tu cotización está vacía"
+          titulo="Tu lista está vacía"
           texto={
             <p>
               Buscá productos y tocá <strong>Agregar</strong>. Cuando termines, pedís la cotización por WhatsApp y te pasamos el precio según la
@@ -147,7 +147,7 @@ export function PaginaPedido() {
     <div className="mt-4 grid grid-cols-[minmax(0,1fr)] gap-8 lg:grid-cols-[minmax(0,1fr)_22rem]">
       <div>
         <div className="flex flex-wrap items-end justify-between gap-3">
-          <h1 className="text-[1.85rem] md:text-[2.4rem]">Cotización</h1>
+          <h1 className="text-[1.85rem] md:text-[2.4rem]">Mi lista</h1>
           {codigo && (
             <p className="numeros text-sm text-tinta-tenue" data-testid="codigo-cotizacion">
               Código <strong className="text-tinta">{codigo}</strong>
@@ -204,7 +204,7 @@ export function PaginaPedido() {
                     type="button"
                     onClick={() => {
                       pedido.quitar(r.producto.id);
-                      anunciar(`${r.producto.nombre}: quitado de la cotización`);
+                      anunciar(`${r.producto.nombre}: quitado de la lista`);
                     }}
                     className="inline-flex h-11 items-center gap-1.5 rounded-control px-2.5 text-sm font-medium text-tinta-suave hover:bg-alerta-claro hover:text-alerta"
                   >
@@ -339,7 +339,7 @@ export function PaginaPedido() {
             {confirmarVaciar ? (
               <div role="alertdialog" aria-labelledby={`${id}-vaciar`} className="rounded-control bg-alerta-claro p-3">
                 <p id={`${id}-vaciar`} className="text-sm font-semibold text-alerta">
-                  ¿Vaciar la cotización? Se borran todos los productos.
+                  ¿Vaciar la lista? Se borran todos los productos.
                 </p>
                 <div className="mt-3 flex gap-2">
                   <button
@@ -348,7 +348,7 @@ export function PaginaPedido() {
                     onClick={() => {
                       pedido.vaciar();
                       setConfirmarVaciar(false);
-                      anunciar("Cotización vaciada");
+                      anunciar("Lista vaciada");
                     }}
                     autoFocus
                   >
@@ -361,7 +361,7 @@ export function PaginaPedido() {
               </div>
             ) : (
               <button type="button" className="-ml-2 inline-flex h-11 items-center gap-1.5 rounded-control px-2 text-sm font-medium text-tinta-suave hover:text-alerta" onClick={() => setConfirmarVaciar(true)}>
-                <IconoPapelera tamano={18} /> Vaciar cotización
+                <IconoPapelera tamano={18} /> Vaciar lista
               </button>
             )}
           </div>

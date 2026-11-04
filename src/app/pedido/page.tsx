@@ -5,16 +5,16 @@ import { PaginaPedido } from "@/components/pedido/PaginaPedido";
 import { canonica, compartir } from "@/lib/seo";
 
 export const metadata: Metadata = {
-  title: "Cotización",
+  title: "Mi lista",
   description: `Armá tu pedido de envases y descartables y mandalo por WhatsApp a ${SITIO.nombre}: te respondemos con el precio y la disponibilidad de cada producto.`,
   alternates: { canonical: canonica("/pedido/") },
-  openGraph: compartir("/pedido/", `Cotización | ${SITIO.nombre}`),
+  openGraph: compartir("/pedido/", `Mi lista | ${SITIO.nombre}`),
 };
 
 export default function Pedido() {
   return (
     <div className="contenedor pt-5">
-      <Migas items={[{ nombre: "Cotización" }]} />
+      <Migas items={[{ nombre: "Mi lista" }]} />
       {/* Alto reservado: el pedido se arma en el navegador y así el pie no salta al cargar. */}
       <div className="min-h-[75vh]">
         <PaginaPedido />

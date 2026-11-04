@@ -13,16 +13,16 @@ test("armar un pedido y mandarlo por WhatsApp", async ({ page, errores }) => {
     await r.fulfill({ json: { ok: true } });
   });
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await expect(page.getByText(/Ya tenés/)).toBeVisible();
 
   // Otro producto desde una tarjeta de categoría.
   await page.goto("/categorias/cajas-para-pizza/");
-  await page.getByRole("button", { name: /Agregar Caja para pizza marrón 33 × 33 cm a la cotización/ }).click();
-  await expect(page.getByRole("link", { name: /Cotización 2 productos/ }).first()).toBeVisible();
+  await page.getByRole("button", { name: /Agregar Caja para pizza marrón 33 × 33 cm a la lista/ }).click();
+  await expect(page.getByRole("link", { name: /Mi lista 2 productos/ }).first()).toBeVisible();
 
   await page.goto("/pedido/");
-  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Cotización");
+  await expect(page.getByRole("heading", { level: 1 })).toHaveText("Mi lista");
   await expect(page.locator("main")).toContainText("Vaso 550 cc");
   await expect(page.locator("main")).toContainText("PIZMAR33");
 
@@ -68,12 +68,12 @@ test("armar un pedido y mandarlo por WhatsApp", async ({ page, errores }) => {
 
 test("vaciar pide confirmación en la página", async ({ page }) => {
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
-  await page.getByRole("button", { name: "Vaciar cotización" }).click();
-  await expect(page.getByText("¿Vaciar la cotización?")).toBeVisible();
+  await page.getByRole("button", { name: "Vaciar lista" }).click();
+  await expect(page.getByText("¿Vaciar la lista?")).toBeVisible();
   await page.getByRole("button", { name: "Sí, vaciar" }).click();
-  await expect(page.getByText(/Tu cotización está vacía/)).toBeVisible();
+  await expect(page.getByText(/Tu lista está vacía/)).toBeVisible();
 });
 
 test("pedido muy largo sin código del sistema: copiar en vez de abrir WhatsApp", async ({ page, context }) => {
@@ -93,7 +93,7 @@ test("pedido muy largo sin código del sistema: copiar en vez de abrir WhatsApp"
 
 test("sin elegir retiro o envío no se manda ni se copia", async ({ page }) => {
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   const popup = page.waitForEvent("popup", { timeout: 1500 }).catch(() => null);
   await page.getByTestId("enviar-whatsapp").click();
@@ -114,7 +114,7 @@ test("copiar lista anda en navegadores sin portapapeles moderno", async ({ page 
   // Como los navegadores internos de WhatsApp o Instagram: sin navigator.clipboard.
   await page.addInitScript(() => Object.defineProperty(navigator, "clipboard", { value: undefined, configurable: true }));
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   await page.getByText("Retiro en el local", { exact: true }).click();
   await page.evaluate(() => {
@@ -136,7 +136,7 @@ test("copiar lista anda en navegadores sin portapapeles moderno", async ({ page 
 test("si el navegador no deja copiar, muestra el mensaje para copiarlo a mano", async ({ page }) => {
   await page.addInitScript(() => Object.defineProperty(navigator, "clipboard", { value: undefined, configurable: true }));
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   await page.getByText("Retiro en el local", { exact: true }).click();
   await page.evaluate(() => {
@@ -153,7 +153,7 @@ test("si cambia algo después de mandarla, ese código deja de valer y se pide o
   await page.route("**/api/cotizacion/reservar", (r) => r.fulfill({ json: { codigo: ["R-AAA", "R-BBB"][Math.min(siguiente++, 1)] } }));
   await page.route("**/api/cotizacion/enviar", (r) => r.fulfill({ json: { ok: true } }));
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   await page.getByText("Retiro en el local", { exact: true }).click();
   await expect(page.getByTestId("codigo-cotizacion")).toHaveText("Código R-AAA");
@@ -166,7 +166,7 @@ test("si cambia algo después de mandarla, ese código deja de valer y se pide o
 test("sin sistema el pedido sale igual, sin código", async ({ page }) => {
   await page.route("**/api/cotizacion/**", (r) => r.fulfill({ status: 502, json: { error: "sistema" } }));
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   await page.getByText("Retiro en el local", { exact: true }).click();
   await page.waitForTimeout(1200);
@@ -179,7 +179,7 @@ test("los curiosos no reservan código", async ({ page }) => {
   const reservas: unknown[] = [];
   await page.route("**/api/cotizacion/reservar", (r) => (reservas.push(1), r.fulfill({ json: { codigo: "R-AAA" } })));
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).click();
+  await page.getByRole("button", { name: "Agregar a la lista" }).click();
   await page.goto("/pedido/");
   await page.getByTestId("enviar-whatsapp").click();
   await page.waitForTimeout(1200);
@@ -202,7 +202,7 @@ test("una cotización mandada y sin tocar hace un día arranca vacía; sin manda
   // Mandada hace 25 h: vacía, pero se acuerda del nombre.
   await page.addInitScript((v) => { if (!sessionStorage.getItem("ya")) { sessionStorage.setItem("ya", "1"); localStorage.setItem("roleran:pedido:v1", v); } }, guardado("huella", 25));
   await page.goto("/pedido/");
-  await expect(page.getByText("Tu cotización está vacía")).toBeVisible();
+  await expect(page.getByText("Tu lista está vacía")).toBeVisible();
   expect(JSON.parse((await page.evaluate(() => localStorage.getItem("roleran:pedido:v1"))) ?? "{}").cliente?.nombre ?? "Ana").toBe("Ana");
 
   // Sin mandar, aunque pase el día, sigue ahí.

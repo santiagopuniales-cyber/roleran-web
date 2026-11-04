@@ -1,4 +1,4 @@
-// Tarjeta de producto: foto, nombre, presentación, código y botón para agregar a la cotización.
+// Tarjeta de producto: foto, nombre, presentación, código y botón para agregar a la lista.
 import Link from "next/link";
 import { BANDERAS } from "@/config/sitio";
 import { placeholderDe, resumen } from "@/lib/catalogo";

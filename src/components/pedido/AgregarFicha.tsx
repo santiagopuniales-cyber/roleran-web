@@ -1,5 +1,5 @@
 "use client";
-// Bloque de la ficha: cantidad + «Agregar a la cotización» + «Consultar por WhatsApp».
+// Bloque de la ficha: cantidad + «Agregar a la lista» + «Consultar por WhatsApp».
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { IconoChat, IconoCheck, IconoPedido } from "@/components/iconos";
@@ -26,7 +26,7 @@ export function AgregarFicha({ producto, unidad }: { producto: ProductoResumen; 
   const agregar = () => {
     pedido.agregar(producto, cantidad);
     setAgregado(true);
-    anunciar(`${producto.nombre}: ${formatearCantidad(cantidad)} agregado a la cotización`);
+    anunciar(`${producto.nombre}: ${formatearCantidad(cantidad)} agregado a la lista`);
     evento("add_to_cart", { items: [{ item_id: producto.sku ?? producto.id, item_name: producto.nombre, quantity: cantidad }] });
   };
 
@@ -49,15 +49,15 @@ export function AgregarFicha({ producto, unidad }: { producto: ProductoResumen; 
           unidad={unidad}
         />
         <button type="button" onClick={agregar} className={claseBoton("primario", "normal", "flex-1 sm:flex-none")}>
-          <IconoPedido tamano={20} /> Agregar a la cotización
+          <IconoPedido tamano={20} /> Agregar a la lista
         </button>
       </div>
       {renglon && (
         <p className={`mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-control px-3 py-2 text-sm ${agregado ? "bg-verde-claro text-verde" : "bg-lienzo text-tinta-suave"}`}>
           <IconoCheck tamano={18} />
-          Ya tenés {formatearCantidad(renglon.cantidad)} en tu cotización.
+          Ya tenés {formatearCantidad(renglon.cantidad)} en tu lista.
           <Link href="/pedido/" className="-my-2 inline-block py-2 font-semibold text-verde underline underline-offset-4">
-            Ver cotización
+            Ver lista
           </Link>
         </p>
       )}

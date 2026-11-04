@@ -41,11 +41,11 @@ test("menú de todas las categorías: se abre con Enter y se cierra con Escape",
   await expect(resumen).toBeFocused();
 });
 
-test("agregar a la cotización y cambiar la cantidad sin mouse", async ({ page }) => {
+test("agregar a la lista y cambiar la cantidad sin mouse", async ({ page }) => {
   await page.goto("/productos/vaso-550-cc/");
-  await page.getByRole("button", { name: "Agregar a la cotización" }).focus();
+  await page.getByRole("button", { name: "Agregar a la lista" }).focus();
   await page.keyboard.press("Enter");
-  await expect(page.getByText(/Ya tenés 1 en tu cotización/)).toBeVisible();
+  await expect(page.getByText(/Ya tenés 1 en tu lista/)).toBeVisible();
   await page.goto("/pedido/");
   const cantidad = page.getByRole("textbox", { name: /Cantidad de Vaso 550 cc/ });
   await cantidad.focus();
