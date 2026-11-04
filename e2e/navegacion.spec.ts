@@ -59,9 +59,24 @@ test("páginas institucionales", async ({ page, errores }) => {
   expect(errores).toEqual([]);
 });
 
-test("el mapa de contacto carga recién al pedirlo", async ({ page }) => {
+test("el mapa de contacto carga recién al pedirlo", async ({ page, errores }) => {
   await page.goto("/contacto/");
   await expect(page.locator("iframe")).toHaveCount(0);
   await page.getByRole("button", { name: "Mostrar el mapa" }).click();
   await expect(page.locator("iframe")).toHaveAttribute("src", /google\.com\/maps/);
+  expect(errores).toEqual([]);
 });
+
+// Regresión 4/11: la web navega sin recargar y conserva la CSP de la primera página abierta.
+// Entrar por una página sin mapa y llegar al inicio con un enlace dejaba el mapa bloqueado.
+for (const entrada of ["/productos/", "/productos/vaso-550-cc/", "/pedido/", "/nosotros/", "/preguntas-frecuentes/"]) {
+  test(`el mapa del inicio carga aunque se entre por ${entrada}`, async ({ page, errores }) => {
+    await page.goto(entrada);
+    await page.locator('a[href="/"]:visible').first().click();
+    await expect(page).toHaveURL(/\/$/);
+    await page.getByRole("button", { name: "Mostrar el mapa" }).click();
+    await expect(page.locator("iframe")).toHaveAttribute("src", /google\.com\/maps/);
+    await page.waitForTimeout(500);
+    expect(errores).toEqual([]);
+  });
+}

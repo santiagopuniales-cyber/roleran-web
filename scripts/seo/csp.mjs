@@ -3,7 +3,7 @@
 // Lo que un <meta> no admite (frame-ancestors, etc.) va en public/_headers.
 import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
-import { join, relative, sep } from "node:path";
+import { join } from "node:path";
 
 const OUT = "out";
 
@@ -43,8 +43,9 @@ for (const archivo of paginas(OUT)) {
     if (/\bsrc\s*=/.test(atributos) || !esJs(atributos) || !contenido) continue;
     hashes.add(`'sha256-${createHash("sha256").update(contenido, "utf8").digest("base64")}'`);
   }
-  const ruta = "/" + relative(OUT, archivo).split(sep).join("/");
-  const conMapa = ruta === "/index.html" || ruta.startsWith("/contacto/");
+  // El mapa de Google (MapaInteractivo) se permite en TODAS las páginas: la web navega sin recargar,
+  // así que la CSP que vale es la de la primera página que abrió la persona, no la de la que está viendo.
+  // Si se limitara a inicio y contacto, entrar por /productos/ y después ir al inicio bloquea el mapa.
   const directivas = [
     "default-src 'self'",
     `script-src 'self' ${[...hashes].join(" ")} ${CONTADOR_SCRIPT}${GA ? ` ${GA_SCRIPT.join(" ")}` : ""}`,
@@ -52,7 +53,7 @@ for (const archivo of paginas(OUT)) {
     `img-src 'self' data:${GA ? ` ${GA_CONEXION.join(" ")}` : ""}`,
     "font-src 'self'",
     `connect-src 'self' ${CONTADOR_CONEXION}${GA ? ` ${GA_CONEXION.join(" ")}` : ""}`,
-    `frame-src ${conMapa ? "https://www.google.com" : "'none'"}`,
+    "frame-src https://www.google.com",
     "manifest-src 'self'",
     "worker-src 'none'",
     "base-uri 'self'",
