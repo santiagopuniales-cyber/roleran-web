@@ -61,6 +61,19 @@ const SINONIMOS_CATEGORIA: Record<string, string> = {
   "otros-hogar": "hogar",
 };
 
+/**
+ * Categorías que juntan dos tipos de producto: los sinónimos de la categoría no se aplican a los dos.
+ * Un dispensador de jabón no es una «papelera» ni un «tacho».
+ */
+const SINONIMOS_POR_TIPO: Record<string, [RegExp, string][]> = {
+  "basureros-y-dispensadores": [[/^dispensador/i, "dispensador"]],
+};
+
+function sinonimosDeCategoria(categoria: string, nombre: string): string {
+  const tipo = SINONIMOS_POR_TIPO[categoria]?.find(([patron]) => patron.test(nombre));
+  return tipo ? tipo[1] : SINONIMOS_CATEGORIA[categoria] ?? "";
+}
+
 /** Equivalencias de capacidad para que «1 litro» encuentre «1000 cc» y al revés. */
 export function equivalencias(texto: string): string {
   const extra: string[] = [];
@@ -97,7 +110,7 @@ export function construirIndice() {
       imagen: p.imagenes[0] ? `${p.imagenes[0].base}-${p.imagenes[0].tamanos[0]}` : null,
       placeholder: placeholderDe(p),
       categoriaNombre: ruta.at(-1)?.nombre ?? "",
-      categoria: [...ruta.map((c) => c.nombre), ...secundarias, SINONIMOS_CATEGORIA[p.categoria] ?? ""].join(" "),
+      categoria: [...ruta.map((c) => c.nombre), ...secundarias, sinonimosDeCategoria(p.categoria, p.nombre)].join(" "),
       sinonimos: [...p.sinonimos, p.nombreOriginal].join(" "),
       atributos: [a.material, a.color, a.capacidad, a.medidas, a.marca, p.presentacion.texto, equivalencias(`${p.nombre} ${a.capacidad ?? ""}`)].filter(Boolean).join(" "),
       paso: p.paso,

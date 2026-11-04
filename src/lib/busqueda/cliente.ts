@@ -69,20 +69,25 @@ function aResultado(r: SearchResult): Resultado {
 }
 
 /**
- * Primero los que tienen foto, sin perder relevancia. Los resultados se separan en dos grupos: los que
- * encajan casi tan bien como el mejor (70 % de su puntaje o más) y el resto; dentro de cada grupo van
- * primero los que tienen foto. Así el producto claramente buscado queda arriba aunque no tenga foto
- * («cono papas» → «Cono para papas fritas»), y entre parecidos («pote 250») suben los que se ven.
+ * Primero los que tienen foto, sin perder relevancia. Los resultados van en tres tandas y dentro de
+ * cada una primero los que tienen foto:
+ *  1. los que encajan casi tan bien como el mejor (70 % de su puntaje o más);
+ *  2. los que tienen lo buscado en el producto mismo (nombre, código, sinónimos);
+ *  3. los que aparecen solo por la categoría o un atributo (ej.: un dispensador al buscar «papelera»).
+ * Así el producto claramente buscado queda arriba aunque no tenga foto («cono papas» → «Cono para
+ * papas fritas») y uno que solo comparte categoría nunca pasa por encima de uno que es lo buscado.
  * Si la búsqueda cayó a «alguna palabra», antes que nada va el que encontró más palabras.
  */
 const PARECIDO_AL_MEJOR = 0.7;
+const CAMPOS_PROPIOS = new Set(["nombre", "codigo", "sinonimos"]);
 function primeroConFoto(resultados: SearchResult[]): SearchResult[] {
   const mejor = resultados[0]?.score ?? 0;
-  const grupo = (r: SearchResult) => (r.score >= mejor * PARECIDO_AL_MEJOR ? 0 : 1);
+  const propio = (r: SearchResult) => Object.values(r.match).every((campos) => campos.some((c) => CAMPOS_PROPIOS.has(c)));
+  const tanda = (r: SearchResult) => (r.score >= mejor * PARECIDO_AL_MEJOR ? 0 : propio(r) ? 1 : 2);
   return [...resultados].sort(
     (a, b) =>
       b.queryTerms.length - a.queryTerms.length ||
-      grupo(a) - grupo(b) ||
+      tanda(a) - tanda(b) ||
       Number(!a.imagen) - Number(!b.imagen) ||
       b.score - a.score,
   );
@@ -91,7 +96,14 @@ function primeroConFoto(resultados: SearchResult[]): SearchResult[] {
 export function buscar({ ms, codigos }: Datos, consulta: string, limite = 50): Resultado[] {
   const q = consulta.trim();
   if (!q) return [];
-  const opciones = { ...OPCIONES_BUSQUEDA, tokenize: tokenizar, processTerm: procesarTermino };
+  const base = { ...OPCIONES_BUSQUEDA, tokenize: tokenizar, processTerm: procesarTermino };
+  // Las palabras que existen en el catálogo se buscan tal cual; la tolerancia a errores de tipeo queda
+  // solo para las que no aparecen en ningún producto (si no, «papelera» traía toda la papelería).
+  const terminos = tokenizar(q).map(procesarTermino).filter((t): t is string => Boolean(t));
+  const existe = new Set(
+    terminos.filter((t, i) => ms.search(t, { ...base, fuzzy: false, prefix: base.prefix(t, i, terminos), combineWith: "OR" }).length > 0),
+  );
+  const opciones = { ...base, fuzzy: (t: string) => (existe.has(t) ? 0 : OPCIONES_BUSQUEDA.fuzzy(t)) };
   let resultados = ms.search(q, opciones);
   const codigo = normalizarCodigo(q);
   const pareceCodigo = codigo.length >= 3 && /\d/.test(codigo);

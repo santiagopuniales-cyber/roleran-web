@@ -61,9 +61,10 @@ describe("búsqueda: foto primero sin perder relevancia", () => {
     for (const q of ["bandeja", "vaso", "bolsa", "pote", "caja", "servilleta"]) {
       const r = buscar(datos, q, 500);
       expect(r.length, q).toBeGreaterThan(5);
-      // Puede haber dos tandas (muy parecidos al mejor / el resto); en cada una, foto primero.
+      // Hasta tres tandas (casi tan buenos como el mejor / lo buscado en el producto / solo por categoría);
+      // en cada una, foto primero.
       const cambios = r.slice(1).filter((x, i) => Boolean(x.imagen) && !r[i].imagen).length;
-      expect(cambios, q).toBeLessThanOrEqual(1);
+      expect(cambios, q).toBeLessThanOrEqual(2);
     }
   });
 });

@@ -101,6 +101,19 @@ const VACIAS = new Set([
   "x", "e", "o", "u", "lo", "que", "mas", "muy", "tipo",
 ]);
 
+/**
+ * Adjetivos que se escriben igual en masculino y femenino salvo la última letra: «negra» y «negro»
+ * terminan en el mismo término. Lista cerrada a propósito: una regla general juntaría palabras
+ * distintas que existen en el catálogo (manga/mango, bolsa/bolso, papa/papo).
+ */
+const ADJETIVOS_O_A = new Set([
+  "negro", "blanco", "rojo", "amarillo", "dorado", "plateado", "metalizado", "redondo", "cuadrado", "ovalado",
+  "chico", "mediano", "pequeno", "alto", "bajo", "largo", "corto", "ancho", "fino", "grueso", "profundo", "plano",
+  "impreso", "reforzado", "plastico", "termico", "opaco", "elastico", "liso", "calado", "corrugado", "numerado",
+  "duplicado", "economico", "rayado", "perforado", "encerado", "laminado", "armado", "plegado", "rigido",
+  "biologico", "organico", "descartable", "nuevo", "lleno", "hermetico", "acanalado", "tapado", "cerrado",
+]);
+
 const SIN_SINGULAR = new Set(["gas", "pos", "dips", "tres", "dos", "seis", "mas", "flex", "plus", "kraft", "sushi", "rou", "coex"]);
 
 export function quitarTildes(s: string): string {
@@ -141,7 +154,8 @@ export function tokenizar(texto: string): string[] {
 export function procesarTermino(termino: string): string | null {
   const t = termino.toLowerCase();
   if (VACIAS.has(t)) return null;
-  const s = singular(t);
+  let s = singular(t);
+  if (s.endsWith("a") && ADJETIVOS_O_A.has(s.slice(0, -1) + "o")) s = s.slice(0, -1) + "o";
   return SINONIMOS[s] ?? SINONIMOS[t] ?? s;
 }
 
@@ -158,7 +172,8 @@ export const OPCIONES_INDICE = {
 export const OPCIONES_BUSQUEDA = {
   boost: { nombre: 3, codigo: 3, sinonimos: 1.6, categoria: 1.2, atributos: 0.8 },
   prefix: (term: string, i: number, terms: string[]) => i === terms.length - 1 && term.length >= 2,
-  // Errores de tipeo: 1 letra en palabras de 5 a 8 letras, 2 en las más largas.
+  // Errores de tipeo: 1 letra en palabras de 5 a 8 letras, 2 en las más largas. Solo para palabras que
+  // no existen en el catálogo (ver buscar() en cliente.ts): «pollo» no trae «rollo», «servileta» sí trae servilleta.
   // (Con un margen proporcional, «casquete» encontraba «paquete»; con 4 letras, «copa» encontraba «mopa».)
   fuzzy: (term: string) => (term.length >= 9 ? 2 : term.length >= 5 ? 1 : 0),
   combineWith: "AND" as const,
