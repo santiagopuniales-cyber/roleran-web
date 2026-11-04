@@ -50,7 +50,7 @@ Los navegadores de Playwright van en `../.pw-browsers` (`npm run pw:instalar`), 
 
 ## Cambiar el catálogo
 
-1. Productos (qué hay, nombre, categoría, presentación, sinónimos, «Activo», «Visible en la web», fotos): en el sistema de gestión. La web se publica sola unos minutos después de cada cambio (`.github/workflows/publicar.yml`, disparado por el sistema; además una vez por día por si algo falló).
+1. Productos (qué hay, nombre, categoría, presentación, sinónimos, «Activo», «Visible en la web», fotos): en el sistema de gestión. La web se publica sola unos minutos después de cada cambio (`.github/workflows/publicar.yml`, disparado por el sistema; además una vez por día por si algo falló). Los cambios de código también se publican solos, cuando el CI de `main` pasa.
 2. Lo que es solo de la web (rubros a mano, notas de la descripción, atributos): `data/correcciones.json`. Un nombre o una presentación puestos ahí se pisan con lo del sistema.
 3. `npm run catalogo` regenera los JSON y los listados de revisión (en `docs/`, que no se commitea) y valida todo.
 

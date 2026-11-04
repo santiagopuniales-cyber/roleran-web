@@ -15,6 +15,12 @@ on:
         description: 'Publicar aunque el catálogo no haya cambiado'
         type: boolean
         default: false
+  # Cada cambio de código en main se publica solo cuando el CI pasa (antes quedaba sin publicar
+  # hasta que cambiara el catálogo: el chequeo diario usa --si-cambio, que solo mira el catálogo).
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
   schedule:
     - cron: '30 22 * * *'
     # 1 de enero: publica igual (el año del pie de página sale de la fecha de publicación).
@@ -26,6 +32,12 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publicar:
+    # Desde el CI: solo si pasó y vino de un push a main de este repo (nunca de un PR).
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
@@ -64,7 +76,7 @@ jobs:
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
             echo "::warning::Falta el secreto CLOUDFLARE_API_TOKEN: se arma y se prueba todo, pero no se publica."
             npm run publicar -- --sin-publicar
-          elif [ "${{ inputs.forzar }}" = "true" ] || [ "${{ github.event.schedule }}" = "0 12 1 1 *" ]; then
+          elif [ "${{ inputs.forzar }}" = "true" ] || [ "${{ github.event_name }}" = "workflow_run" ] || [ "${{ github.event.schedule }}" = "0 12 1 1 *" ]; then
             npm run publicar
           else
             npm run publicar -- --si-cambio
