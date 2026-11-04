@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { EstadoVacio } from "@/components/EstadoVacio";
-import { IconoBuscar } from "@/components/iconos";
+import { IconoBuscar, IconoCerrar } from "@/components/iconos";
 import { TarjetaCliente } from "@/components/TarjetaCliente";
 import { claseBoton } from "@/components/ui";
 import { evento } from "@/lib/analytics";
@@ -62,14 +62,29 @@ export function ResultadosBusqueda() {
         <label htmlFor="consulta-pagina" className="sr-only">
           Buscar productos
         </label>
-        <input
-          id="consulta-pagina"
-          type="search"
-          value={texto}
-          onChange={(e) => setTexto(e.target.value)}
-          placeholder="Nombre, medida o código"
-          className="h-12 min-w-0 flex-1 rounded-control border-2 border-borde-fuerte bg-white px-3.5 outline-none focus:border-verde"
-        />
+        <div className="relative min-w-0 flex-1">
+          <input
+            id="consulta-pagina"
+            type="search"
+            value={texto}
+            onChange={(e) => setTexto(e.target.value)}
+            placeholder="Nombre, medida o código"
+            className="h-12 w-full rounded-control border-2 border-borde-fuerte bg-white pl-3.5 pr-12 outline-none focus:border-verde"
+          />
+          {texto && (
+            <button
+              type="button"
+              className="absolute right-1.5 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full text-tinta-tenue hover:bg-lienzo"
+              onClick={(e) => {
+                setTexto("");
+                (e.currentTarget.previousElementSibling as HTMLInputElement | null)?.focus();
+              }}
+              aria-label="Borrar búsqueda"
+            >
+              <IconoCerrar tamano={18} />
+            </button>
+          )}
+        </div>
         <button type="submit" className={claseBoton("primario", "normal", "h-12")}>
           <IconoBuscar tamano={20} /> Buscar
         </button>

@@ -45,6 +45,13 @@
 }
 
 @layer base {
+  /* Los campos de búsqueda tienen su propio botón para borrar: sin la cruz que agrega el navegador
+     (Chrome, Safari, Edge), si no aparecen dos cruces. */
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+  }
   html {
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 7rem;
