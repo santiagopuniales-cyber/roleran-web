@@ -25,3 +25,5 @@ jobs:
       - run: npm test
       - name: Dependencias sin vulnerabilidades altas
         run: npm audit --omit=dev --audit-level=high
+      - name: Librerías con firma del registro (no cambiadas en el camino)
+        run: npm audit signatures

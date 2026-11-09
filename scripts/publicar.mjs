@@ -41,8 +41,17 @@ const log = (msg) => {
   fs.appendFileSync(LOG, linea + "\n");
 };
 
-function correr(comando, { salida = false } = {}) {
-  const r = spawnSync(comando, { shell: true, encoding: "utf8", stdio: salida ? "pipe" : "inherit" });
+// Las claves les llegan solo a los pasos que las usan (bajar del sistema y subir a Cloudflare), que son
+// scripts propios. El armado, las pruebas y el build corren librerías de terceros: si una viniera
+// adulterada en una actualización, no tiene clave que leer.
+const CLAVES = ["SISTEMA_SUPABASE_KEY", "CLOUDFLARE_API_TOKEN"];
+const claves = Object.fromEntries(CLAVES.map((k) => [k, process.env[k]]));
+for (const k of CLAVES) delete process.env[k];
+
+function correr(comando, { salida = false, con = [] } = {}) {
+  const env = { ...process.env };
+  for (const k of con) if (claves[k] !== undefined) env[k] = claves[k];
+  const r = spawnSync(comando, { shell: true, encoding: "utf8", stdio: salida ? "pipe" : "inherit", env });
   if (r.status !== 0) throw new Error(`Falló «${comando}»${salida ? `: ${(r.stderr || r.stdout).trim().slice(-800)}` : ""}`);
   return r.stdout ?? "";
 }
@@ -75,7 +84,7 @@ try {
   // Worker queda solo redirigiendo a www y no se toca. SITIO_EN_DOMINIO=si (variable del repo) lo fija.
   const enDominio = process.env.SITIO_EN_DOMINIO === "si" || (await dominioMuestraEstaWeb());
 
-  correr("node scripts/catalogo/sistema.mjs");
+  correr("node scripts/catalogo/sistema.mjs", { con: ["SISTEMA_SUPABASE_KEY"] });
   if (SI_CAMBIO && !cambiosEn(["data/sistema.json"])) {
     log("El catálogo del sistema no cambió: nada que publicar.");
     fs.rmSync(ARCHIVO_ERROR, { force: true });
@@ -83,7 +92,7 @@ try {
   }
 
   // Fotos cargadas en el sistema → versiones web (las de la web vieja no se tocan).
-  correr("node scripts/imagenes/fotos-sistema.mjs");
+  correr("node scripts/imagenes/fotos-sistema.mjs", { con: ["SISTEMA_SUPABASE_KEY"] });
   correr("node scripts/imagenes/procesar.mjs --solo-propias");
   correr("node scripts/catalogo/construir.mjs --bloquear-slugs");
   correr("node scripts/catalogo/documentos.mjs");
@@ -92,13 +101,13 @@ try {
   correr("npm run build");
   correr("node scripts/qa/enlaces.mjs");
   correr("node scripts/seo/verificar.mjs");
-  if (!SIN_PUBLICAR) correr("node scripts/cloudflare/pages.mjs");
+  if (!SIN_PUBLICAR) correr("node scripts/cloudflare/pages.mjs", { con: ["CLOUDFLARE_API_TOKEN"] });
   if (!enDominio) {
     log("Build para la dirección de prueba (www todavía muestra la web vieja).");
     correr("npm run build:cloudflare");
     correr("node scripts/qa/enlaces.mjs");
     correr("node scripts/seo/verificar.mjs");
-    if (!SIN_PUBLICAR) correr("npx wrangler deploy");
+    if (!SIN_PUBLICAR) correr("npx wrangler deploy", { con: ["CLOUDFLARE_API_TOKEN"] });
   }
   if (SIN_PUBLICAR) {
     log("Armado y chequeos bien (--sin-publicar: no se subió ni se commiteó).");
