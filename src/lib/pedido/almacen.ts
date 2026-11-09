@@ -94,10 +94,14 @@ export function redondear(cantidad: number, paso: number, minimo: number) {
   return Math.max(minimo, Math.round(n * 100) / 100);
 }
 
+/** Tope de productos distintos por pedido (el sistema no acepta más). */
+export const MAX_PRODUCTOS = 60;
+
 export const pedido = {
   agregar(producto: ProductoResumen, cantidad: number) {
     actualizar((p) => {
       const i = p.renglones.findIndex((r) => r.producto.id === producto.id);
+      if (i < 0 && p.renglones.length >= MAX_PRODUCTOS) return p;
       const renglones = [...p.renglones];
       if (i >= 0) {
         renglones[i] = { ...renglones[i], producto, cantidad: redondear(renglones[i].cantidad + cantidad, producto.paso, producto.minimo) };

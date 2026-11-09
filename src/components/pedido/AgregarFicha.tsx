@@ -6,7 +6,7 @@ import { IconoChat, IconoCheck, IconoPedido } from "@/components/iconos";
 import { claseBoton } from "@/components/ui";
 import { SITIO } from "@/config/sitio";
 import { evento } from "@/lib/analytics";
-import { cantidadDe, pedido, usePedido } from "@/lib/pedido/almacen";
+import { MAX_PRODUCTOS, cantidadDe, pedido, usePedido } from "@/lib/pedido/almacen";
 import { anunciar } from "@/lib/pedido/anuncios";
 import { unidadDeVenta } from "@/lib/pedido/unidades";
 import { formatearCantidad, mensajeConsulta, urlWhatsApp } from "@/lib/pedido/whatsapp";
@@ -18,6 +18,7 @@ export function AgregarFicha({ producto, unidad }: { producto: ProductoResumen; 
   const renglon = cantidadDe(estado, producto.id);
   const [cantidad, setCantidad] = useState(producto.minimo);
   const [agregado, setAgregado] = useState(false);
+  const llena = !renglon && estado.renglones.length >= MAX_PRODUCTOS;
 
   useEffect(() => {
     evento("view_item", { items: [{ item_id: producto.sku ?? producto.id, item_name: producto.nombre }] });
@@ -48,10 +49,15 @@ export function AgregarFicha({ producto, unidad }: { producto: ProductoResumen; 
           etiqueta="Cantidad"
           unidad={unidad}
         />
-        <button type="button" onClick={agregar} className={claseBoton("primario", "normal", "flex-1 sm:flex-none")}>
+        <button type="button" onClick={agregar} disabled={llena} className={claseBoton("primario", "normal", "flex-1 sm:flex-none")}>
           <IconoPedido tamano={20} /> Agregar a la lista
         </button>
       </div>
+      {llena && (
+        <p className="mt-3 rounded-control bg-lienzo px-3 py-2 text-sm text-tinta-suave">
+          Tu lista ya tiene {MAX_PRODUCTOS} productos, que es el máximo por pedido. Mandala y armá otra con el resto.
+        </p>
+      )}
       {renglon && (
         <p className={`mt-3 flex flex-wrap items-center gap-x-2 gap-y-1 rounded-control px-3 py-2 text-sm ${agregado ? "bg-verde-claro text-verde" : "bg-lienzo text-tinta-suave"}`}>
           <IconoCheck tamano={18} />

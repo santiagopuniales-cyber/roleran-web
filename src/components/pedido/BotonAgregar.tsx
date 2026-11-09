@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { claseBoton } from "@/components/ui";
 import { IconoCheck, IconoMas } from "@/components/iconos";
-import { cantidadDe, pedido, usePedido } from "@/lib/pedido/almacen";
+import { MAX_PRODUCTOS, cantidadDe, pedido, usePedido } from "@/lib/pedido/almacen";
 import { anunciar } from "@/lib/pedido/anuncios";
 import { evento } from "@/lib/analytics";
 import type { ProductoResumen } from "@/lib/tipos";
@@ -39,6 +39,9 @@ export function BotonAgregar({ producto, compacto = false }: { producto: Product
         </span>
       </div>
     );
+  }
+  if (estado.renglones.length >= MAX_PRODUCTOS) {
+    return <p className="text-xs text-tinta-suave">Tu lista ya tiene {MAX_PRODUCTOS} productos: mandala y armá otra.</p>;
   }
   return (
     <button

@@ -184,7 +184,7 @@ export function PaginaPedido() {
                       className={`${campo} h-11 py-0 text-base md:h-10 md:pointer-fine:text-sm`}
                       placeholder="Nota: color, medida, marca…"
                       value={r.nota}
-                      maxLength={140}
+                      maxLength={80}
                       onChange={(e) => pedido.cambiarNota(r.producto.id, e.target.value)}
                     />
                   </label>
