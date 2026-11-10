@@ -476,7 +476,7 @@
       "mangas-y-reposteria",
       "velas-y-globos"
     ],
-    "cantidad": 42,
+    "cantidad": 48,
     "cantidadDirecta": 0
   },
   {
@@ -487,8 +487,8 @@
     "placeholder": "torta",
     "descripcion": "Casquetes (pirotines) numerados y de colores, y moldes de papel para pan dulce, budín, rosca y massini.",
     "hijos": [],
-    "cantidad": 19,
-    "cantidadDirecta": 19
+    "cantidad": 22,
+    "cantidadDirecta": 22
   },
   {
     "slug": "mangas-y-reposteria",
@@ -498,8 +498,8 @@
     "placeholder": "torta",
     "descripcion": "Mangas descartables y flex, colorantes, acetato y cúpulas para tortas.",
     "hijos": [],
-    "cantidad": 14,
-    "cantidadDirecta": 14
+    "cantidad": 17,
+    "cantidadDirecta": 17
   },
   {
     "slug": "velas-y-globos",

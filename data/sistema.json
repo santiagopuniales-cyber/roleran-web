@@ -2,7 +2,73 @@
  "empresa": "Roleran S.A.",
  "precios_en_web": false,
  "local": null,
- "fotos": [],
+ "fotos": [
+  {
+   "id": "babudinestampado",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/a568e507-df2e-4e61-a839-044baaabb737/8cad9547-8b22-4a57-a7b6-3d01a68ad3a6.jpg"
+  },
+  {
+   "id": "cortantearbolito",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/f5627420-197d-41a8-ae24-9b877a5c91dd/92acb764-f820-4312-81a2-3045f813a0b7.jpg"
+  },
+  {
+   "id": "cortantenino",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/eb7d5e50-1037-4bef-80a9-9618d9b42d23/b1680e12-93cd-477e-b3bb-5f703cbc9aad.jpg"
+  },
+  {
+   "id": "im24x35x100",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/2c1f63d5-4926-4909-828b-807de17efd57/5c157f7a-605d-4f14-aecd-7cb2e7a2f800.jpg"
+  },
+  {
+   "id": "im24x35x1000",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/a0e9e23c-32df-4371-9833-7fec089e94db/d7f35df0-fa2a-42d6-867f-5c1e42c5aa65.jpg"
+  },
+  {
+   "id": "im28x40x100",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/ffa1c1a1-f0ad-49ad-8639-62377cf2a3ee/ae373cdf-ba52-432f-8396-814b809b0957.jpg"
+  },
+  {
+   "id": "im28x40x1000",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/412df314-b6c5-4a98-babc-e4409445eb6c/d7169a94-8fc7-4dad-a51a-8b691aaa3f43.jpg"
+  },
+  {
+   "id": "imbx100",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/bd8a55f4-bf14-40b3-bc35-4bffec229ad0/e4019f2e-d16d-49e4-aed3-d0a599fb0e68.jpg"
+  },
+  {
+   "id": "imbx1000",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/aaab7927-f7f7-4406-87dc-c9aa2d789882/ebe2bb8e-51ed-47e9-80e0-9d66e4ceffa5.jpg"
+  },
+  {
+   "id": "moldesilic",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/312f226c-28f4-48cb-9260-d9f7c66a62e0/e058103b-c27f-41e4-87f1-514308171ec8.jpg"
+  },
+  {
+   "id": "moldesilic",
+   "orden": 2,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/312f226c-28f4-48cb-9260-d9f7c66a62e0/dad979b6-95bb-40fc-b62e-a9255aecf8ff.jpg"
+  },
+  {
+   "id": "tulipax1000",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/b08a2b65-b200-4c58-a898-b6562b75b830/067813ac-26d4-45e6-84e8-74d9e6636c56.jpg"
+  },
+  {
+   "id": "tulipax2400",
+   "orden": 1,
+   "ruta": "1d953533-bbbb-401b-885d-a4f59116e612/720aea15-5cff-4e02-a55c-b18627633353/73dcc022-23a3-4770-bbb5-18dbe45a174a.jpg"
+  }
+ ],
  "productos": [
   {
    "web_id": "0382",
@@ -1997,6 +2063,24 @@
    "activo": true,
    "creado_en": "2026-10-28",
    "descripcion_corta": "Para cocinar, congelar y entregar comidas. Se vende por paquete de 100 unidades."
+  },
+  {
+   "web_id": null,
+   "sku": "BABUDINESTAMPADO",
+   "sku_provisorio": false,
+   "nombre": "Molde de papel para budín de 300 g estampado",
+   "categoria_slug": "pirotines-y-moldes-de-papel",
+   "presentacion_tipo": "paquete",
+   "presentacion_texto": "Paquete × 100",
+   "unidades_por_presentacion": 100,
+   "sinonimos": [
+    "budinera",
+    "navidad"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Para hornear y presentar. Se vende por paquete de 100 unidades."
   },
   {
    "web_id": "bagkg",
@@ -4533,6 +4617,44 @@
    "activo": true,
    "creado_en": "2026-10-28",
    "descripcion_corta": "Para servir bebidas y postres. Se vende por paquete de 100 unidades."
+  },
+  {
+   "web_id": null,
+   "sku": "CORTANTEARBOLITO",
+   "sku_provisorio": false,
+   "nombre": "Cortante de árbol de Navidad (set de 2)",
+   "categoria_slug": "mangas-y-reposteria",
+   "presentacion_tipo": "unidad",
+   "presentacion_texto": "Set × 2",
+   "unidades_por_presentacion": null,
+   "sinonimos": [
+    "navidad",
+    "galletitas",
+    "arbolito"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Set de 2 cortantes metálicos de distinto tamaño con forma de árbol de Navidad, para galletitas. Se vende por unidad."
+  },
+  {
+   "web_id": null,
+   "sku": "CORTANTENIÑO",
+   "sku_provisorio": false,
+   "nombre": "Cortante de muñeco de jengibre (set de 3)",
+   "categoria_slug": "mangas-y-reposteria",
+   "presentacion_tipo": "unidad",
+   "presentacion_texto": "Set × 3",
+   "unidades_por_presentacion": null,
+   "sinonimos": [
+    "navidad",
+    "galletitas",
+    "jengibre"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Set de 3 cortantes metálicos de distinto tamaño con forma de muñeco de jengibre, para galletitas. Se vende por unidad."
   },
   {
    "web_id": "cortbano",
@@ -7254,6 +7376,26 @@
    "activo": true,
    "creado_en": "2026-10-28",
    "descripcion_corta": "Para envolver, cubrir y cocinar alimentos. Se vende por paquete de 96 unidades."
+  },
+  {
+   "web_id": null,
+   "sku": "MOLDESILIC",
+   "sku_provisorio": false,
+   "nombre": "Molde de silicona navideño",
+   "categoria_slug": "mangas-y-reposteria",
+   "presentacion_tipo": "unidad",
+   "presentacion_texto": "Por unidad",
+   "unidades_por_presentacion": null,
+   "sinonimos": [
+    "navidad",
+    "silicona",
+    "jengibre",
+    "arbolito"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Placa de silicona con 24 formas navideñas (árboles o muñecos de jengibre). Se vende por unidad."
   },
   {
    "web_id": "mondx1000",
@@ -11624,6 +11766,44 @@
    "activo": true,
    "creado_en": "2026-10-28",
    "descripcion_corta": "Para embalar, cubrir y transportar. Se vende por kilo."
+  },
+  {
+   "web_id": null,
+   "sku": "TULIPAX1000",
+   "sku_provisorio": false,
+   "nombre": "Casquetes tulipa",
+   "categoria_slug": "pirotines-y-moldes-de-papel",
+   "presentacion_tipo": "paquete",
+   "presentacion_texto": "Paquete × 1.000",
+   "unidades_por_presentacion": 1000,
+   "sinonimos": [
+    "pirotines",
+    "capacillos",
+    "muffins"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Para hornear y presentar. Se vende por paquete de 1.000 unidades."
+  },
+  {
+   "web_id": null,
+   "sku": "TULIPAX2400",
+   "sku_provisorio": false,
+   "nombre": "Casquetes tulipa",
+   "categoria_slug": "pirotines-y-moldes-de-papel",
+   "presentacion_tipo": "caja",
+   "presentacion_texto": "Caja × 2.400",
+   "unidades_por_presentacion": 2400,
+   "sinonimos": [
+    "pirotines",
+    "capacillos",
+    "muffins"
+   ],
+   "visible_web": true,
+   "activo": true,
+   "creado_en": "2026-11-10",
+   "descripcion_corta": "Para hornear y presentar. Se vende por caja de 2.400 unidades."
   },
   {
    "web_id": "tv330",

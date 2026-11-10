@@ -1,5 +1,5 @@
 {
- "generado": "2026-10-07",
+ "generado": "2026-11-10",
  "imagenes": {
   "3279": {
    "id": 3279,
@@ -10491,5 +10491,186 @@
    "productos": {}
   }
  },
- "propias": {}
+ "propias": {
+  "babudinestampado": [
+   {
+    "id": "propia-babudinestampado-1-be8bd5b0",
+    "base": "/img/p/propia-babudinestampado-1-be8bd5b0",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "cortantearbolito": [
+   {
+    "id": "propia-cortantearbolito-1-85bb4bcb",
+    "base": "/img/p/propia-cortantearbolito-1-85bb4bcb",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "cortantenino": [
+   {
+    "id": "propia-cortantenino-1-bb25a40b",
+    "base": "/img/p/propia-cortantenino-1-bb25a40b",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "im24x35x1000": [
+   {
+    "id": "propia-im24x35x1000-1-799f881b",
+    "base": "/img/p/propia-im24x35x1000-1-799f881b",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "im24x35x100": [
+   {
+    "id": "propia-im24x35x100-1-c3ea6764",
+    "base": "/img/p/propia-im24x35x100-1-c3ea6764",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "im28x40x1000": [
+   {
+    "id": "propia-im28x40x1000-1-de9656a4",
+    "base": "/img/p/propia-im28x40x1000-1-de9656a4",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "im28x40x100": [
+   {
+    "id": "propia-im28x40x100-1-85aa82db",
+    "base": "/img/p/propia-im28x40x100-1-85aa82db",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "imbx1000": [
+   {
+    "id": "propia-imbx1000-1-0bb311ba",
+    "base": "/img/p/propia-imbx1000-1-0bb311ba",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "imbx100": [
+   {
+    "id": "propia-imbx100-1-5d78c551",
+    "base": "/img/p/propia-imbx100-1-5d78c551",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "moldesilic": [
+   {
+    "id": "propia-moldesilic-1-c7de804d",
+    "base": "/img/p/propia-moldesilic-1-c7de804d",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   },
+   {
+    "id": "propia-moldesilic-2-7f938fd3",
+    "base": "/img/p/propia-moldesilic-2-7f938fd3",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "tulipax1000": [
+   {
+    "id": "propia-tulipax1000-1-db3ad7da",
+    "base": "/img/p/propia-tulipax1000-1-db3ad7da",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
+  "tulipax2400": [
+   {
+    "id": "propia-tulipax2400-1-346a8ad2",
+    "base": "/img/p/propia-tulipax2400-1-346a8ad2",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ]
+ }
 }

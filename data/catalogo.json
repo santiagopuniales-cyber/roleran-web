@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-09",
+  "generado": "2026-11-10",
   "fuente": "data/raw/2026-10-07",
   "productos": [
     {
@@ -23390,7 +23390,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para budín 16 × 35 cm. Paquete × 1.000. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 1.000 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-imbx1000-1-0bb311ba",
+          "base": "/img/p/propia-imbx1000-1-0bb311ba",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para budín 16 × 35 cm"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -23437,7 +23451,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para budín 16 × 35 cm. Paquete × 100. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 100 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-imbx100-1-5d78c551",
+          "base": "/img/p/propia-imbx100-1-5d78c551",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para budín 16 × 35 cm"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -23484,7 +23512,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm). Paquete × 1.000. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 1.000 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-im28x40x1000-1-de9656a4",
+          "base": "/img/p/propia-im28x40x1000-1-de9656a4",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm)"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -23531,7 +23573,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm). Paquete × 100. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 100 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-im28x40x100-1-85aa82db",
+          "base": "/img/p/propia-im28x40x100-1-85aa82db",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para pan dulce de 1 kg (28 × 40 cm)"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -23578,7 +23634,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm). Paquete × 1.000. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 1.000 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-im24x35x1000-1-799f881b",
+          "base": "/img/p/propia-im24x35x1000-1-799f881b",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm)"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -23625,7 +23695,21 @@
       "minimo": 1,
       "descripcionCorta": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm). Paquete × 100. Para envasar y presentar productos.",
       "descripcion": "Para envasar y presentar productos. Se vende por paquete de 100 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-im24x35x100-1-c3ea6764",
+          "base": "/img/p/propia-im24x35x100-1-c3ea6764",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Bolsa impresa para pan dulce de 500 g (24 × 35 cm)"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
@@ -48774,6 +48858,388 @@
       "duplicadoDe": null,
       "urlVieja": "/product/budinera-aluminio/",
       "fechaAlta": "2024-09-20"
+    },
+    {
+      "id": "babudinestampado",
+      "wpId": null,
+      "sku": "BABUDINESTAMPADO",
+      "skuOriginal": "BABUDINESTAMPADO",
+      "skuProvisorio": false,
+      "slug": "molde-de-papel-para-budin-de-300-g-estampado",
+      "nombre": "Molde de papel para budín de 300 g estampado",
+      "nombreOriginal": "Molde de papel para budín de 300 g estampado",
+      "categoria": "pirotines-y-moldes-de-papel",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias"
+      ],
+      "atributos": {
+        "material": "Papel",
+        "unidadesPorPaquete": 100,
+        "presentacion": "Paquete × 100"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "paquete",
+        "unidades": 100,
+        "detalle": null,
+        "texto": "Paquete × 100",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Molde de papel para budín de 300 g estampado. Paquete × 100. Para hornear y presentar.",
+      "descripcion": "Para hornear y presentar. Se vende por paquete de 100 unidades.",
+      "imagenes": [
+        {
+          "id": "propia-babudinestampado-1-be8bd5b0",
+          "base": "/img/p/propia-babudinestampado-1-be8bd5b0",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Molde de papel para budín de 300 g estampado"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "budinera",
+        "navidad"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
+    },
+    {
+      "id": "cortantearbolito",
+      "wpId": null,
+      "sku": "CORTANTEARBOLITO",
+      "skuOriginal": "CORTANTEARBOLITO",
+      "skuProvisorio": false,
+      "slug": "cortante-de-arbol-de-navidad-set-de-2",
+      "nombre": "Cortante de árbol de Navidad (set de 2)",
+      "nombreOriginal": "Cortante de árbol de Navidad (set de 2)",
+      "categoria": "mangas-y-reposteria",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias",
+        "eventos-y-cumpleanos"
+      ],
+      "atributos": {
+        "presentacion": "Set × 2"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "unidad",
+        "unidades": null,
+        "detalle": null,
+        "texto": "Set × 2",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Cortante de árbol de Navidad (set de 2). Set × 2. Para preparar y decorar tortas.",
+      "descripcion": "Set de 2 cortantes metálicos de distinto tamaño con forma de árbol de Navidad, para galletitas. Se vende por unidad.",
+      "imagenes": [
+        {
+          "id": "propia-cortantearbolito-1-85bb4bcb",
+          "base": "/img/p/propia-cortantearbolito-1-85bb4bcb",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Cortante de árbol de Navidad (set de 2)"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "navidad",
+        "galletitas",
+        "arbolito"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
+    },
+    {
+      "id": "cortantenino",
+      "wpId": null,
+      "sku": "CORTANTENIÑO",
+      "skuOriginal": "CORTANTENIÑO",
+      "skuProvisorio": false,
+      "slug": "cortante-de-muneco-de-jengibre-set-de-3",
+      "nombre": "Cortante de muñeco de jengibre (set de 3)",
+      "nombreOriginal": "Cortante de muñeco de jengibre (set de 3)",
+      "categoria": "mangas-y-reposteria",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias",
+        "eventos-y-cumpleanos"
+      ],
+      "atributos": {
+        "presentacion": "Set × 3"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "unidad",
+        "unidades": null,
+        "detalle": null,
+        "texto": "Set × 3",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Cortante de muñeco de jengibre (set de 3). Set × 3. Para preparar y decorar tortas.",
+      "descripcion": "Set de 3 cortantes metálicos de distinto tamaño con forma de muñeco de jengibre, para galletitas. Se vende por unidad.",
+      "imagenes": [
+        {
+          "id": "propia-cortantenino-1-bb25a40b",
+          "base": "/img/p/propia-cortantenino-1-bb25a40b",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Cortante de muñeco de jengibre (set de 3)"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "navidad",
+        "galletitas",
+        "jengibre"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
+    },
+    {
+      "id": "moldesilic",
+      "wpId": null,
+      "sku": "MOLDESILIC",
+      "skuOriginal": "MOLDESILIC",
+      "skuProvisorio": false,
+      "slug": "molde-de-silicona-navideno",
+      "nombre": "Molde de silicona navideño",
+      "nombreOriginal": "Molde de silicona navideño",
+      "categoria": "mangas-y-reposteria",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias",
+        "eventos-y-cumpleanos"
+      ],
+      "atributos": {
+        "presentacion": "Por unidad"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "unidad",
+        "unidades": null,
+        "detalle": null,
+        "texto": "Por unidad",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Molde de silicona navideño. Por unidad. Para preparar y decorar tortas.",
+      "descripcion": "Placa de silicona con 24 formas navideñas (árboles o muñecos de jengibre). Se vende por unidad.",
+      "imagenes": [
+        {
+          "id": "propia-moldesilic-1-c7de804d",
+          "base": "/img/p/propia-moldesilic-1-c7de804d",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Molde de silicona navideño"
+        },
+        {
+          "id": "propia-moldesilic-2-7f938fd3",
+          "base": "/img/p/propia-moldesilic-2-7f938fd3",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Molde de silicona navideño"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "navidad",
+        "silicona",
+        "jengibre",
+        "arbolito"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
+    },
+    {
+      "id": "tulipax1000",
+      "wpId": null,
+      "sku": "TULIPAX1000",
+      "skuOriginal": "TULIPAX1000",
+      "skuProvisorio": false,
+      "slug": "casquetes-tulipa",
+      "nombre": "Casquetes tulipa",
+      "nombreOriginal": "Casquetes tulipa",
+      "categoria": "pirotines-y-moldes-de-papel",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias",
+        "eventos-y-cumpleanos"
+      ],
+      "atributos": {
+        "unidadesPorPaquete": 1000,
+        "presentacion": "Paquete × 1.000"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "paquete",
+        "unidades": 1000,
+        "detalle": null,
+        "texto": "Paquete × 1.000",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Casquetes tulipa. Paquete × 1.000. Para hornear y presentar.",
+      "descripcion": "Para hornear y presentar. Se vende por paquete de 1.000 unidades.",
+      "imagenes": [
+        {
+          "id": "propia-tulipax1000-1-db3ad7da",
+          "base": "/img/p/propia-tulipax1000-1-db3ad7da",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Casquetes tulipa"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "pirotines",
+        "capacillos",
+        "muffins"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
+    },
+    {
+      "id": "tulipax2400",
+      "wpId": null,
+      "sku": "TULIPAX2400",
+      "skuOriginal": "TULIPAX2400",
+      "skuProvisorio": false,
+      "slug": "casquetes-tulipa-x2400",
+      "nombre": "Casquetes tulipa",
+      "nombreOriginal": "Casquetes tulipa",
+      "categoria": "pirotines-y-moldes-de-papel",
+      "categoriasSecundarias": [],
+      "categoriasViejas": [],
+      "rubros": [
+        "panaderias-y-confiterias",
+        "eventos-y-cumpleanos"
+      ],
+      "atributos": {
+        "unidadesPorPaquete": 2400,
+        "presentacion": "Caja × 2.400"
+      },
+      "extras": [],
+      "presentacion": {
+        "tipo": "caja",
+        "unidades": 2400,
+        "detalle": null,
+        "texto": "Caja × 2.400",
+        "fuente": "sistema",
+        "aprox": false,
+        "aConfirmar": false
+      },
+      "paso": 1,
+      "minimo": 1,
+      "descripcionCorta": "Casquetes tulipa. Caja × 2.400. Para hornear y presentar.",
+      "descripcion": "Para hornear y presentar. Se vende por caja de 2.400 unidades.",
+      "imagenes": [
+        {
+          "id": "propia-tulipax2400-1-346a8ad2",
+          "base": "/img/p/propia-tulipax2400-1-346a8ad2",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Casquetes tulipa"
+        }
+      ],
+      "precios": [],
+      "visible": true,
+      "destacado": false,
+      "pendientes": [],
+      "sinonimos": [
+        "pirotines",
+        "capacillos",
+        "muffins"
+      ],
+      "duplicadoDe": null,
+      "urlVieja": null,
+      "fechaAlta": "2026-11-10"
     }
   ]
 }
