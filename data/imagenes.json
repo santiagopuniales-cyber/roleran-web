@@ -10644,6 +10644,20 @@
     "origen": "propia"
    }
   ],
+  "pdm1000": [
+   {
+    "id": "propia-pdm1000-1-7987ba1c",
+    "base": "/img/p/propia-pdm1000-1-7987ba1c",
+    "tamanos": [
+     320,
+     640,
+     960
+    ],
+    "ancho": 960,
+    "alto": 960,
+    "origen": "propia"
+   }
+  ],
   "tulipax1000": [
    {
     "id": "propia-tulipax1000-1-db3ad7da",

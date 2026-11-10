@@ -16816,7 +16816,21 @@
       "minimo": 1,
       "descripcionCorta": "Molde de papel para pan dulce de 1 kg. Paquete × 100. Para hornear y presentar.",
       "descripcion": "Para hornear y presentar. Se vende por paquete de 100 unidades.",
-      "imagenes": [],
+      "imagenes": [
+        {
+          "id": "propia-pdm1000-1-7987ba1c",
+          "base": "/img/p/propia-pdm1000-1-7987ba1c",
+          "tamanos": [
+            320,
+            640,
+            960
+          ],
+          "ancho": 960,
+          "alto": 960,
+          "origen": "propia",
+          "alt": "Molde de papel para pan dulce de 1 kg"
+        }
+      ],
       "precios": [],
       "visible": true,
       "destacado": false,
