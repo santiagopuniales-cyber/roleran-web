@@ -7,7 +7,7 @@ import { Placeholder } from "./Placeholder";
 import { Etiqueta } from "./ui";
 
 // `prioridad`: las primeras tarjetas de la búsqueda son lo más grande de la pantalla (LCP); sin lazy.
-export function TarjetaCliente({ producto, detalle, prioridad = false }: { producto: ProductoResumen; detalle?: string; prioridad?: boolean }) {
+export function TarjetaCliente({ producto, prioridad = false }: { producto: ProductoResumen; prioridad?: boolean }) {
   return (
     <article className="group relative flex h-full flex-col overflow-hidden rounded-tarjeta border border-borde bg-white transition-shadow hover:shadow-tarjeta-hover">
       <div className="aspect-square overflow-hidden border-b border-borde/70 bg-white">
@@ -31,7 +31,6 @@ export function TarjetaCliente({ producto, detalle, prioridad = false }: { produ
           <Etiqueta>{producto.presentacion}</Etiqueta>
           {producto.sku && <span className="numeros text-xs text-tinta-tenue">Cód. {producto.sku}</span>}
         </div>
-        {detalle && <p className="text-xs text-tinta-tenue">{detalle}</p>}
         <div className="relative z-10 mt-auto pt-1">
           <BotonAgregar producto={producto} />
         </div>

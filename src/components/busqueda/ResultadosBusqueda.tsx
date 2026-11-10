@@ -85,7 +85,7 @@ export function ResultadosBusqueda() {
             <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
               {resultados.slice(0, mostrar).map((r, i) => (
                 <li key={r.id}>
-                  <TarjetaCliente producto={r} detalle={r.categoriaNombre} prioridad={i < 4} />
+                  <TarjetaCliente producto={r} prioridad={i < 4} />
                 </li>
               ))}
             </ul>
