@@ -33,8 +33,10 @@ const EN_BARRA = 8;
 export function Encabezado() {
   const cats = categoriasRaiz();
   return (
-    <header className="no-imprimir">
-      <div className="bg-noche text-[0.82rem] text-noche-texto">
+    // Fragmento y no un <header> que envuelva todo: un sticky solo se pega dentro de su padre, y si el padre
+    // es la cabecera entera, al pasar de largo se la lleva (la barra con el buscador y «Mi lista» desaparecía).
+    <>
+      <div className="no-imprimir bg-noche text-[0.82rem] text-noche-texto">
         <div className="contenedor flex h-9 items-center justify-between gap-4">
           <p className="flex min-w-0 items-center gap-4">
             <a href={SITIO.mapaUrl} target="_blank" rel="noopener noreferrer" className="hidden items-center gap-1.5 hover:text-white md:flex">
@@ -55,7 +57,7 @@ export function Encabezado() {
         </div>
       </div>
 
-      <div className="sticky top-0 z-40 border-b border-borde bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/90 [@media(max-height:500px)]:static">
+      <header className="no-imprimir sticky top-0 z-40 border-b border-borde bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/90 [@media(max-height:500px)]:static">
         <div className="contenedor flex flex-wrap items-center gap-x-3 gap-y-2.5 py-2.5 md:flex-nowrap md:gap-x-6 md:py-3">
           <Desplegable className="group relative md:hidden">
             <summary className="flex h-12 w-12 cursor-pointer list-none items-center justify-center rounded-control border border-borde-fuerte text-tinta hover:border-verde [&::-webkit-details-marker]:hidden">
@@ -93,10 +95,10 @@ export function Encabezado() {
           </div>
           <BotonPedido />
         </div>
-      </div>
+      </header>
 
       {/* Franja de categorías en el verde de la marca, como WebstaurantStore y Uline (D-31). */}
-      <nav aria-label="Categorías principales" className="hidden bg-verde text-white md:block">
+      <nav aria-label="Categorías principales" className="no-imprimir hidden bg-verde text-white md:block">
         <div className="contenedor flex h-12 items-center gap-1 text-[0.95rem]">
           <Link href="/" className="-ml-2.5 flex items-center gap-1.5 whitespace-nowrap rounded-[6px] px-2.5 py-1.5 font-semibold hover:bg-verde-oscuro focus-visible:outline-white">
             <IconoInicio tamano={18} /> Inicio
@@ -129,6 +131,6 @@ export function Encabezado() {
           </Desplegable>
         </div>
       </nav>
-    </header>
+    </>
   );
 }

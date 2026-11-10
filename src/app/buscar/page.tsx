@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { SITIO } from "@/config/sitio";
 import { Suspense } from "react";
 import { preload } from "react-dom";
-import { Migas } from "@/components/Migas";
 import { ResultadosBusqueda } from "@/components/busqueda/ResultadosBusqueda";
 import { canonica, compartir } from "@/lib/seo";
 
@@ -20,7 +19,6 @@ export default function Buscar() {
   preload("/datos/busqueda.json", { as: "fetch", crossOrigin: "anonymous" });
   return (
     <div className="contenedor pt-5">
-      <Migas items={[{ nombre: "Buscar" }]} />
       <div className="min-h-[85vh]">
         <Suspense fallback={<h1 className="mt-4 text-[1.85rem] md:text-[2.4rem]">Buscar productos</h1>}>
           <ResultadosBusqueda />

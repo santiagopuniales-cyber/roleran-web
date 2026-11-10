@@ -1,7 +1,7 @@
 "use client";
 // Buscador con resultados al instante. El índice se descarga recién cuando el usuario enfoca el campo.
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { IconoBuscar, IconoChat, IconoCerrar } from "@/components/iconos";
 import { Placeholder } from "@/components/Placeholder";
@@ -22,6 +22,14 @@ export function Buscador({ grande = false, autoFoco = false }: { grande?: boolea
   const [datos, setDatos] = useState<Datos | null>(null);
   const contenedor = useRef<HTMLDivElement>(null);
   const campo = useRef<HTMLInputElement>(null);
+
+  // En los resultados, el campo muestra lo buscado (como las tiendas grandes): se corrige sin reescribir.
+  // Se lee de la URL después de cargar: la página es estática y no sabe la consulta al armarse.
+  const ruta = usePathname();
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- la URL solo existe en el navegador
+    setConsulta(ruta.startsWith("/buscar") ? (new URLSearchParams(window.location.search).get("q") ?? "") : "");
+  }, [ruta]);
 
   const preparar = () => {
     if (estado === "inicial") {

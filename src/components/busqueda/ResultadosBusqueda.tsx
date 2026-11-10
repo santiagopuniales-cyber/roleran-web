@@ -1,11 +1,11 @@
 "use client";
 // Página completa de resultados (/buscar/?q=…). Lee la consulta de la URL y busca en el índice local.
+// Sin un segundo buscador: se busca desde el de la cabecera (fijo arriba), que ya muestra la consulta.
 import { BotonWhatsApp } from "@/components/BotonWhatsApp";
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import { EstadoVacio } from "@/components/EstadoVacio";
-import { IconoBuscar, IconoCerrar } from "@/components/iconos";
 import { TarjetaCliente } from "@/components/TarjetaCliente";
 import { claseBoton } from "@/components/ui";
 import { evento } from "@/lib/analytics";
@@ -15,9 +15,7 @@ const SUGERENCIAS = ["bandeja espumaplast", "vaso 550", "bolsa camiseta", "caja 
 
 export function ResultadosBusqueda() {
   const params = useSearchParams();
-  const router = useRouter();
   const q = (params.get("q") ?? "").trim();
-  const [texto, setTexto] = useState(q);
   const [resultados, setResultados] = useState<Resultado[] | null>(null);
   const [error, setError] = useState(false);
   const [mostrar, setMostrar] = useState(48);
@@ -26,7 +24,6 @@ export function ResultadosBusqueda() {
   const [previa, setPrevia] = useState(q);
   if (previa !== q) {
     setPrevia(q);
-    setTexto(q);
     setMostrar(48);
     setResultados(null);
     setError(false);
@@ -50,47 +47,8 @@ export function ResultadosBusqueda() {
   return (
     <div className="mt-4">
       <h1 className="text-[1.85rem] md:text-[2.4rem]">{q ? <>Resultados para «{q}»</> : "Buscar productos"}</h1>
-      <form
-        className="mt-4 flex max-w-2xl gap-2"
-        role="search"
-        onSubmit={(e) => {
-          e.preventDefault();
-          const v = texto.trim();
-          if (v) router.push(`/buscar/?q=${encodeURIComponent(v)}`);
-        }}
-      >
-        <label htmlFor="consulta-pagina" className="sr-only">
-          Buscar productos
-        </label>
-        <div className="relative min-w-0 flex-1">
-          <input
-            id="consulta-pagina"
-            type="search"
-            value={texto}
-            onChange={(e) => setTexto(e.target.value)}
-            placeholder="Nombre, medida o código"
-            className="h-12 w-full rounded-control border-2 border-borde-fuerte bg-white pl-3.5 pr-12 outline-none focus:border-verde"
-          />
-          {texto && (
-            <button
-              type="button"
-              className="absolute right-1.5 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full text-tinta-tenue hover:bg-lienzo"
-              onClick={(e) => {
-                setTexto("");
-                (e.currentTarget.previousElementSibling as HTMLInputElement | null)?.focus();
-              }}
-              aria-label="Borrar búsqueda"
-            >
-              <IconoCerrar tamano={18} />
-            </button>
-          )}
-        </div>
-        <button type="submit" className={claseBoton("primario", "normal", "h-12")}>
-          <IconoBuscar tamano={20} /> Buscar
-        </button>
-      </form>
 
-      <div className="mt-8 min-h-[70vh]" aria-live="polite">
+      <div className="mt-3 min-h-[70vh]" aria-live="polite">
         {error && <p className="text-tinta-suave">No pudimos cargar el buscador. Probá recargar la página o escribinos por WhatsApp.</p>}
         {!error && q && resultados === null && <p className="text-tinta-suave">Buscando…</p>}
         {!error && resultados && q && resultados.length === 0 && (

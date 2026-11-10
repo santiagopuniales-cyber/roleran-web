@@ -31,10 +31,10 @@ test("saltar al contenido y foco visible", async ({ page, browserName }) => {
 
 test("menú de todas las categorías: se abre con Enter y se cierra con Escape", async ({ page }) => {
   await page.goto("/");
-  const resumen = page.locator("header summary", { hasText: "Todas las categorías" });
+  const resumen = page.getByRole("navigation", { name: "Categorías principales" }).locator("summary", { hasText: "Todas las categorías" });
   await resumen.focus();
   await page.keyboard.press("Enter");
-  const enlace = page.locator("header details[open]").getByRole("link", { name: /Limpieza e higiene/ });
+  const enlace = page.getByRole("navigation", { name: "Categorías principales" }).locator("details[open]").getByRole("link", { name: /Limpieza e higiene/ });
   await expect(enlace).toBeVisible();
   await page.keyboard.press("Escape");
   await expect(enlace).toBeHidden();

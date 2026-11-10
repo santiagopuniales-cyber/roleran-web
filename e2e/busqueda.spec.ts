@@ -45,7 +45,6 @@ test("teclado: flechas y Enter abren el producto", async ({ page }) => {
 test("los buscadores tienen una sola cruz para borrar", async ({ page, errores }) => {
   for (const [ruta, campo] of [
     ["/", () => buscadorEncabezado(page)],
-    ["/buscar/?q=vaso", () => page.locator("#consulta-pagina")],
   ] as const) {
     await page.goto(ruta);
     await page.waitForLoadState("networkidle");

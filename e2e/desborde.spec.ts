@@ -13,7 +13,7 @@ for (const ancho of ANCHOS) {
       await page.goto(ruta);
       await page.waitForLoadState("networkidle");
       // Abre los menús desplegables visibles para medir también su ancho.
-      for (const s of await page.locator("header summary:visible").all()) await s.click();
+      for (const s of await page.locator("header summary:visible, nav[aria-label='Categorías principales'] summary:visible").all()) await s.click();
       const { scroll, ventana } = await page.evaluate(() => ({ scroll: document.documentElement.scrollWidth, ventana: window.innerWidth }));
       expect(scroll, `${ruta} a ${ancho} px`).toBeLessThanOrEqual(ventana);
     }
