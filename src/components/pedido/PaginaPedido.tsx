@@ -80,8 +80,8 @@ export function PaginaPedido() {
           titulo="Tu lista está vacía"
           texto={
             <p>
-              Buscá productos y tocá <strong>Agregar</strong>. Cuando termines, pedís la cotización por WhatsApp y te pasamos el precio según la
-              cantidad. También podés mandarnos tu lista directamente.
+              Buscá productos y tocá <strong>Agregar</strong>. Cuando termines, pedís la cotización por WhatsApp y te pasamos el precio y la
+              disponibilidad. También podés mandarnos tu lista directamente.
             </p>
           }
         >
@@ -306,7 +306,7 @@ export function PaginaPedido() {
             {p.renglones.length} {p.renglones.length === 1 ? "producto" : "productos"}
           </p>
           <p className="mt-2 text-sm text-tinta-suave">
-            Se abre WhatsApp con la lista escrita. Te pasamos el precio según la cantidad y la disponibilidad; si te sirve, lo preparamos.
+            Se abre WhatsApp con la lista escrita. Te pasamos el precio y la disponibilidad; si te sirve, lo preparamos.
           </p>
           {url ? (
             <a href={url} target="_blank" rel="noopener noreferrer" onClick={alEnviar} className={claseBoton("primario", "grande", "mt-5 min-h-13 w-full whitespace-nowrap px-4! sm:px-6!")} data-testid="enviar-whatsapp">

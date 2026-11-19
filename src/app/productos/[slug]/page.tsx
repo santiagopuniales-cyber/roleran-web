@@ -105,7 +105,7 @@ export default async function PaginaProducto({ params }: PageProps<"/productos/[
               <TablaEscalas precios={p.precios} unidad={p.presentacion.texto} />
             ) : (
               <p className="text-sm text-tinta-suave">
-                <strong className="text-tinta">Precio:</strong> te lo pasamos por WhatsApp junto con la disponibilidad. Los precios bajan según la cantidad.
+                <strong className="text-tinta">Precio:</strong> te lo pasamos por WhatsApp junto con la disponibilidad.
               </p>
             )}
             <AgregarFicha producto={resumen(p)} unidad={p.presentacion.tipo === "kg" ? "kg" : p.presentacion.tipo === "metro" ? "m" : undefined} />

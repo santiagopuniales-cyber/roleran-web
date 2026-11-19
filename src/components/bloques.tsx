@@ -42,7 +42,7 @@ export function ComoPedir({ conTitulo = true }: { conTitulo?: boolean }) {
   // WhatsApp ya está en el resto de la página. La dirección está en «Dónde estamos» y en Nosotros.
   const pasos = [
     { titulo: "Armá tu lista", texto: "Agregá productos y tocá «Pedir cotización»." },
-    { titulo: "Te pasamos el precio", texto: "Por WhatsApp, según la cantidad que lleves." },
+    { titulo: "Te pasamos el precio", texto: "Por WhatsApp, junto con la disponibilidad." },
     {
       titulo: "Retirás o te lo llevamos",
       texto: BANDERAS.MOSTRAR_ENVIOS_SIN_COSTO

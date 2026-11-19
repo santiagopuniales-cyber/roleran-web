@@ -26,7 +26,7 @@ const PREGUNTAS: { p: string; r: string; enlace?: { href: string; texto: string 
   },
   {
     p: "¿Muestran los precios?",
-    r: "Los precios se dan por cotización, porque cambian según la cantidad que lleves. Armá tu lista en la web y te pasamos el precio del total por WhatsApp.",
+    r: "Los precios se dan por cotización. Armá tu lista en la web y te pasamos el precio del total por WhatsApp.",
   },
   {
     p: "¿Hacen envíos?",
