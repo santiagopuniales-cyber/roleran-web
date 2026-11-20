@@ -19,6 +19,8 @@ export function datosNegocio() {
     "@type": "Store",
     "@id": `${SITIO.url}/#negocio`,
     name: SITIO.nombre,
+    // Nombre de la ficha de Google Maps: ayuda a que Google una la web con la ficha. No se ve en la página.
+    alternateName: "Bazar Roleran",
     legalName: SITIO.razonSocial,
     description: SITIO.descripcion,
     url: SITIO.url,
